@@ -1,1 +1,15 @@
+/* Academic, simple serif body; keep everything else default */
+body {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+/* Optional: slightly crisper headings */
+h1, h2, h3, h4, h5, h6, .page__title {
+  letter-spacing: -0.015em;
+}
+
+/* Selection + <mark> in orange */
+::selection { background-color: #ffb699; color: #1a1a1a; }
+::-moz-selection { background-color: #ffb699; color: #1a1a1a; }
+mark { background-color: #ffe2d2; color: inherit; padding: 0 .15em; border-radius: 2px; }
 
