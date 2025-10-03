@@ -35,7 +35,7 @@ a:hover,
 
 /* ===== Sidebar and avatar (bigger) ===== */
 .sidebar {
-  max-width: 380px;                 /* wider sidebar to accommodate a larger avatar */
+  max-width: 480px;                 /* wider sidebar to accommodate a larger avatar */
 }
 
 .author__avatar {
@@ -46,8 +46,8 @@ a:hover,
 
 /* Avatar size (tweak here if you want even larger) */
 .author__avatar img {
-  width: 210px;                     /* try 200–220px to taste */
-  height: 210px;
+  width: 240px;                     /* try 200–220px to taste */
+  height: 240px;
   border-radius: 50%;
   object-fit: cover;
   border: 6px solid #ffffff;        /* white ring */
