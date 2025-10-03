@@ -3,6 +3,8 @@ body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   color: #333333;
   background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Headline weight/size similar to the screenshot */
@@ -31,47 +33,65 @@ a:hover,
 ::selection { background-color: #ffb699; }
 ::-moz-selection { background-color: #ffb699; }
 
-/* ===== Sidebar avatar bigger ===== */
-.sidebar { max-width: 340px; }               /* widen sidebar slightly */
-.author__avatar img {
-  width: 168px;                               /* increase size (try 180/192 if you want larger) */
-  height: 168px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #ffffff;                  /* white ring */
-  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+/* ===== Sidebar and avatar (bigger) ===== */
+.sidebar {
+  max-width: 380px;                 /* wider sidebar to accommodate a larger avatar */
 }
 
-/* Optional subtle gradient ring (approximate your ring effect) */
 .author__avatar {
   position: relative;
   display: inline-block;
+  margin-bottom: 1rem;
 }
+
+/* Avatar size (tweak here if you want even larger) */
+.author__avatar img {
+  width: 210px;                     /* try 200–220px to taste */
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #ffffff;        /* white ring */
+  box-shadow: 0 10px 24px rgba(0,0,0,.10);
+}
+
+/* Optional subtle gradient ring around the avatar */
 .author__avatar:before {
   content: "";
   position: absolute;
-  inset: -3px;                                /* outer ring thickness */
+  inset: -4px;                      /* outer ring thickness */
   border-radius: 50%;
   background: linear-gradient(90deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
   z-index: -1;
   filter: saturate(0.9);
 }
 
+/* Slight spacing between avatar and text in the sidebar */
+.author__avatar + .author__content {
+  margin-top: 0.5rem;
+}
+
+/* Responsive safety for narrow screens */
+@media (max-width: 640px) {
+  .sidebar { max-width: 100%; }
+  .author__avatar img { width: 170px; height: 170px; }
+  .author__avatar:before { inset: -3px; }
+}
+
 /* ===== Inline code and code “pill” look ===== */
 code {
   font-family: Consolas, "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 0.88em;
+  font-size: 0.9em;
   padding: 2px 6px;
   border-radius: 6px;
   background-color: #f1f1f1;
   color: #333;
 }
 
-/* Fenced code blocks (keep Minimal Mistakes layout but soften colors) */
+/* Fenced code blocks (softened) */
 .highlight, .highlighter-rouge {
   background: #f7f7f7;
   border-radius: 8px;
-  border-left: 4px solid #4a5568;            /* left bar like your “codebox” */
+  border-left: 4px solid #4a5568;  /* left bar similar to your “codebox” */
   overflow: auto;
 }
 .highlight pre, .highlighter-rouge pre {
@@ -79,7 +99,7 @@ code {
   margin: 0;
 }
 
-/* Blockquote tone close to screenshot */
+/* Blockquote tone close to your reference */
 .page__content blockquote {
   border-left: 4px solid #e5e7eb;
   background: #fafafa;
@@ -91,7 +111,7 @@ code {
 /* Make main content a touch wider on large screens */
 .page { max-width: 1200px; }
 
-/* Social icons (subtle hover scale, if present) */
+/* Social icons (subtle hover scale) */
 .social-icons .social-icon {
   transition: transform 0.25s ease;
 }
