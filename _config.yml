@@ -2,7 +2,7 @@
 # Basic Site Settings
 # =========================
 locale        : "en-US"
-site_theme    : "default"                         # Minimal, spacious look
+site_theme    : "default" # Currently available options are "default", "air"
 title         : "Lei Cheng"
 title_separator: "–"
 name          : &name "Lei Cheng"
@@ -18,7 +18,7 @@ author:
   avatar       : "profile.png"                # Put this image in /images or /assets/images
   name         : "Lei Cheng"
   pronouns     :
-  bio          : "Research Faculty @ UMD & MTI"
+  bio          : "Research Faculty"
   location     : "College Park, MD, USA"
   employer     : "University of Maryland, College Park"
   uri          :
