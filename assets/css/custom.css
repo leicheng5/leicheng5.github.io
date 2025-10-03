@@ -198,3 +198,33 @@ code {
   }
 }
 
+/* Large avatar, no ring, fill the circle */
+.sidebar,
+.page__inner-wrap > aside.sidebar { max-width: 460px !important; }
+
+.author__avatar:before,
+.sidebar .author__avatar:before { content: none !important; }
+
+.author__avatar,
+.sidebar .author__avatar { position: relative !important; display: inline-block !important; }
+
+.author__avatar img,
+.sidebar .author__avatar img {
+  width: 240px !important;          /* set 240–280px as you like */
+  height: 240px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;      /* fills the circle (will crop) */
+  object-position: 50% 50% !important;/* adjust focal point: X% Y% */
+  border: 0 !important;              /* no ring/border */
+  box-shadow: 0 10px 24px rgba(0,0,0,.10) !important;
+}
+
+/* Example focal-point presets you can try:
+   object-position: 50% 38%;   (move up a bit)
+   object-position: 45% 50%;   (pan slightly left)
+   object-position: 50% 60%;   (pan down) */
+
+@media (max-width: 640px) {
+  .sidebar, .page__inner-wrap > aside.sidebar { max-width: 100% !important; }
+  .author__avatar img, .sidebar .author__avatar img { width: 190px !important; height: 190px !important; }
+}
