@@ -2,7 +2,7 @@
 # Basic Site Settings
 # =========================
 locale        : "en-US"
-site_theme    : "air"                         # Minimal, spacious look
+site_theme    : "default"                         # Minimal, spacious look
 title         : "Lei Cheng"
 title_separator: "–"
 name          : &name "Lei Cheng"
@@ -18,15 +18,15 @@ author:
   avatar       : "profile.png"                # Put this image in /images or /assets/images
   name         : "Lei Cheng"
   pronouns     :
-  bio          : "Research Faculty @ UMD (MTI). Deep-learning–based heterogeneous sensor fusion for autonomous systems."
+  bio          : "Research Faculty"
   location     : "College Park, MD, USA"
-  employer     : "University of Maryland, MTI"
+  employer     : "University of Maryland, College Park"
   uri          :
   email        : "you@example.com"            # TODO: replace with your email
 
   # Academic profiles (leave blank to hide)
-  googlescholar: "https://scholar.google.com/citations?user=XXXXXXX"  # TODO
-  orcid        : "https://orcid.org/0000-0000-0000-0000"              # TODO
+  googlescholar: "https://scholar.google.com/citations?user=Ptw8G-MAAAAJ&hl=en&inst=420512584797975801"  # TODO
+  orcid        : "https://orcid.org/0009-0006-9364-1174"              # TODO
   researchgate :
   scopus       :
   pubmed       :
@@ -38,7 +38,7 @@ author:
   stackoverflow:
 
   # Social (fill username only, or leave blank)
-  linkedin     : "your-linkedin-username"     # TODO
+  linkedin     : "https://www.linkedin.com/in/lei-cheng-b92554191/"     # TODO
   bluesky      :
   twitter      :
   youtube      :
