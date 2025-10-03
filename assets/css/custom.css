@@ -133,3 +133,68 @@ code {
 /* Social icons hover */
 .social-icons .social-icon { transition: transform 0.25s ease; }
 .social-icons .social-icon:hover { transform: scale(1.15); }
+
+
+/* === Larger, non-cropping avatar === */
+.sidebar,
+.page__inner-wrap > aside.sidebar,
+.layout--single .sidebar,
+.layout--archive .sidebar {
+  max-width: 460px !important; /* widen room for a big portrait */
+}
+
+.sidebar .author__avatar,
+.author__avatar {
+  position: relative !important;
+  display: inline-block !important;
+  margin-bottom: 1rem !important;
+  overflow: visible !important; /* ensure ring/shadows aren't clipped */
+}
+
+/* Big circle + no cropping */
+.sidebar .author__avatar img,
+.author__avatar img {
+  width: 240px !important;      /* try 260px if you want even bigger */
+  height: 240px !important;
+  border-radius: 50% !important;
+  object-fit: contain !important;   /* show the entire image (no cut) */
+  background: #fff;                 /* fallback fill behind transparent areas */
+  border: 6px solid #ffffff !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,.12) !important;
+}
+
+/* Optional gradient ring around the avatar (still works with contain) */
+.sidebar .author__avatar:before,
+.author__avatar:before {
+  content: "" !important;
+  position: absolute !important;
+  inset: -5px !important;       /* ring thickness */
+  border-radius: 50% !important;
+  background: linear-gradient(90deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888) !important;
+  z-index: -1 !important;
+  filter: saturate(0.9) !important;
+}
+
+/* Tidy spacing below the image */
+.sidebar .author__avatar + .author__content,
+.author__avatar + .author__content {
+  margin-top: 0.6rem !important;
+}
+
+/* Responsive fallback for narrow screens */
+@media (max-width: 640px) {
+  .sidebar,
+  .page__inner-wrap > aside.sidebar {
+    max-width: 100% !important;
+  }
+  .sidebar .author__avatar img,
+  .author__avatar img {
+    width: 190px !important;
+    height: 190px !important;
+  }
+  .sidebar .author__avatar:before,
+  .author__avatar:before {
+    inset: -4px !important;
+  }
+}
+
