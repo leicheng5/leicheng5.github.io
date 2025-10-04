@@ -61,48 +61,46 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 ---
 
-
 # 🧰 Featured GitHub repos {#featured-repos}
 
-<p>{{ site.data.featured_repos.intro }}</p>
+<p class="repos-intro">{{ site.data.featured_repos.intro }}</p>
 
 <div id="filters-repos" class="filters">
-  <button class="filter-button active" data-filter="all">all</button>
   {% for c in site.data.featured_repos.categories %}
-    {% if c.key != "all" %}
-      <button class="filter-button" data-filter="{{ c.key }}">{{ c.label }}</button>
-    {% endif %}
+    <button class="filter-pill{% if forloop.first %} active{% endif %}" data-filter="{{ c.key }}">{{ c.label }}</button>
   {% endfor %}
 </div>
 
 <div id="github-cards">
   {% assign items = site.data.featured_repos.repos %}
+  {% comment %} 按 stars 降序（可选） {% endcomment %}
+  {% assign items = items | sort: "stars" | reverse %}
   {% for repo in items %}
     {% include repo-card.html repo=repo %}
   {% endfor %}
 </div>
 
 <script>
-  (function() {
-    const buttons = document.querySelectorAll('#filters-repos .filter-button');
-    const cards = document.querySelectorAll('#github-cards .github-card');
+(function() {
+  const pills = document.querySelectorAll('#filters-repos .filter-pill');
+  const cards = document.querySelectorAll('#github-cards .github-card');
 
-    function applyFilter(key) {
-      cards.forEach(card => {
-        const cat = card.getAttribute('data-filter') || 'all';
-        card.style.display = (key === 'all' || key === cat) ? '' : 'none';
-      });
-    }
-
-    buttons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        buttons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        applyFilter(btn.getAttribute('data-filter'));
-      });
+  function applyFilter(key) {
+    cards.forEach(card => {
+      const cat = card.getAttribute('data-filter') || 'all';
+      card.style.display = (key === 'all' || key === cat) ? '' : 'none';
     });
-  })();
+  }
+  pills.forEach(btn => {
+    btn.addEventListener('click', () => {
+      pills.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilter(btn.getAttribute('data-filter'));
+    });
+  });
+})();
 </script>
+
 
 ---
 
