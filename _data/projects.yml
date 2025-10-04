@@ -13,9 +13,9 @@
   code: 
   demo: 
   abstract_less: >
-    A Drone-based Workzone Safety Alert System has been developed for traffic monitoring and warning.
+    
   abstract_more: >
-    It incorporates advanced deep learning and computer vision techniques to do this.
+    A drone-based work-zone safety alert system was developed, integrating state-of-the-art deep learning and computer vision to enable real-time traffic monitoring and proactive warnings.
 
 - tag: CalibRefine
   category: calibration
