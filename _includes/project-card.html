@@ -2,7 +2,7 @@
   <div class="project-thumb">
 
     {% if project.youtube_id %}
-      <div class="media-16x9">
+      <div class="media-auto">
         <iframe
           src="https://www.youtube.com/embed/{{ project.youtube_id }}?rel=0"
           title="{{ project.title | escape }}"
@@ -13,7 +13,7 @@
       </div>
 
     {% elsif project.video_mp4 or project.video_webm %}
-      <video class="media-16x9" controls preload="metadata" playsinline {% if project.thumb %}poster="{{ project.thumb }}"{% endif %}>
+      <video class="media-auto" controls preload="metadata" playsinline {% if project.thumb %}poster="{{ project.thumb }}"{% endif %}>
         {% if project.video_webm %}<source src="{{ project.video_webm }}" type="video/webm">{% endif %}
         {% if project.video_mp4 %}<source src="{{ project.video_mp4 }}" type="video/mp4">{% endif %}
       </video>
