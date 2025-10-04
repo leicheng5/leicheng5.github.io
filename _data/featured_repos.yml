@@ -1,59 +1,81 @@
 intro: >
-  Curated open-source repos focused on sensing, perception, and multimodal learning.
+  all software releases of the above projects can also be found here!
 
 categories:
   - key: all
     label: all
-  - key: calibration
-    label: calibration
+  - key: research
+    label: research
   - key: perception
     label: perception
   - key: radar
     label: radar
   - key: tooling
-    label: tooling
+    label: miscellaneous
 
 repos:
-  - name: CalibWizard
+  - name: refined_panoptic_mapping
     owner: leicheng5
-    url: https://github.com/leicheng5/calibwizard
-    description: Plug-and-play extrinsic calibration for LiDAR–Camera–Radar with long-term stability.
+    url: https://github.com/leicheng5/refined_panoptic_mapping
+    description: "[IROS '24] Volumetric Mapping with Panoptic Refinement using Kernel Density Estimation for Mobile Robots"
     language: Python
     language_color: "#3572A5"
-    stars: 182
-    forks: 21
-    updated: 2025-07-18
-    category: calibration
+    stars: 20
+    forks: 0
+    category: research
+    updated: 2025-07-05
 
-  - name: FogFusion
+  - name: v3d-slam
     owner: leicheng5
-    url: https://github.com/leicheng5/fogfusion
-    description: Robust perception in adverse weather via uncertainty-aware multimodal fusion.
-    language: Python
-    language_color: "#3572A5"
-    stars: 264
-    forks: 36
-    updated: 2025-06-30
-    category: perception
-
-  - name: radar2vec
-    owner: leicheng5
-    url: https://github.com/leicheng5/radar2vec
-    description: Self-supervised radar representation learning for BEV perception.
+    url: https://github.com/leicheng5/v3d-slam
+    description: "[IROS'24] V3D-SLAM: Robust RGB-D SLAM in Dynamic Environments with 3D Semantic Geometry Voting"
     language: C++
     language_color: "#f34b7d"
-    stars: 119
-    forks: 12
-    updated: 2025-05-02
-    category: radar
+    stars: 20
+    forks: 2
+    category: perception
+    updated: 2025-06-27
 
-  - name: DriveLite
+  - name: semantic_scene_perception
     owner: leicheng5
-    url: https://github.com/leicheng5/drivelite
-    description: Data-efficient training + INT8 deployment for edge platforms.
+    url: https://github.com/leicheng5/semantic_scene_perception
+    description: "[arXiv '24] Real-Time 3D Semantic Scene Perception for Egocentric Robots with Binocular Vision"
     language: Python
     language_color: "#3572A5"
-    stars: 98
-    forks: 9
-    updated: 2025-03-11
+    stars: 13
+    forks: 2
+    category: perception
+    updated: 2025-05-18
+
+  - name: academic-website
+    owner: leicheng5
+    url: https://github.com/leicheng5/academic-website
+    description: "My simple Jekyll-theme website template for academic websites, resume pages, and so on."
+    language: HTML
+    language_color: "#e34c26"
+    stars: 33
+    forks: 8
     category: tooling
+    updated: 2025-05-01
+
+  - name: deformable_cobot
+    owner: leicheng5
+    url: https://github.com/leicheng5/deformable_cobot
+    description: "[ISR '23] Online 3D Deformable Object Classification for Mobile Cobot Manipulation"
+    language: Python
+    language_color: "#3572A5"
+    stars: 2
+    forks: 0
+    category: research
+    updated: 2025-03-10
+
+  - name: calib_cobot
+    owner: leicheng5
+    url: https://github.com/leicheng5/calib_cobot
+    description: "[IROS '23] Multiplanar Self-Calibration for Mobile Cobot 3D Object Manipulation using 2D Detectors and Depth Estimation"
+    language: Python
+    language_color: "#3572A5"
+    stars: 0
+    forks: 0
+    category: radar
+    updated: 2025-02-20
