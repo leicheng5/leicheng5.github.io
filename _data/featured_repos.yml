@@ -4,78 +4,83 @@ intro: >
 categories:
   - key: all
     label: all
-  - key: research
-    label: research
-  - key: perception
-    label: perception
-  - key: radar
-    label: radar
+  - key: detection
+    label: detection
+  - key: calibration
+    label: calibration
+  - key: tracking
+    label: tracking
   - key: tooling
-    label: miscellaneous
+    label: tooling
 
 repos:
-  - name: refined_panoptic_mapping
+  - name: TransRAD
     owner: leicheng5
-    url: https://github.com/leicheng5/refined_panoptic_mapping
-    description: "[IROS '24] Volumetric Mapping with Panoptic Refinement using Kernel Density Estimation for Mobile Robots"
+    url: https://github.com/leicheng5/TransRAD
+    description: "[TRS '25] TransRAD: Retentive Vision Transformer for Enhanced Radar Object Detection"
     language: Python
     language_color: "#3572A5"
-    stars: 20
-    forks: 0
-    category: research
+    # language: HTML
+    # language_color: "#e34c26"
+    # language: C++
+    # language_color: "#f34b7d"
+    stars: 15
+    forks: 2
+    category: detection
     updated: 2025-07-05
 
-  - name: v3d-slam
+  - name: CalibRefine
     owner: leicheng5
-    url: https://github.com/leicheng5/v3d-slam
-    description: "[IROS'24] V3D-SLAM: Robust RGB-D SLAM in Dynamic Environments with 3D Semantic Geometry Voting"
-    language: C++
-    language_color: "#f34b7d"
-    stars: 20
-    forks: 2
-    category: perception
+    url: https://github.com/leicheng5/Lidar_Camera_Automatic_Calibration
+    description: "[arXiv '25] CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement"
+    language: Python
+    language_color: "#3572A5"
+    stars: 7
+    forks: 1
+    category: calibration
     updated: 2025-06-27
 
-  - name: semantic_scene_perception
+  - name: Online-Targetless-Radar-Camera-Extrinsic-Calibration
     owner: leicheng5
-    url: https://github.com/leicheng5/semantic_scene_perception
-    description: "[arXiv '24] Real-Time 3D Semantic Scene Perception for Egocentric Robots with Binocular Vision"
+    url: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+    description: "[NAECON '23] Online Targetless Radar-Camera Extrinsic Calibration Based on the Common Features of Radar and Camera"
     language: Python
     language_color: "#3572A5"
-    stars: 13
-    forks: 2
-    category: perception
+    stars: 5
+    forks: 1
+    category: calibration
     updated: 2025-05-18
 
-  - name: academic-website
+  - name: Radar-Camera_Co-Calibration
     owner: leicheng5
-    url: https://github.com/leicheng5/academic-website
-    description: "My simple Jekyll-theme website template for academic websites, resume pages, and so on."
-    language: HTML
-    language_color: "#e34c26"
-    stars: 33
-    forks: 8
-    category: tooling
+    url: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+    description: "[RadarConf '23] 3D Radar and Camera Co-Calibration: A flexible and Accurate Method for Target-based Extrinsic Calibration"
+    language: Python
+    language_color: "#3572A5"
+    stars: 5
+    forks: 1
+    category: calibration
     updated: 2025-05-01
 
-  - name: deformable_cobot
+  - name: Radar_Camera_MOT
     owner: leicheng5
-    url: https://github.com/leicheng5/deformable_cobot
-    description: "[ISR '23] Online 3D Deformable Object Classification for Mobile Cobot Manipulation"
+    url: https://github.com/leicheng5/Radar_Camera_MOT
+    description: "Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
-    stars: 2
-    forks: 0
-    category: research
+    stars: 4
+    forks: 1
+    category: tracking
     updated: 2025-03-10
 
-  - name: calib_cobot
+  - name: AWR1843_ROS
     owner: leicheng5
-    url: https://github.com/leicheng5/calib_cobot
-    description: "[IROS '23] Multiplanar Self-Calibration for Mobile Cobot 3D Object Manipulation using 2D Detectors and Depth Estimation"
-    language: Python
-    language_color: "#3572A5"
-    stars: 0
+    url: https://github.com/leicheng5/AWR1843_ROS
+    description: "AWR1843 radar board ROS package"
+    language: C++
+    language_color: "#f34b7d"
+    stars: 4
     forks: 0
-    category: radar
-    updated: 2025-02-20
+    category: tooling
+    updated: 2025-03-10
+
