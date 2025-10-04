@@ -55,7 +55,7 @@
 
 - tag: tracking
   category: object tracking
-  thumb: /images/lei_mot.png         # left media: image
+  thumb: /images/Picture33.png         # left media: image
   # video_mp4: /videos/calibwizard.mp4            # (optional) local video
   # video_webm: /videos/calibwizard.webm          # (optional) local video
   # youtube_id:                                   # (optional) YouTube id
@@ -75,7 +75,7 @@
 
 - tag: online RC calib
   category: calibration
-  thumb: /images/online_cali_flow.png
+  thumb: /images/online_cali.gif
   # youtube_id: dQw4w9WgXcQ
   system_name: Online_RC_Calib
   title: Online Targetless Radar Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
