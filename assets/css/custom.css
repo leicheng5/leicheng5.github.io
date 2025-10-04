@@ -84,7 +84,7 @@ mark {
 
 /* Make News section font smaller */
 #news ~ ul li {
-  font-size: 0.55rem !important;   /* smaller than body */
-  line-height: 1.15 !important;
+  font-size: 0.65rem !important;   /* smaller than body */
+  line-height: 1.45 !important;
 }
 
