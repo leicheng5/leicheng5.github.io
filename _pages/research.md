@@ -7,9 +7,10 @@ author_profile: true
 
 <!-- ===== Coursework ===== -->
 ## 📚 Coursework
+<!--
 <p class="muted">Representative graduate/advanced courses I have completed.</p>
 
-<ul class="course-badges">
+ <ul class="course-badges">
   <li>Radar Signal Processing</li>
   <li>Computer Vision</li>
   <li>Image Processing &amp; Analysis</li>
@@ -20,7 +21,25 @@ author_profile: true
   <li>Natural Language Processing</li>
   <li>Data Mining</li>
   <li>Computer Networks</li>
-</ul>
+  <li>Quantum Sensing and Machine Learning</li>
+</ul> -->
+
+<div class="cw-card">
+  <div class="cw-lead">Representative graduate / advanced courses I have completed.</div>
+  <div class="cw-pills">
+    <span>Radar Signal Processing</span>
+    <span>Computer Vision</span>
+    <span>Image Processing &amp; Analysis</span>
+    <span>Theory of Graphs &amp; Networks</span>
+    <span>Machine Learning</span>
+    <span>Neural Networks</span>
+    <span>Artificial Intelligence</span>
+    <span>Natural Language Processing</span>
+    <span>Data Mining</span>
+    <span>Computer Networks</span>
+    <span>Quantum Sensing and Machine Learning</span>
+  </div>
+</div>
 
 ---
 
