@@ -108,34 +108,20 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 <p class="gallery-intro">{{ site.data.gallery.intro }}</p>
 
-<div id="gallery-grid">
+<div class="gallery-wrap">
   {% for item in site.data.gallery.items %}
-    {% include gallery-card.html item=item %}
+  <div class="gallery">
+    <a href="{{ item.src }}" target="_blank" rel="noopener">
+      <img src="{{ item.src }}" alt="{{ item.alt | escape }}" loading="lazy">
+    </a>
+    <div class="desc">
+      {{ item.caption }} ({{ item.year }})
+    </div>
+  </div>
   {% endfor %}
+  <div class="clearfix"></div>
 </div>
 
-<!-- Lightweight lightbox -->
-<dialog id="gbox" class="gbox">
-  <img id="gbox-img" alt="gallery image">
-</dialog>
-
-<script>
-(() => {
-  const grid = document.getElementById('gallery-grid');
-  const dlg  = document.getElementById('gbox');
-  const img  = document.getElementById('gbox-img');
-
-  if (grid && dlg && img) {
-    grid.addEventListener('click', e => {
-      const btn = e.target.closest('.gcard__btn');
-      if (!btn) return;
-      img.src = btn.getAttribute('data-full');
-      dlg.showModal();
-    });
-    dlg.addEventListener('click', () => dlg.close());
-  }
-})();
-</script>
 
  
 > Want a video in the gallery? Drop a thumbnail here and link it to YouTube/Vimeo.
