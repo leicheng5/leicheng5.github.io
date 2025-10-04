@@ -417,8 +417,10 @@ div.desc {
 .pubs a:hover { color: #824027; text-decoration: underline; }
 .pubs .note { color: #666; margin-left: .35rem; }
 
-/* Highlight my name */
-.pubs .authors .me {
+
+
+/* Highlight "Lei Cheng" in author lists */
+.pubs .authors .me{
   font-weight: 800;
   color: #111;
   background: #fff2e9;
@@ -426,4 +428,5 @@ div.desc {
   padding: 0 .22em;
   border-radius: .25em;
 }
+
 
