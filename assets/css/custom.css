@@ -80,6 +80,21 @@ mark {
   border-radius: 2px;
 }
 
+/* Make HTML <small> actually smaller inside content */
+.page__content small {
+  font-size: 85% !important;   
+  line-height: 1.45 !important;
+}
+
+/* Utility classes for smaller text blocks */
+.page__content .small-text {    
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+}
+.page__content .smaller-text { 
+  font-size: 0.85rem !important;
+  line-height: 1.45 !important;
+}
 
 
 
