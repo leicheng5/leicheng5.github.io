@@ -257,3 +257,72 @@ mark {
 .dark-theme #filters-repos .filter-pill.active { background:#1f2937; border-color:#4b5563; }
 
 
+/* ===== Gallery ===== */
+.gallery-intro { color: #6b7280; margin: 4px 0 14px; }
+
+/* Responsive grid (auto-fit columns with min card width) */
+#gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+/* Card block */
+.gcard { display: block; }
+.gcard__figure { margin: 0; }
+.gcard__btn {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  width: 100%;
+  cursor: zoom-in;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,.10);
+}
+.gcard__img {
+  display: block;
+  width: 100%;
+  height: 200px;              /* screenshot-like height */
+  object-fit: cover;          /* neat crop */
+  object-position: center;
+  transition: transform .25s ease;
+}
+.gcard__btn:hover .gcard__img { transform: scale(1.03); }
+
+/* Caption card under the image */
+.gcard__cap {
+  margin-top: 8px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+  border-radius: 14px;
+  padding: 12px 14px;
+  text-align: center;
+  line-height: 1.35;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.gcard__year { color: #6b7280; }
+
+/* Dark theme support */
+.dark-theme .gcard__cap { background:#1f2937; border-color:#374151; color:#e5e7eb; }
+.dark-theme .gcard__btn { box-shadow: 0 2px 6px rgba(0,0,0,.35); }
+
+/* Lightbox dialog */
+.gbox::backdrop { background: rgba(0,0,0,.55); }
+.gbox {
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: 92vw;
+  max-height: 92vh;
+}
+.gbox img {
+  display: block;
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
