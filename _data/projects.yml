@@ -93,7 +93,7 @@
 - tag: RC calib
   category: calibration
   #video_mp4: /videos/drivelite.mp4
-  thumb: /images/calib.gif     # optional poster for the video
+  thumb: /images/calib2.gif     # optional poster for the video
   system_name: 3D Radar and Camera Co-Calibration
   title: A Flexible and Accurate Method for Target-based Extrinsic Calibration
   conference: IEEE Radar Conference (RadarConf23)
