@@ -99,7 +99,7 @@
   conference: IEEE Radar Conference (RadarConf23)
   conference_web:
   authors: Lei Cheng, Arindam Sengupta, and Siyang Cao
-  pdf:
+  pdf: https://arxiv.org/abs/2307.15264
   code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
   demo:
   abstract_less: >
