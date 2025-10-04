@@ -51,53 +51,10 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 # 🧪 Selected Projects
 
-<div class="project-entry">
-  <div class="project-thumb">
-    <img src="/images/calibwizard.png" alt="CalibWizard preview">
-  </div>
-  <div class="project-info">
-    <h3><strong>CalibWizard</strong> — Plug-and-play <em>extrinsic calibration</em> for LiDAR–Camera–Radar</h3>
-    <p><em>⭐ One-click, field-friendly, continuous re-calibration.</em></p>
-    <p>[<a href="#">Code</a>] · [<a href="#">Docs</a>] · [<a href="#">Demo</a>]</p>
-    <p><b>Abstract:</b> A lightweight, real-time calibration framework designed to maintain long-term sensor alignment in dynamic environments.</p>
-  </div>
-</div>
+{% for project in site.data.projects %}
+  {% include project-card.html project=project %}
+{% endfor %}
 
-<div class="project-entry">
-  <div class="project-thumb">
-    <img src="/images/fogfusion.png" alt="FogFusion preview">
-  </div>
-  <div class="project-info">
-    <h3><strong>FogFusion</strong> — Robust perception in <em>fog/rain/snow</em></h3>
-    <p><em>🌧️ Adaptive fusion with uncertainty modeling; improves long-tail cases by 18–26%.</em></p>
-    <p>[<a href="#">Paper</a>] · [<a href="#">Code</a>] · [<a href="#">Dataset</a>]</p>
-    <p><b>Abstract:</b> A multimodal fusion pipeline that enhances perception reliability under adverse weather.</p>
-  </div>
-</div>
-
-<div class="project-entry">
-  <div class="project-thumb">
-    <img src="/images/radar2vec.png" alt="Radar2Vec preview">
-  </div>
-  <div class="project-info">
-    <h3><strong>Radar2Vec</strong> — Self-supervised <em>radar representation learning</em></h3>
-    <p><em>🧭 Contrastive pretraining for radar BEV features; drop-in for modern detectors.</em></p>
-    <p>[<a href="#">Paper</a>] · [<a href="#">Code</a>]</p>
-    <p><b>Abstract:</b> A representation learning framework that unlocks radar's potential with minimal labels.</p>
-  </div>
-</div>
-
-<div class="project-entry">
-  <div class="project-thumb">
-    <img src="/images/drivelite.png" alt="DriveLite preview">
-  </div>
-  <div class="project-info">
-    <h3><strong>DriveLite</strong> — Data-efficient training for <em>edge deployment</em></h3>
-    <p><em>⚡ Latency-aware distillation + INT8 quantization without big accuracy loss.</em></p>
-    <p>[<a href="#">Paper</a>] · [<a href="#">Code</a>]</p>
-    <p><b>Abstract:</b> Optimized lightweight models that achieve real-time inference on embedded platforms.</p>
-  </div>
-</div>
 
 
 > Want a quick tour? I’m happy to share short Loom demos or live notebooks.
