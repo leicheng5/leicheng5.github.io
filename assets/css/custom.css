@@ -473,82 +473,38 @@ div.desc {
 
 
 
-/* ===== Research page: clean, card-based ===== */
+/* ---------- Research page helpers ---------- */
+.muted { color:#6b7280; margin:.2rem 0 1rem; }
 
-/* Hero */
-.research-hero { margin-bottom: 1.25rem; }
-.research-title { margin: 0 0 .25rem; }
-.research-sub {
-  margin: 0;
-  color: #6b7280;
-  font-size: .98rem;
-  letter-spacing: .01em;
+/* Coursework chips */
+.course-badges { 
+  list-style:none; padding:0; margin:0 0 .5rem 0;
+  display:flex; flex-wrap:wrap; gap:8px;
 }
-
-/* Grid of cards */
-.rs-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
+.course-badges li {
+  background:#f3f4f6; border:1px solid #e5e7eb; color:#374151;
+  padding:6px 10px; border-radius:9999px; font-size:.95rem;
 }
-@media (max-width: 980px) { .rs-grid { grid-template-columns: 1fr; } }
+.dark-theme .course-badges li { background:#1f2937; border-color:#374151; color:#e5e7eb; }
 
-/* Card */
-.rs-card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 16px 18px;
-  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+/* Reviewers list in two columns (collapses on mobile) */
+.reviewers { 
+  list-style: disc inside; margin:0; padding-left:0; 
+  columns: 2; column-gap: 28px;
 }
-.dark-theme .rs-card { background:#0b0f14; border-color:#1f2937; }
+.reviewers li { break-inside: avoid; margin: .25rem 0; color:#374151; }
+.dark-theme .reviewers li { color:#e5e7eb; }
+@media (max-width: 720px) { .reviewers { columns:1; } }
 
-/* Card header */
-.rs-card__hd { margin-bottom: 8px; }
-.rs-kicker {
-  text-transform: uppercase;
-  letter-spacing: .12em;
-  font-size: .72rem;
-  color: #9ca3af;
-}
-.rs-card__title { margin: 2px 0 0; font-size: 1.15rem; }
-.rs-muted { color:#6b7280; margin:.25rem 0 0; }
-.dark-theme .rs-muted { color:#9ca3af; }
+/* Awards table */
+.awards-table { width:100%; border-collapse:separate; border-spacing:0 8px; }
+.awards-table td { padding:10px 12px; background:#fff; border:1px solid #e5e7eb; }
+.awards-table tr td:first-child { border-top-left-radius:8px; border-bottom-left-radius:8px; }
+.awards-table tr td.year { width:80px; text-align:right; color:#6b7280; border-left:none; }
+.awards-table tr td:not(.year) { border-right:none; }
+.awards-table .note { margin-left:.5rem; color:#6b7280; font-style:italic; }
 
-/* Pills for coursework */
-.rs-pillset { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-.rs-pill {
-  padding: 6px 10px;
-  border-radius: 9999px;
-  border: 1px solid #e5e7eb;
-  background: #f9fafb;
-  font-size: .95rem;
-  color: #374151;
-}
-.dark-theme .rs-pill { border-color:#374151; background:#111827; color:#e5e7eb; }
-
-/* Two-column content in a card */
-.rs-2col { display:grid; gap:16px; grid-template-columns: 1fr 1fr; }
-@media (max-width: 720px) { .rs-2col { grid-template-columns: 1fr; } }
-
-/* Subhead & lists */
-.rs-subhead { margin:.4rem 0 .25rem; font-size:.98rem; color:#374151; }
-.dark-theme .rs-subhead { color:#e5e7eb; }
-.rs-list { margin:.25rem 0 0; padding-left:1.1rem; }
-.rs-list li { margin:.18rem 0; }
-
-/* Timeline for awards */
-.rs-timeline { list-style:none; margin: 6px 0 0; padding:0; }
-.rs-timeline__item + .rs-timeline__item { margin-top:10px; }
-.rs-timeline__main {
-  display:flex; align-items:baseline; justify-content:space-between;
-  padding:10px 12px; border:1px solid #e5e7eb; border-radius:10px; background:#fff;
-}
-.rs-timeline__title { font-weight:600; }
-.rs-timeline__year { color:#6b7280; margin-left:16px; min-width:56px; text-align:right; }
-.rs-note { margin-left:.5rem; font-weight:400; font-style:italic; color:#6b7280; }
-
-.dark-theme .rs-timeline__main { background:#0b0f14; border-color:#1f2937; }
-.dark-theme .rs-timeline__year, .dark-theme .rs-note { color:#9ca3af; }
-
+.dark-theme .awards-table td { background:#111827; border-color:#374151; }
+.dark-theme .awards-table tr td.year { color:#9ca3af; }
+.dark-theme .awards-table .note { color:#9ca3af; }
 
