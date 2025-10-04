@@ -259,9 +259,48 @@ mark {
   color: #374151;
 }
 .language-icon { margin-right: 6px; }
-.star-icon  { color: #f59e0b; margin-right: 6px; }
-.fork-icon  { color: #6b7280; margin-right: 6px; }
 .stats-number { margin-left: 0; }
+
+/* Repo stats layout */
+.repo-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+}
+
+/* Each stat group */
+.repo-stats .stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #4b5563; /* base grey */
+}
+
+/* Icons */
+.repo-stats .icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  fill: currentColor; /* star uses fill; fork uses stroke=currentColor */
+}
+
+/* Nice colors */
+.repo-stats .icon-star { color: #f5b301; }     /* warm gold */
+.repo-stats .icon-fork { color: #6b7280; }     /* neutral grey */
+
+/* Numbers */
+.repo-stats .stats-number {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .01em;
+}
+
+/* Dark theme tweak (optional) */
+.dark-theme .repo-stats .stat { color: #d1d5db; }
+.dark-theme .repo-stats .icon-fork { color: #cbd5e1; }
+
 
 /* --- dark mode (optional) --- */
 .dark-theme .github-card { background-color: #1f2937; color: #e5e7eb; }
