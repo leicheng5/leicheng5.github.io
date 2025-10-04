@@ -80,21 +80,19 @@ mark {
   border-radius: 2px;
 }
 
-/* Make HTML <small> actually smaller inside content */
-.page__content small {
-  font-size: 85% !important;   
+
+/* Utility: smaller text block inside page content */
+.page__content .smaller-text {
+  font-size: 0.85rem !important;   /* smaller than body */
   line-height: 1.45 !important;
 }
 
-/* Utility classes for smaller text blocks */
-.page__content .small-text {    
-  font-size: 0.75rem !important;
-  line-height: 1.3 !important;
+/* Ensure nested elements inherit the same scale */
+.page__content .smaller-text * {
+  font-size: inherit !important;
+  line-height: inherit !important;
 }
-.page__content .smaller-text { 
-  font-size: 0.65rem !important;
-  line-height: 1.15 !important;
-}
+
 
 
 
