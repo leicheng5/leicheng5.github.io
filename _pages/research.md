@@ -8,24 +8,21 @@ author_profile: true
 <!-- ===== Coursework ===== -->
 ## 📚 Coursework
 
-<section class="coursework-section">
-  <div class="cw-card">
-    <div class="cw-lead">Representative graduate / advanced courses I have completed.</div>
-    <ul class="cw-pills">
-      <li>Radar Signal Processing</li>
-      <li>Computer Vision</li>
-      <li>Image Processing &amp; Analysis</li>
-      <li>Theory of Graphs &amp; Networks</li>
-      <li>Machine Learning</li>
-      <li>Neural Networks</li>
-      <li>Artificial Intelligence</li>
-      <li>Natural Language Processing</li>
-      <li>Data Mining</li>
-      <li>Computer Networks</li>
-    </ul>
+<div class="cw-card">
+  <div class="cw-lead">Representative graduate / advanced courses.</div>
+  <div class="cw-pills">
+    <span>Radar Signal Processing</span>
+    <span>Computer Vision</span>
+    <span>Image Processing &amp; Analysis</span>
+    <span>Theory of Graphs &amp; Networks</span>
+    <span>Machine Learning</span>
+    <span>Neural Networks</span>
+    <span>Artificial Intelligence</span>
+    <span>Natural Language Processing</span>
+    <span>Data Mining</span>
+    <span>Computer Networks</span>
   </div>
-</section>
-
+</div>
 
 
 ---
