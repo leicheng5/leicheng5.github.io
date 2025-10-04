@@ -476,59 +476,83 @@ div.desc {
 /* ---------- Research page helpers ---------- */
 .muted { color:#6b7280; margin:.2rem 0 1rem; }
 
-/* Coursework chips */
-.course-badges { 
-  list-style:none; padding:0; margin:0 0 .5rem 0;
-  display:flex; flex-wrap:wrap; gap:8px;
+/* ===== Coursework: card + pill chips (scoped) ===== */
+.cw-card{
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:14px 16px;
+  background:#fff;
+  box-shadow:0 1px 2px rgba(0,0,0,.04);
+  margin:.5rem 0 1rem;
 }
-.course-badges li {
-  background:#f3f4f6; border:1px solid #e5e7eb; color:#374151;
-  padding:6px 10px; border-radius:9999px; font-size:.95rem;
+.cw-lead{
+  color:#6b7280;
+  font-size:.95rem;
+  margin-bottom:.45rem;
 }
-.dark-theme .course-badges li { background:#1f2937; border-color:#374151; color:#e5e7eb; }
-
-/* Reviewers list in two columns (collapses on mobile) */
-.reviewers { 
-  list-style: disc inside; margin:0; padding-left:0; 
-  columns: 2; column-gap: 28px;
+.cw-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
 }
-.reviewers li { break-inside: avoid; margin: .25rem 0; color:#374151; }
-.dark-theme .reviewers li { color:#e5e7eb; }
-@media (max-width: 720px) { .reviewers { columns:1; } }
-
-/* Awards table */
-.awards-table { width:100%; border-collapse:separate; border-spacing:0 8px; }
-.awards-table td { padding:10px 12px; background:#fff; border:1px solid #e5e7eb; }
-.awards-table tr td:first-child { border-top-left-radius:8px; border-bottom-left-radius:8px; }
-.awards-table tr td.year { width:80px; text-align:right; color:#6b7280; border-left:none; }
-.awards-table tr td:not(.year) { border-right:none; }
-.awards-table .note { margin-left:.5rem; color:#6b7280; font-style:italic; }
-
-.dark-theme .awards-table td { background:#111827; border-color:#374151; }
-.dark-theme .awards-table tr td.year { color:#9ca3af; }
-.dark-theme .awards-table .note { color:#9ca3af; }
-
-
-
-/* === Coursework (scoped) === */
-.coursework-section .cw-card{
-  border:1px solid #e5e7eb; border-radius:12px; padding:14px 16px;
-  background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.04); margin:.5rem 0 1rem;
+.cw-pills span{
+  border:1px solid #e5e7eb;
+  background:#f9fafb;
+  color:#374151;
+  padding:6px 10px;
+  border-radius:9999px;
+  font-size:.95rem;
+  line-height:1.2;
 }
-.coursework-section .cw-lead{
-  color:#6b7280; font-size:.95rem; margin-bottom:.45rem;
-}
-.coursework-section .cw-pills{
-  list-style:none; margin:0; padding:0;
-  display:flex; flex-wrap:wrap; gap:8px;
-}
-.coursework-section .cw-pills li{
-  border:1px solid #e5e7eb; background:#f9fafb; color:#374151;
-  padding:6px 10px; border-radius:9999px; font-size:.95rem;
-  line-height:1; white-space:nowrap;
-}
+.dark-theme .cw-card{ background:#0b0f14; border-color:#1f2937; }
+.dark-theme .cw-pills span{ border-color:#374151; background:#111827; color:#e5e7eb; }
 
-/* Dark theme */
-.dark-theme .coursework-section .cw-card{ background:#0b0f14; border-color:#1f2937; }
-.dark-theme .coursework-section .cw-pills li{ border-color:#374151; background:#111827; color:#e5e7eb; }
+/* ===== Reviewing Service: single-column list (scoped) ===== */
+.reviewers{
+  /* force one column and undo any global multi-column/list layout */
+  display:block !important;
+  column-count:1 !important;
+  -webkit-columns:1 !important;
+  -moz-columns:1 !important;
+  column-gap:0 !important;
 
+  list-style:disc;
+  padding-left:1.25rem;   /* bullet indent */
+  margin:.25rem 0 1rem;
+}
+.reviewers li{
+  display:list-item !important;
+  break-inside:avoid;
+  margin:.28rem 0;
+  color:#374151;
+  line-height:1.45;
+}
+.dark-theme .reviewers li{ color:#e5e7eb; }
+
+/* ===== Honors & Awards: table (scoped) ===== */
+.awards-table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0 8px;
+}
+.awards-table td{
+  padding:10px 12px;
+  background:#fff;
+  border:1px solid #e5e7eb;
+}
+.awards-table tr td:first-child{
+  border-top-left-radius:8px;
+  border-bottom-left-radius:8px;
+}
+.awards-table tr td.year{
+  width:80px;
+  text-align:right;
+  color:#6b7280;
+  border-left:none;
+}
+.awards-table tr td:not(.year){ border-right:none; }
+.awards-table .note{ margin-left:.5rem; color:#6b7280; font-style:italic; }
+
+.dark-theme .awards-table td{ background:#111827; border-color:#374151; }
+.dark-theme .awards-table tr td.year{ color:#9ca3af; }
+.dark-theme .awards-table .note{ color:#9ca3af; }
