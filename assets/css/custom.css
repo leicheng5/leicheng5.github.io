@@ -82,10 +82,12 @@ mark {
   border-radius: 2px;
 }
 
-/* News section smaller font */
-#news, #news li, #news p {
-  font-size: 0.45rem;    
-  line-height: 1.2;
+/* Make News section font smaller */
+#news,
+#news + ul,
+#news + p,
+#news ~ ul li {
+  font-size: 0.75rem !important;   /* smaller than body */
+  line-height: 1.25 !important;
 }
-
 
