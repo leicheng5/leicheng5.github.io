@@ -88,12 +88,12 @@ mark {
 
 /* Utility classes for smaller text blocks */
 .page__content .small-text {    
-  font-size: 0.9rem !important;
-  line-height: 1.5 !important;
+  font-size: 0.75rem !important;
+  line-height: 1.3 !important;
 }
 .page__content .smaller-text { 
-  font-size: 0.85rem !important;
-  line-height: 1.45 !important;
+  font-size: 0.65rem !important;
+  line-height: 1.15 !important;
 }
 
 
