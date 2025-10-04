@@ -61,23 +61,48 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 ---
 
-# 🧰 My GitHub
-<p>
-  <a href="https://github.com/leicheng5" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-leicheng5-181717?logo=github" alt="GitHub profile badge">
-  </a>
-  <a href="https://github.com/leicheng5?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Repositories-Explore-blue" alt="Repositories badge">
-  </a>
-  <a href="https://scholar.google.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-0b6ef6?logo=googlescholar&logoColor=white" alt="Scholar badge">
-  </a>
-</p>
 
-Featured repos:
-- 🔧 **CalibWizard** — Practical LiDAR–Camera–Radar calibration [→](#)  
-- 🌫️ **FogFusion** — Weather-robust multi-sensor fusion [→](#)  
-- 📡 **Radar2Vec** — Self-supervised radar features [→](#)
+# 🧰 Featured GitHub repos {#featured-repos}
+
+<p>{{ site.data.featured_repos.intro }}</p>
+
+<div id="filters-repos" class="filters">
+  <button class="filter-button active" data-filter="all">all</button>
+  {% for c in site.data.featured_repos.categories %}
+    {% if c.key != "all" %}
+      <button class="filter-button" data-filter="{{ c.key }}">{{ c.label }}</button>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="github-cards">
+  {% assign items = site.data.featured_repos.repos %}
+  {% for repo in items %}
+    {% include repo-card.html repo=repo %}
+  {% endfor %}
+</div>
+
+<script>
+  (function() {
+    const buttons = document.querySelectorAll('#filters-repos .filter-button');
+    const cards = document.querySelectorAll('#github-cards .github-card');
+
+    function applyFilter(key) {
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-filter') || 'all';
+        card.style.display = (key === 'all' || key === cat) ? '' : 'none';
+      });
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyFilter(btn.getAttribute('data-filter'));
+      });
+    });
+  })();
+</script>
 
 ---
 
