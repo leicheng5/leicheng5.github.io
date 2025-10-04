@@ -397,7 +397,45 @@ div.desc {
 .dark-theme div.desc    { background:#1f2937; color:#e5e7eb; border-color:#374151; }
 
 
-@media (max-width: 1200px) { div.gallery { width: 31%; } }  /* 3 列 */
-@media (max-width: 820px)  { div.gallery { width: 47%; } }  /* 2 列 */
-@media (max-width: 560px)  { div.gallery { width: 100%; } } /* 1 列 */
+@media (max-width: 1200px) { div.gallery { width: 31%; } }  /* 3 */
+@media (max-width: 820px)  { div.gallery { width: 47%; } }  /* 2 */
+@media (max-width: 560px)  { div.gallery { width: 100%; } } /* 1 */
 
+
+
+/* ===== Publications styling: highlight + type coloring ===== */
+.pubs { list-style: none; padding-left: 0; margin: 0 0 1.25rem 0; counter-reset: pubitem; }
+.pubs > li {
+  counter-increment: pubitem;
+  margin: 0 0 0.9rem 0;
+  padding: 0.35rem 0 0.35rem 2.4em;      /* hanging indent */
+  position: relative;
+  line-height: 1.55;
+  border-left: 4px solid #e5e7eb;        /* neutral fallback */
+  border-radius: 4px;
+}
+.pubs > li::before {
+  content: "[" counter(pubitem) "] ";
+  position: absolute; left: 0; top: 0.35rem;
+  font-weight: 700; color: #4a4a4a;
+}
+
+/* Type coloring */
+.pubs--book   > li { border-left-color: #7c3aed; }   /* purple */
+.pubs--journal> li { border-left-color: #bd5d38; }   /* orange to match site accent */
+.pubs--conf   > li { border-left-color: #2563eb; }   /* blue */
+
+/* Author highlight for "Lei Cheng" */
+.pubs .authors .me {
+  font-weight: 800;
+  color: #111;
+  background: #fff2e9;
+  border: 1px solid #f2c7af;
+  padding: 0 .22em;
+  border-radius: .25em;
+}
+
+/* Small utilities */
+.pubs a { color: #bd5d38; text-decoration: none; }
+.pubs a:hover { color: #824027; text-decoration: underline; }
+.pubs .note { color: #666; margin-left: .35rem; }
