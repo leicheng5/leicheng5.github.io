@@ -31,12 +31,12 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 
 # 🗞️ News  
-- *[08/2025]* — 🏆 Joined the **University of Maryland, College Park (UMD)** as a Faculty Assistant.  
-- *[06/2025]* — 🌟 Featured in the **ECE Class of 2025 Spotlight** at the University of Arizona.  
-- *[05/2025]* — 🎓 I successfully defended my **Ph.D. dissertation** and graduated from the University of Arizona!  
-- *[01/2025]* — 📄 Paper accepted to **IEEE Transactions on Radar Systems (TRS)**.  
-- *[07/2024]* — 📄 Paper accepted to **IEEE Transactions on Intelligent Transportation Systems (T-ITS)**.  
-- *[05/2023]* — 🎤 Presented a paper at the **2023 IEEE Radar Conference (RadarConf23)**.  
+- *[08/2025]* — 🏆 Joined the *University of Maryland, College Park (UMD)* as a Faculty Assistant.  
+- *[06/2025]* — 🌟 Featured in the *ECE Class of 2025 Spotlight* at the University of Arizona.  
+- *[05/2025]* — 🎓 I successfully defended my *Ph.D. dissertation* and graduated from the University of Arizona!  
+- *[01/2025]* — 📄 Paper accepted to *IEEE Transactions on Radar Systems (TRS)*.  
+- *[07/2024]* — 📄 Paper accepted to *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*.  
+- *[05/2023]* — 🎤 Presented a paper at the *2023 IEEE Radar Conference (RadarConf23)*.  
 
 > Looking for collaborators and open-source contributors. Ping me on email or GitHub!
 
