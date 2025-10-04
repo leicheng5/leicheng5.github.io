@@ -1,0 +1,53 @@
+intro: >
+  not all about robots, but also some happy moments of my life.
+
+items:
+  - src: /images/gallery/2024-uae-mosque.jpg
+    alt: visited sheikh zayed grand mosque
+    caption: visited sheikh zayed grand mosque
+    year: 2024
+
+  - src: /images/gallery/2024-summer-vietnam.jpg
+    alt: spent summer in vietnam
+    caption: spent summer in vietnam
+    year: 2024
+
+  - src: /images/gallery/2023-iros-friends.jpg
+    alt: me and tuan also met new friends at iros
+    caption: me and tuan also met new friends at iros
+    year: 2023
+
+  - src: /images/gallery/2022-first-snow-football.jpg
+    alt: first time playing football on snow
+    caption: first time playing football on snow
+    year: 2022
+
+  - src: /images/gallery/2021-georgia-aquarium.jpg
+    alt: school of fish at georgia aquarium
+    caption: school of fish at georgia aquarium
+    year: 2021
+
+  - src: /images/gallery/2020-ptnk-boys.jpg
+    alt: these crazy boys from ptnk i1720
+    caption: these crazy boys from ptnk i1720
+    year: 2020
+
+  - src: /images/gallery/2019-wolfram-fieldtrip.jpg
+    alt: wolfram summer research program fieldtrip
+    caption: wolfram summer research program fieldtrip
+    year: 2019
+
+  - src: /images/gallery/2018-family-mba.jpg
+    alt: my sister started her mba
+    caption: my sister started her mba
+    year: 2018
+
+  - src: /images/gallery/2018-nikolskaya-street.jpg
+    alt: at nikolskaya street near red square
+    caption: at nikolskaya street near red square
+    year: 2018
+
+  - src: /images/gallery/2017-maths-team.jpg
+    alt: my boys from tdn maths team
+    caption: my boys from tdn maths team
+    year: 2017
