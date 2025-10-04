@@ -11,7 +11,7 @@
   authors: Lei Cheng, Yaobang Gong, Xianfeng Yang, Gang-Len Chang
   pdf: 
   code: 
-  demo: https://leicheng5.github.io/
+  demo: 
   abstract_less: >
     A Drone-based Workzone Safety Alert System has been developed for traffic monitoring and warning.
   abstract_more: >
@@ -26,7 +26,7 @@
   conference_web: 
   authors: Lei Cheng, Lihao Guo, Tianya Zhang, Tam Bang, Austin Harris, Mustafa Hajij, Mina Sartipi, and Siyang Cao
   pdf: https://arxiv.org/abs/2502.17648
-  code: https://github.com/leicheng5/Lidar_Camera_Automatic_Calibration
+  code: https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration
   #dataset: https://example.com/dataset
   demo:
   abstract_less: >
@@ -46,7 +46,7 @@
   conference_web: 
   authors: Lei Cheng, Siyang Cao
   pdf: https://arxiv.org/abs/2501.17977
-  code: https://github.com/leicheng5/TransRAD
+  code: https://github.com/radar-lab/TransRAD
   demo: 
   abstract_less: >
    
@@ -108,7 +108,7 @@
   conference_web:
   authors: Lei Cheng, Arindam Sengupta, and Siyang Cao
   pdf: https://arxiv.org/abs/2307.15264
-  code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+  code: https://github.com/radar-lab/Online-Targetless-Radar-Camera-Extrinsic-Calibration
   demo:
   abstract_less: >
   
@@ -128,7 +128,7 @@
   conference_web:
   authors: Lei Cheng, and Siyang Cao
   pdf: https://arxiv.org/abs/2309.00787
-  code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+  code: https://github.com/radar-lab/Online-Targetless-Radar-Camera-Extrinsic-Calibration
   demo:
   abstract_less: >
    
