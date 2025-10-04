@@ -26,7 +26,7 @@
   conference_web: 
   authors: Lei Cheng, Lihao Guo, Tianya Zhang, Tam Bang, Austin Harris, Mustafa Hajij, Mina Sartipi, and Siyang Cao
   pdf: https://arxiv.org/abs/2502.17648
-  code: https://github.com/leicheng5/Lidar_Camera_Automatic_Calibration?tab=readme-ov-file
+  code: https://github.com/leicheng5/Lidar_Camera_Automatic_Calibration
   #dataset: https://example.com/dataset
   demo:
   abstract_less: >
@@ -78,7 +78,7 @@
   thumb: /images/online_cali_flow.png
   # youtube_id: dQw4w9WgXcQ
   system_name: Online_RC_Calib
-  title: Self-supervised radar representation learning
+  title: Online Targetless Radar-Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
   conference: IEEE National Aerospace and Electronics Conference (NAECON)
   conference_web:
   authors: Lei Cheng, and Siyang Cao
