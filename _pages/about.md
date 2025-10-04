@@ -126,5 +126,5 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 
  
-> Want a video in the gallery? Drop a thumbnail here and link it to YouTube/Vimeo.
+> Make time for the unmeasured—quiet, beauty, and the next bend in the road.
 
