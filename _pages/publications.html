@@ -6,31 +6,127 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You may also visit <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Book Chapters</h2><hr />
+<ol class="pubs pubs--book">
+  <li>
+    <span class="authors">Lei Cheng, Siyang Cao, Shunqiao Sun, and Vishal Patel.</span>
+    “Deep Learning Based Automotive Radar Sensor Fusion.”
+    <i>Radar Machine Learning for Autonomous Driving</i>, Artech House, 2025.
+    <span class="note">(Under publication)</span>
+  </li>
+</ol>
+
+<h2>Journal Papers</h2><hr />
+<ol class="pubs pubs--journal">
+  <li>
+    <span class="authors">Lei Cheng and Siyang Cao.</span>
+    “Heterogeneous Sensor Fusion for Environmental Perception in Autonomous Systems: Principles, Frameworks, and Emerging Trends.”
+    <i>IEEE Transactions on Instrumentation and Measurement</i>, 2025.
+    <span class="note">(Under review)</span>
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng, Lihao Guo, Tianya Zhang, Tam Bang, Austin Harris, Mustafa Hajij, Mina Sartipi, and Siyang Cao.</span>
+    “CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement.”
+    <i>IEEE Transactions on Instrumentation and Measurement</i>, 2025.
+    <span class="note">(Under major revision)</span>
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng and Siyang Cao.</span>
+    “TransRAD: Retentive Vision Transformer for Enhanced Radar Object Detection.”
+    <i>IEEE Transactions on Radar Systems</i>, 2025.
+  </li>
+
+  <li>
+    <span class="authors">Tianya Zhang, Lei Cheng, Tam Bang, Lihao Guo, Mustafa Hajij, Siyang Cao, Austin Harris, and Mina Sartipi.</span>
+    “Roadside Sensor Systems for Vulnerable Road User Protection: A Review of Methods and Applications.”
+    <i>IEEE Access</i>, 2025.
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng and Siyang Cao.</span>
+    “Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature.”
+    <i>IEEE Transactions on Intelligent Transportation Systems</i>, 2024.
+    <span class="note">(Accepted)</span>
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng, Arindam Sengupta, and Siyang Cao.</span>
+    “Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors.”
+    <i>IEEE Transactions on Intelligent Transportation Systems</i>, 2024.
+  </li>
+
+  <li>
+    <span class="authors">Arindam Sengupta, Lei Cheng (<i>co-first author</i>), and Siyang Cao.</span>
+    “Robust multiobject tracking using mmWave radar–camera sensor fusion.”
+    <i>IEEE Sensors Letters</i>, 2022.
+  </li>
+</ol>
+
+<h2>Conference Papers</h2><hr />
+<ol class="pubs pubs--conf">
+  <li>
+    <span class="authors">Tam Bang, Hoang H. Nguyen, Deponker Sarker Depto, Lei Cheng, Lihao Guo, Siyang Cao, Tianya Zhang, Austin Harris, and Mina Sartipi.</span>
+    “Real-Time Edge-Based Multi-Sensor Fusion for Vulnerable Road User Safety at Urban Intersections.”
+    <i>Transportation Research Board (TRB) Annual Meeting</i>, 2025.
+    <span class="note">(Accepted)</span>
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng, Arindam Sengupta, and Siyang Cao.</span>
+    “3D Radar and Camera Co-Calibration: A Flexible and Accurate Method for Target-based Extrinsic Calibration.”
+    <i>IEEE Radar Conference (RadarConf23)</i>, 2023.
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng and Siyang Cao.</span>
+    “Online Targetless Radar–Camera Extrinsic Calibration Based on the Common Features of Radar and Camera.”
+    <i>IEEE National Aerospace and Electronics Conference (NAECON)</i>, 2023.
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng, Wei Yan, Guoqing Xiang, Xiao Liu, and Yunyao Yan.</span>
+    “Fast Sub-pixel Prediction Based on Error Surface Fitting for HEVC.”
+    <i>IEEE 4th International Conference on Signal and Image Processing (ICSIP)</i>, 2019.
+  </li>
+
+  <li>
+    <span class="authors">Lei Cheng, Wei Yan, Guoqing Xiang, Xiao Liu, and Yunyao Yan.</span>
+    “HEVC Fast Fractional-pixel Prediction with Parallel Search.”
+    <i>International Conference on Digital Image Processing (ICDIP)</i>, SPIE, 2019.
+  </li>
+
+  <li>
+    <span class="authors">Xiao Liu, Wei Yan, Guoqing Xiang, Lei Cheng, and Yunyao Yan.</span>
+    “A Novel Fast Mode Decision Algorithm for AVS2 Intra Coding.”
+    <i>IEEE 4th International Conference on Signal and Image Processing (ICSIP)</i>, 2019.
+  </li>
+
+  <li>
+    <span class="authors">Jianbin Zhao, Yunyao Yan, Xiao Liu, Lei Cheng, and Wei Yan.</span>
+    “The Implementation of a Fast RMD Method for Audio Video Coding Standard II (AVS2).”
+    <i>International Conference on Computer Science and Software Engineering (CSSE)</i>, 2018.
+  </li>
+</ol>
+
+<!-- Auto-highlight "Lei Cheng" inside author lists -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.pubs .authors').forEach(function(node){
+    const html = node.innerHTML;
+    if (!html.includes('class="me"')) {
+      node.innerHTML = html.replace(/Lei\\s+Cheng/g, '<span class="me">Lei Cheng</span>');
+    }
+  });
+});
+</script>
+
 
 
 
