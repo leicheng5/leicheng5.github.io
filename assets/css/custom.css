@@ -508,3 +508,18 @@ div.desc {
 .dark-theme .awards-table tr td.year { color:#9ca3af; }
 .dark-theme .awards-table .note { color:#9ca3af; }
 
+
+
+/* Coursework · Option A: pills */
+.cw-card{
+  border:1px solid #e5e7eb; border-radius:12px; padding:14px 16px;
+  background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.04); margin:.5rem 0 1rem;
+}
+.cw-lead{ color:#6b7280; font-size:.95rem; margin-bottom:.4rem; }
+.cw-pills{ display:flex; flex-wrap:wrap; gap:8px; }
+.cw-pills span{
+  border:1px solid #e5e7eb; background:#f9fafb; color:#374151;
+  padding:6px 10px; border-radius:9999px; font-size:.95rem;
+}
+.dark-theme .cw-card{ background:#0b0f14; border-color:#1f2937; }
+.dark-theme .cw-pills span{ border-color:#374151; background:#111827; color:#e5e7eb; }
