@@ -48,7 +48,7 @@ body {
   color: #333333;
   background: #ffffff;
 
-  font-size: 0.95rem;   
+  font-size: 1.15rem;   
 }
 
 /* Headings: crisp sans for contrast */
@@ -88,4 +88,25 @@ mark {
   line-height: 1.45 !important;
 }
 
+/* Code-style box for research interests */
+.page__content blockquote.research-box {
+  background: #f7f7f7;
+  border-left: 4px solid #bd5d38;  /* your orange accent */
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  font-style: normal;              /* override default italic blockquote */
+  line-height: 1.65;
+}
+
+/* Tighter spacing inside the box */
+.page__content blockquote.research-box p { margin: 0 0 .6rem 0; }
+.page__content blockquote.research-box p:last-child { margin-bottom: 0; }
+
+/* Optional: a subtle divider style for the --- lines */
+.page__content blockquote.research-box hr {
+  border: 0;
+  border-top: 1px dashed #ddd;
+  margin: .75rem 0;
+}
 
