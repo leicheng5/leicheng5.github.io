@@ -1,0 +1,59 @@
+intro: >
+  Curated open-source repos focused on sensing, perception, and multimodal learning.
+
+categories:
+  - key: all
+    label: all
+  - key: calibration
+    label: calibration
+  - key: perception
+    label: perception
+  - key: radar
+    label: radar
+  - key: tooling
+    label: tooling
+
+repos:
+  - name: CalibWizard
+    owner: leicheng5
+    url: https://github.com/leicheng5/calibwizard
+    description: Plug-and-play extrinsic calibration for LiDAR–Camera–Radar with long-term stability.
+    language: Python
+    language_color: "#3572A5"
+    stars: 182
+    forks: 21
+    updated: 2025-07-18
+    category: calibration
+
+  - name: FogFusion
+    owner: leicheng5
+    url: https://github.com/leicheng5/fogfusion
+    description: Robust perception in adverse weather via uncertainty-aware multimodal fusion.
+    language: Python
+    language_color: "#3572A5"
+    stars: 264
+    forks: 36
+    updated: 2025-06-30
+    category: perception
+
+  - name: radar2vec
+    owner: leicheng5
+    url: https://github.com/leicheng5/radar2vec
+    description: Self-supervised radar representation learning for BEV perception.
+    language: C++
+    language_color: "#f34b7d"
+    stars: 119
+    forks: 12
+    updated: 2025-05-02
+    category: radar
+
+  - name: DriveLite
+    owner: leicheng5
+    url: https://github.com/leicheng5/drivelite
+    description: Data-efficient training + INT8 deployment for edge platforms.
+    language: Python
+    language_color: "#3572A5"
+    stars: 98
+    forks: 9
+    updated: 2025-03-11
+    category: tooling
