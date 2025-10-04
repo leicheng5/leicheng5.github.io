@@ -47,6 +47,8 @@ body {
   line-height: 1.7;
   color: #333333;
   background: #ffffff;
+  
+  font-size: 1.15rem;  
 }
 
 /* Headings: crisp sans for contrast */
