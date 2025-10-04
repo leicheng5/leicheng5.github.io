@@ -1,0 +1,10 @@
+<div class="gcard">
+  <figure class="gcard__figure">
+    <button class="gcard__btn" data-full="{{ item.src }}" aria-label="Open image">
+      <img class="gcard__img" src="{{ item.src }}" alt="{{ item.alt | escape }}" loading="lazy">
+    </button>
+    <figcaption class="gcard__cap">
+      {{ item.caption }} <span class="gcard__year">({{ item.year }})</span>
+    </figcaption>
+  </figure>
+</div>
