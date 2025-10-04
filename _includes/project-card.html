@@ -1,0 +1,65 @@
+<div class="project-card" data-filter="{{ project.category }}">
+  <div class="project-thumb">
+
+    {% if project.youtube_id %}
+      <div class="media-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/{{ project.youtube_id }}?rel=0"
+          title="{{ project.title | escape }}"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"></iframe>
+      </div>
+
+    {% elsif project.video_mp4 or project.video_webm %}
+      <video class="media-16x9" controls preload="metadata" playsinline {% if project.thumb %}poster="{{ project.thumb }}"{% endif %}>
+        {% if project.video_webm %}<source src="{{ project.video_webm }}" type="video/webm">{% endif %}
+        {% if project.video_mp4 %}<source src="{{ project.video_mp4 }}" type="video/mp4">{% endif %}
+      </video>
+
+    {% else %}
+      <div class="media-16x9">
+        <img src="{{ project.thumb | escape }}"
+             alt="{{ project.system_name | default: project.title | escape }}"
+             loading="lazy">
+      </div>
+    {% endif %}
+
+  </div>
+
+  <div class="project-body">
+    {% if project.system_name %}
+      <div class="project-system"><i>{{ project.system_name }}</i>:</div>
+    {% endif %}
+
+    <h3 class="project-title">{{ project.title }}</h3>
+
+    {% if project.conference %}
+      <div class="project-conf">
+        {% if project.conference_web %}
+          <i><a href="{{ project.conference_web }}" target="_blank" rel="noopener">{{ project.conference }}</a></i>
+        {% else %}
+          <i>{{ project.conference }}</i>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if project.authors %}
+      <div class="project-authors">{{ project.authors }}</div>
+    {% endif %}
+
+    <div class="project-links">
+      {% if project.pdf %}<a href="{{ project.pdf }}" target="_blank" rel="noopener">[PDF]</a>{% endif %}
+      {% if project.code %}{% if project.pdf %}<span> | </span>{% endif %}<a href="{{ project.code }}" target="_blank" rel="noopener">[CODE]</a>{% endif %}
+      {% if project.dataset %}{% if project.pdf or project.code %}<span> | </span>{% endif %}<a href="{{ project.dataset }}" target="_blank" rel="noopener">[DATASET]</a>{% endif %}
+      {% if project.demo %}{% if project.pdf or project.code or project.dataset %}<span> | </span>{% endif %}<a href="{{ project.demo }}" target="_blank" rel="noopener">[DEMO]</a>{% endif %}
+    </div>
+
+    <details class="project-abs">
+      <summary><u><b><i>Abstract</i></b></u></summary>
+      {% if project.abstract_less %}<p class="abs-less">{{ project.abstract_less }}</p>{% endif %}
+      {% if project.abstract_more %}<p class="abs-more">{{ project.abstract_more }}</p>{% endif %}
+    </details>
+  </div>
+</div>
