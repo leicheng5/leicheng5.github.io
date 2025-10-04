@@ -9,7 +9,7 @@ author_profile: true
 ## 📚 Coursework
 
 <div class="cw-card">
-  <div class="cw-lead">Representative graduate / advanced courses.</div>
+  <div class="cw-lead">Representative graduate / advanced courses I have completed.</div>
   <div class="cw-pills">
     <span>Radar Signal Processing</span>
     <span>Digital Signal Processing</span>
