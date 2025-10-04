@@ -75,7 +75,7 @@
 
 - tag: online RC calib
   category: calibration
-  thumb: /images/online_cali.gif
+  thumb: /images/online_calib.gif
   # youtube_id: dQw4w9WgXcQ
   system_name: Online_RC_Calib
   title: Online Targetless Radar Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
