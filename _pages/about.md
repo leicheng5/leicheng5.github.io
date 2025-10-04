@@ -16,7 +16,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 My research aims to turn raw sensor data into dependable intelligence for the physical world, with applications in *autonomous driving*, *intelligent transportation systems*, and *smart robotics*. Interests include:
 
-```research
+<div class="codebox">
+  
 - 📡 **Sensor Data Processing**  
   *Multi-sensor fusion* and *calibration* across Camera · Radar · LiDAR · GNSS, with attention to *space alignment*, *time synchronization*, *uncertainty modeling*, and *long-term stability*.
 
@@ -25,7 +26,8 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 - 🔀 **Multimodal Learning**  
   *Vision–Language Models (VLMs)* and *Representation Learning* that integrate information from *multiple sensors and modalities* (e.g., vision, language, and spatial signals) to couple low-level perception with high-level semantics and reasoning for *comprehensive* environment understanding.
-
+  
+</div>
 
 
 
