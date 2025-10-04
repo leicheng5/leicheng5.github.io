@@ -106,7 +106,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 # 🖼️ Gallery {#gallery}
 
-<!-- 
+
 <p class="gallery-intro">{{ site.data.gallery.intro }}</p>
 
 <div class="gallery-wrap">
@@ -122,9 +122,9 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
   {% endfor %}
   <div class="clearfix"></div>
 </div> 
--->
 
 
- 
 > Make time for the unmeasured—quiet, beauty, and the next bend in the road.
+ 
+
 
