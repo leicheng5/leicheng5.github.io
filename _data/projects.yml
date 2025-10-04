@@ -53,6 +53,7 @@
   abstract_more: >
     Despite significant advancements in environment perception capabilities for autonomous driving and intelligent robotics, cameras and LiDARs remain notoriously unreliable in low-light conditions and adverse weather, which limits their effectiveness. Radar serves as a reliable and low-cost sensor that can effectively complement these limitations. However, radar-based object detection has been underexplored due to the inherent weaknesses of radar data, such as low resolution, high noise, and lack of visual information. In this paper, we present TransRAD, a novel 3D radar object detection model designed to address these challenges by leveraging the Retentive Vision Transformer (RMT) to more effectively learn features from information-dense radar Range-Azimuth-Doppler (RAD) data. Our approach leverages the Retentive Manhattan Self-Attention (MaSA) mechanism provided by RMT to incorporate explicit spatial priors, thereby enabling more accurate alignment with the spatial saliency characteristics of radar targets in RAD data and achieving precise 3D radar detection across Range-Azimuth-Doppler dimensions. Furthermore, we propose Location-Aware NMS to effectively mitigate the common issue of duplicate bounding boxes in deep radar object detection. 
 
+
 - tag: tracking
   category: object tracking
   thumb: /images/Picture33.png         # left media: image
@@ -72,41 +73,6 @@
   abstract_more: >
     Autonomous driving holds great promise in addressing traffic safety concerns by leveraging artificial intelligence and sensor technology. Multi-Object Tracking plays a critical role in ensuring safer and more efficient navigation through complex traffic scenarios. This paper presents a novel deep learning-based method that integrates radar and camera data to enhance the accuracy and robustness of Multi-Object Tracking in autonomous driving systems. The proposed method leverages a Bi-directional Long Short-Term Memory network to incorporate long-term temporal information and improve motion prediction. An appearance feature model inspired by FaceNet is used to establish associations between objects across different frames, ensuring consistent tracking. A tri-output mechanism is employed, consisting of individual outputs for radar and camera sensors and a fusion output, to provide robustness against sensor failures and produce accurate tracking results. 
 
-
-- tag: online RC calib
-  category: calibration
-  thumb: /images/online_calib.gif
-  # youtube_id: dQw4w9WgXcQ
-  system_name: Online_RC_Calib
-  title: Online Targetless Radar Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
-  conference: IEEE National Aerospace and Electronics Conference (NAECON)
-  conference_web:
-  authors: Lei Cheng, and Siyang Cao
-  pdf: https://arxiv.org/abs/2309.00787
-  code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
-  demo:
-  abstract_less: >
-   
-  abstract_more: >
-    Sensor fusion is essential for autonomous driving and autonomous robots, and radar-camera fusion systems have gained popularity due to their complementary sensing capabilities. However, accurate calibration between these two sensors is crucial to ensure effective fusion and improve overall system performance. Calibration involves intrinsic and extrinsic calibration, with the latter being particularly important for achieving accurate sensor fusion. Unfortunately, many target-based calibration methods require complex operating procedures and well-designed experimental conditions, posing challenges for researchers attempting to reproduce the results. To address this issue, we introduce a novel approach that leverages deep learning to extract a common feature from raw radar data (i.e., Range-Doppler-Angle data) and camera images. Instead of explicitly representing these common features, our method implicitly utilizes these common features to match identical objects from both data sources. Specifically, the extracted common feature serves as an example to demonstrate an online targetless calibration method between the radar and camera systems. The estimation of the extrinsic transformation matrix is achieved through this feature-based approach. To enhance the accuracy and robustness of the calibration, we apply the RANSAC and Levenberg-Marquardt (LM) nonlinear optimization algorithm for deriving the matrix.
-
-- tag: RC calib
-  category: calibration
-  #video_mp4: /videos/drivelite.mp4
-  thumb: /images/calib2.gif     # optional poster for the video
-  system_name: 3D Radar and Camera Co-Calibration
-  title: A Flexible and Accurate Method for Target-based Extrinsic Calibration
-  conference: IEEE Radar Conference (RadarConf23)
-  conference_web:
-  authors: Lei Cheng, Arindam Sengupta, and Siyang Cao
-  pdf: https://arxiv.org/abs/2307.15264
-  code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
-  demo:
-  abstract_less: >
-  
-  abstract_more: >
-    Advances in autonomous driving are inseparable from sensor fusion. Heterogeneous sensors are widely used for sensor fusion due to their complementary properties, with radar and camera being the most equipped sensors. Intrinsic and extrinsic calibration are essential steps in sensor fusion. The extrinsic calibration, independent of the sensor's own parameters, and performed after the sensors are installed, greatly determines the accuracy of sensor fusion. Many target-based methods require cumbersome operating procedures and well-designed experimental conditions, making them extremely challenging. To this end, we propose a flexible, easy-to-reproduce and accurate method for extrinsic calibration of 3D radar and camera. The proposed method does not require a specially designed calibration environment, and instead places a single corner reflector (CR) on the ground to iteratively collect radar and camera data simultaneously using Robot Operating System (ROS), and obtain radar-camera point correspondences based on their timestamps, and then use these point correspondences as input to solve the perspective-n-point (PnP) problem, and finally get the extrinsic calibration matrix. Also, RANSAC is used for robustness and the Levenberg-Marquardt (LM) nonlinear optimization algorithm is used for accuracy.
-
 - tag: tracking
   category: object tracking
   thumb: /images/Arind_mot.png         # left media: image
@@ -125,3 +91,43 @@
    
   abstract_more: >
     With the recent hike in the autonomous and automotive industries, sensor-fusion-based perception has garnered significant attention for multiobject classification and tracking applications. Furthering our previous work on sensor-fusion-based multiobject classification, this letter presents a robust tracking framework using a high-level monocular-camera and millimeter wave radar sensor-fusion. The proposed method aims to improve the localization accuracy by leveraging the radar's depth and the camera's cross-range resolutions using decision-level sensor fusion and make the system robust by continuously tracking objects despite single sensor failures using a tri-Kalman filter setup. The camera's intrinsic calibration parameters and the height of the sensor placement are used to estimate a birds-eye view of the scene, which in turn aids in estimating 2-D position of the targets from the camera. The radar and camera measurements in a given frame is associated using the Hungarian algorithm. Finally, a tri-Kalman filter-based framework is used as the tracking approach. The proposed approach offers promising MOTA and MOTP metrics including significantly low missed detection rates that could aid large-scale and small-scale autonomous or robotics applications with safe perception.
+
+
+
+- tag: RC calib
+  category: calibration
+  #video_mp4: /videos/drivelite.mp4
+  thumb: /images/1004_2.gif     # optional poster for the video
+  system_name: 3D Radar and Camera Co-Calibration
+  title: A Flexible and Accurate Method for Target-based Extrinsic Calibration
+  conference: IEEE Radar Conference (RadarConf23)
+  conference_web:
+  authors: Lei Cheng, Arindam Sengupta, and Siyang Cao
+  pdf: https://arxiv.org/abs/2307.15264
+  code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+  demo:
+  abstract_less: >
+  
+  abstract_more: >
+    Advances in autonomous driving are inseparable from sensor fusion. Heterogeneous sensors are widely used for sensor fusion due to their complementary properties, with radar and camera being the most equipped sensors. Intrinsic and extrinsic calibration are essential steps in sensor fusion. The extrinsic calibration, independent of the sensor's own parameters, and performed after the sensors are installed, greatly determines the accuracy of sensor fusion. Many target-based methods require cumbersome operating procedures and well-designed experimental conditions, making them extremely challenging. To this end, we propose a flexible, easy-to-reproduce and accurate method for extrinsic calibration of 3D radar and camera. The proposed method does not require a specially designed calibration environment, and instead places a single corner reflector (CR) on the ground to iteratively collect radar and camera data simultaneously using Robot Operating System (ROS), and obtain radar-camera point correspondences based on their timestamps, and then use these point correspondences as input to solve the perspective-n-point (PnP) problem, and finally get the extrinsic calibration matrix. Also, RANSAC is used for robustness and the Levenberg-Marquardt (LM) nonlinear optimization algorithm is used for accuracy.
+
+
+
+
+- tag: online RC calib
+  category: calibration
+  thumb: /images/online_calib.gif
+  # youtube_id: dQw4w9WgXcQ
+  system_name: Online_RC_Calib
+  title: Online Targetless Radar Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
+  conference: IEEE National Aerospace and Electronics Conference (NAECON)
+  conference_web:
+  authors: Lei Cheng, and Siyang Cao
+  pdf: https://arxiv.org/abs/2309.00787
+  code: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+  demo:
+  abstract_less: >
+   
+  abstract_more: >
+    Sensor fusion is essential for autonomous driving and autonomous robots, and radar-camera fusion systems have gained popularity due to their complementary sensing capabilities. However, accurate calibration between these two sensors is crucial to ensure effective fusion and improve overall system performance. Calibration involves intrinsic and extrinsic calibration, with the latter being particularly important for achieving accurate sensor fusion. Unfortunately, many target-based calibration methods require complex operating procedures and well-designed experimental conditions, posing challenges for researchers attempting to reproduce the results. To address this issue, we introduce a novel approach that leverages deep learning to extract a common feature from raw radar data (i.e., Range-Doppler-Angle data) and camera images. Instead of explicitly representing these common features, our method implicitly utilizes these common features to match identical objects from both data sources. Specifically, the extracted common feature serves as an example to demonstrate an online targetless calibration method between the radar and camera systems. The estimation of the extrinsic transformation matrix is achieved through this feature-based approach. To enhance the accuracy and robustness of the calibration, we apply the RANSAC and Levenberg-Marquardt (LM) nonlinear optimization algorithm for deriving the matrix.
+
