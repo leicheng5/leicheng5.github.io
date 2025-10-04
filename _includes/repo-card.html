@@ -1,38 +1,31 @@
 <div class="github-card" data-filter="{{ repo.category }}">
   <div class="repo-header">
-    <span class="bookmark-icon">🔖</span>
+    <span class="bookmark-icon" aria-hidden="true">🔖</span>
     <a class="repo-name" href="{{ repo.url }}" target="_blank" rel="noopener">
-      {{ repo.owner }}/{{ repo.name }}
+      {{ repo.name }}
     </a>
   </div>
 
   {% if repo.description %}
-  <div class="repo-description">{{ repo.description }}</div>
+    <div class="repo-description">{{ repo.description }}</div>
   {% endif %}
 
   <div class="repo-stats">
     {% if repo.language %}
       <span class="language">
-        <span class="language-icon" style="color: {{ repo.language_color | default: '#007bff' }}">●</span>
+        <span class="language-icon" style="color: {{ repo.language_color | default: '#007bff' }}">&#60;&#47;&#62;</span>
         {{ repo.language }}
       </span>
     {% endif %}
 
     <span class="stars">
-      <i class="star-icon">★</i>
+      <span class="star-icon">★</span>
       <span class="stats-number">{{ repo.stars }}</span>
     </span>
 
     <span class="forks">
-      <i class="fork-icon">⑂</i>
+      <span class="fork-icon">⑂</span>
       <span class="stats-number">{{ repo.forks }}</span>
     </span>
-
-    {% if repo.updated %}
-    <span class="updated">
-      <i class="far fa-clock"></i>
-      <span class="stats-number">updated {{ repo.updated }}</span>
-    </span>
-    {% endif %}
   </div>
 </div>
