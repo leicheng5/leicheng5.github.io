@@ -104,20 +104,39 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 ---
 
-# 🖼️ Gallery
-A few snapshots from projects, talks, and field tests:
+# 🖼️ Gallery {#gallery}
 
-<table>
-  <tr>
-    <td><img src="/images/gallery_01.jpg" alt="Sensor rig" style="border-radius:8px;width:100%"></td>
-    <td><img src="/images/gallery_02.jpg" alt="Calibration board" style="border-radius:8px;width:100%"></td>
-  </tr>
-  <tr>
-    <td><img src="/images/gallery_03.jpg" alt="Radar BEV" style="border-radius:8px;width:100%"></td>
-    <td><img src="/images/gallery_04.jpg" alt="Field test" style="border-radius:8px;width:100%"></td>
-  </tr>
-</table>
+<p class="gallery-intro">{{ site.data.gallery.intro }}</p>
 
-> Replace the image paths with your own (e.g., `/images/your_photo.jpg`).  
+<div id="gallery-grid">
+  {% for item in site.data.gallery.items %}
+    {% include gallery-card.html item=item %}
+  {% endfor %}
+</div>
+
+<!-- Lightweight lightbox -->
+<dialog id="gbox" class="gbox">
+  <img id="gbox-img" alt="gallery image">
+</dialog>
+
+<script>
+(() => {
+  const grid = document.getElementById('gallery-grid');
+  const dlg  = document.getElementById('gbox');
+  const img  = document.getElementById('gbox-img');
+
+  if (grid && dlg && img) {
+    grid.addEventListener('click', e => {
+      const btn = e.target.closest('.gcard__btn');
+      if (!btn) return;
+      img.src = btn.getAttribute('data-full');
+      dlg.showModal();
+    });
+    dlg.addEventListener('click', () => dlg.close());
+  }
+})();
+</script>
+
+ 
 > Want a video in the gallery? Drop a thumbnail here and link it to YouTube/Vimeo.
 
