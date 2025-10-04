@@ -60,7 +60,7 @@
   # video_webm: /videos/calibwizard.webm          # (optional) local video
   # youtube_id:                                   # (optional) YouTube id
   system_name: RC_MOT
-  title: Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors
+  title: Deep Learning Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors
   conference: IEEE Transactions on Intelligent Transportation Systems
   conference_web: 
   authors: Lei Cheng, Arindam Sengupta, Siyang Cao
@@ -78,7 +78,7 @@
   thumb: /images/online_cali_flow.png
   # youtube_id: dQw4w9WgXcQ
   system_name: Online_RC_Calib
-  title: Online Targetless Radar-Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
+  title: Online Targetless Radar Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
   conference: IEEE National Aerospace and Electronics Conference (NAECON)
   conference_web:
   authors: Lei Cheng, and Siyang Cao
@@ -94,8 +94,8 @@
   category: calibration
   #video_mp4: /videos/drivelite.mp4
   thumb: /images/calib.gif     # optional poster for the video
-  system_name: RC_Calib
-  title: 3D Radar and Camera Co-Calibration: A Flexible and Accurate Method for Target-based Extrinsic Calibration
+  system_name: 3D Radar and Camera Co-Calibration
+  title: A Flexible and Accurate Method for Target-based Extrinsic Calibration
   conference: IEEE Radar Conference (RadarConf23)
   conference_web:
   authors: Lei Cheng, Arindam Sengupta, and Siyang Cao
