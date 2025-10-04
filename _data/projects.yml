@@ -54,24 +54,6 @@
     Despite significant advancements in environment perception capabilities for autonomous driving and intelligent robotics, cameras and LiDARs remain notoriously unreliable in low-light conditions and adverse weather, which limits their effectiveness. Radar serves as a reliable and low-cost sensor that can effectively complement these limitations. However, radar-based object detection has been underexplored due to the inherent weaknesses of radar data, such as low resolution, high noise, and lack of visual information. In this paper, we present TransRAD, a novel 3D radar object detection model designed to address these challenges by leveraging the Retentive Vision Transformer (RMT) to more effectively learn features from information-dense radar Range-Azimuth-Doppler (RAD) data. Our approach leverages the Retentive Manhattan Self-Attention (MaSA) mechanism provided by RMT to incorporate explicit spatial priors, thereby enabling more accurate alignment with the spatial saliency characteristics of radar targets in RAD data and achieving precise 3D radar detection across Range-Azimuth-Doppler dimensions. Furthermore, we propose Location-Aware NMS to effectively mitigate the common issue of duplicate bounding boxes in deep radar object detection. 
 
 
-- tag: tracking
-  category: object tracking
-  thumb: /images/Picture33.png         # left media: image
-  # video_mp4: /videos/calibwizard.mp4            # (optional) local video
-  # video_webm: /videos/calibwizard.webm          # (optional) local video
-  # youtube_id:                                   # (optional) YouTube id
-  system_name: RC_MOT
-  title: Deep Learning Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors
-  conference: IEEE Transactions on Intelligent Transportation Systems
-  conference_web: 
-  authors: Lei Cheng, Arindam Sengupta, Siyang Cao
-  pdf: https://arxiv.org/abs/2407.08049
-  code: 
-  demo: 
-  abstract_less: >
-  
-  abstract_more: >
-    Autonomous driving holds great promise in addressing traffic safety concerns by leveraging artificial intelligence and sensor technology. Multi-Object Tracking plays a critical role in ensuring safer and more efficient navigation through complex traffic scenarios. This paper presents a novel deep learning-based method that integrates radar and camera data to enhance the accuracy and robustness of Multi-Object Tracking in autonomous driving systems. The proposed method leverages a Bi-directional Long Short-Term Memory network to incorporate long-term temporal information and improve motion prediction. An appearance feature model inspired by FaceNet is used to establish associations between objects across different frames, ensuring consistent tracking. A tri-output mechanism is employed, consisting of individual outputs for radar and camera sensors and a fusion output, to provide robustness against sensor failures and produce accurate tracking results. 
 
 - tag: tracking
   category: object tracking
@@ -94,10 +76,32 @@
 
 
 
+- tag: tracking
+  category: object tracking
+  thumb: /images/Picture33.png         # left media: image
+  # video_mp4: /videos/calibwizard.mp4            # (optional) local video
+  # video_webm: /videos/calibwizard.webm          # (optional) local video
+  # youtube_id:                                   # (optional) YouTube id
+  system_name: RC_MOT
+  title: Deep Learning Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors
+  conference: IEEE Transactions on Intelligent Transportation Systems
+  conference_web: 
+  authors: Lei Cheng, Arindam Sengupta, Siyang Cao
+  pdf: https://arxiv.org/abs/2407.08049
+  code: 
+  demo: 
+  abstract_less: >
+  
+  abstract_more: >
+    Autonomous driving holds great promise in addressing traffic safety concerns by leveraging artificial intelligence and sensor technology. Multi-Object Tracking plays a critical role in ensuring safer and more efficient navigation through complex traffic scenarios. This paper presents a novel deep learning-based method that integrates radar and camera data to enhance the accuracy and robustness of Multi-Object Tracking in autonomous driving systems. The proposed method leverages a Bi-directional Long Short-Term Memory network to incorporate long-term temporal information and improve motion prediction. An appearance feature model inspired by FaceNet is used to establish associations between objects across different frames, ensuring consistent tracking. A tri-output mechanism is employed, consisting of individual outputs for radar and camera sensors and a fusion output, to provide robustness against sensor failures and produce accurate tracking results. 
+
+
+
+
 - tag: RC calib
   category: calibration
   #video_mp4: /videos/drivelite.mp4
-  thumb: /images/1004_2.gif     # optional poster for the video
+  thumb: /images/1004_3.gif     # optional poster for the video
   system_name: 3D Radar and Camera Co-Calibration
   title: A Flexible and Accurate Method for Target-based Extrinsic Calibration
   conference: IEEE Radar Conference (RadarConf23)
