@@ -48,7 +48,7 @@ body {
   color: #333333;
   background: #ffffff;
 
-  font-size: 0.95rem;   
+  font-size: 0.85rem;   
 }
 
 /* Headings: crisp sans for contrast */
@@ -85,7 +85,7 @@ mark {
 /* Make News section font smaller */
 #news + ul,
 #news ~ ul li {
-  font-size: 0.35rem !important;   /* smaller than body */
+  font-size: 0.55rem !important;   /* smaller than body */
   line-height: 1.05 !important;
 }
 
