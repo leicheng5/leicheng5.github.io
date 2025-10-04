@@ -39,4 +39,53 @@ mark {
   border-radius: 2px;
 }
 
+/* Body typography: scholarly serif */
+body {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  color: #333333;
+  background: #ffffff;
+
+  font-size: 0.95rem;   
+}
+
+/* Headings: crisp sans for contrast */
+h1, h2, h3, h4, h5, h6, .page__title {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Link color (orange) + hover like your reference */
+a, .page__content a, .archive__item-title a {
+  color: #bd5d38;
+  text-decoration: none;
+}
+a:hover, .page__content a:hover, .archive__item-title a:hover {
+  color: #824027;
+  text-decoration: underline;
+}
+
+/* Text selection highlight (orange) */
+::selection { background-color: #ffb699; color: #1a1a1a; }
+::-moz-selection { background-color: #ffb699; color: #1a1a1a; }
+
+/* Optional: inline emphasis class similar to .text-primary in your sample */
+.text-primary { color: #4c5157 !important; }
+
+/* Optional: <mark> highlight to match palette */
+mark {
+  background-color: #ffe2d2;
+  color: inherit;
+  padding: 0 .15em;
+  border-radius: 2px;
+}
+
+/* News section smaller font */
+#news, #news li, #news p {
+  font-size: 0.85rem;    
+  line-height: 1.5;
+}
+
 
