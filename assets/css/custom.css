@@ -343,7 +343,7 @@ mark {
 }
 
 
-/* ---------- Gallery cards (float-based) ---------- */
+/* ---------- Gallery cards (float-based, 4 per row) ---------- */
 .gallery-intro { color: #6b7280; margin: 4px 0 14px; }
 
 /* Container + clearfix */
@@ -352,37 +352,36 @@ mark {
 
 /* Single card */
 div.gallery {
-  margin: 8px;
   float: left;
-  width: 260px;                 
+  /* 4 per row: 25% minus left+right margins (8px+8px = 16px) */
+  width: calc(25% - 16px);
+  margin: 8px;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0,0,0,.05);
   transition: transform .15s ease, box-shadow .2s ease;
 }
-div.gallery:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0,0,0,.08);
-}
+div.gallery:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,.08); }
 
+/* Start a new row every 4 items */
+div.gallery:nth-child(4n+1) { clear: both; }
 
-div.gallery:nth-child(8n+1) { clear: both; }
-
-/* Image */
+/* Image: smaller, no crop */
 div.gallery img {
   display: block;
   width: 100%;
-  height: 170px;                /* auto */
-  object-fit: cover;            
+  max-height: 140px;              /* smaller thumbnails */
+  object-fit: contain;            /* no cropping */
   object-position: center;
+  background: #f8fafc;            /* letterbox fill for different ratios */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 /* Caption */
 div.desc {
-  padding: 12px 14px;
+  padding: 10px 12px;
   text-align: center;
   line-height: 1.35;
   color: #374151;
@@ -392,14 +391,14 @@ div.desc {
   background: #fff;
 }
 
-
+/* Dark mode tweak (if you use it) */
 .dark-theme div.gallery { background:#1f2937; border-color:#374151; }
 .dark-theme div.desc    { background:#1f2937; color:#e5e7eb; border-color:#374151; }
 
-
-@media (max-width: 1200px) { div.gallery { width: 31%; } }  /* 3 */
-@media (max-width: 820px)  { div.gallery { width: 47%; } }  /* 2 */
-@media (max-width: 560px)  { div.gallery { width: 100%; } } /* 1 */
+/* Responsive breakpoints */
+@media (max-width: 1200px) { div.gallery { width: calc(33.333% - 16px); } } /* 3 per row */
+@media (max-width: 820px)  { div.gallery { width: calc(50% - 16px); } }     /* 2 per row */
+@media (max-width: 560px)  { div.gallery { width: 100%; } }                  /* 1 per row */
 
 
 
