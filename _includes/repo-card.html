@@ -18,14 +18,25 @@
       </span>
     {% endif %}
 
-    <span class="stars">
-      <span class="star-icon">★</span>
+
+  <span class="repo-stats">
+    <span class="stars stat">
+      <svg class="icon icon-star" viewBox="0 0 24 24" aria-hidden="true">
+        <!-- solid star -->
+        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/>
+      </svg>
       <span class="stats-number">{{ repo.stars }}</span>
     </span>
-
-    <span class="forks">
-      <span class="fork-icon">⑂</span>
+  
+    <span class="forks stat">
+      <svg class="icon icon-fork" viewBox="0 0 24 24" aria-hidden="true">
+        <!-- git-branch (outline) -->
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              d="M7 7v8a4 4 0 004 4h3M19 7a2 2 0 11-4 0 2 2 0 014 0zM19 15a2 2 0 11-4 0 2 2 0 014 0zM7 7a2 2 0 11-4 0 2 2 0 014 0z"/>
+      </svg>
       <span class="stats-number">{{ repo.forks }}</span>
     </span>
+  </span>
+    
   </div>
 </div>
