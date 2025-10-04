@@ -149,5 +149,29 @@ mark {
 }
 
 
+/* Filter bar for repos (match your resources style) */
+#filters-repos {
+  margin: 8px 0 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+#filters-repos .filter-button {
+  padding: 4px 7px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #333333;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+#filters-repos .filter-button:hover { background-color: rgba(194,194,194,0.45); }
+#filters-repos .filter-button.active { background-color: rgba(194,194,194,0.45); }
+
+
+.dark-theme #filters-repos .filter-button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
 
 
