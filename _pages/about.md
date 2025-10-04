@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Lei Cheng"
+title: "About me"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Research Faculty in the Department of Civil and Environmental Engineering (CEE)-[Maryland Transportation Institute (MTI)](https://mti.umd.edu/), [University of Maryland, College Park (UMD)](https://umd.edu/). I am honored to work under the supervision of [Dr. Xianfeng (Terry) Yang](https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang) and be part of the [Maryland Transportation & Artificial Intelligence Lab (M-TRAIL)](https://mtrail.umd.edu/). 
 
-Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona (UofA)](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019–2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
+Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019–2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
 
 
 
@@ -29,13 +29,16 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 ---
 
-# 🗞️ News
-- **2025-03** — 🏆 Our LiDAR–camera calibration tool reached **1k⭐ on GitHub** — preprint & tutorial coming soon.  
-- **2025-02** — 📄 One paper on **self-supervised radar fusion** accepted (preprint soon).  
-- **2024-12** — 🚀 Released a **dataset mini-benchmark** for bad-weather perception.  
-- **2024-10** — 🎙️ Gave a talk on *Reliable Multi-Sensor Fusion in the Wild* (slides & video below).
 
-> Looking for student collaborators and open-source contributors. Ping me on email or GitHub!
+# 🗞️ News  
+- *[08/2025]* — 🏆 Joined the **University of Maryland, College Park (UMD)** as a Faculty Assistant.  
+- *[06/2025]* — 🌟 Featured in the **ECE Class of 2025 Spotlight** at the University of Arizona.  
+- *[05/2025]* — 🎓 I successfully defended my **Ph.D. dissertation** and graduated from the University of Arizona!  
+- *[01/2025]* — 📄 Paper accepted to **IEEE Transactions on Radar Systems (TRS)**.  
+- *[07/2024]* — 📄 Paper accepted to **IEEE Transactions on Intelligent Transportation Systems (T-ITS)**.  
+- *[05/2023]* — 🎤 Presented a paper at the **2023 IEEE Radar Conference (RadarConf23)**.  
+
+> Looking for collaborators and open-source contributors. Ping me on email or GitHub!
 
 ---
 
