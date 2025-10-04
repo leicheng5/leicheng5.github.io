@@ -12,6 +12,7 @@ author_profile: true
   <div class="cw-lead">Representative graduate / advanced courses.</div>
   <div class="cw-pills">
     <span>Radar Signal Processing</span>
+    <span>Digital Signal Processing</span>
     <span>Computer Vision</span>
     <span>Image Processing &amp; Analysis</span>
     <span>Theory of Graphs &amp; Networks</span>
@@ -19,8 +20,10 @@ author_profile: true
     <span>Neural Networks</span>
     <span>Artificial Intelligence</span>
     <span>Natural Language Processing</span>
-    <span>Data Mining</span>
+    <span>Data Mining and Discovery</span>
     <span>Computer Networks</span>
+    <span>Quantum Sensing and Machine Learning</span>
+    <span>Advanced Linear Systems Theory</span>
   </div>
 </div>
 
@@ -47,7 +50,11 @@ author_profile: true
   <li><i>Measurement</i> (MEAS, Elsevier)</li>
   <li><i>SoftwareX</i> (SOFTX, Elsevier)</li>
   <li><i>Smart Agricultural Technology</i> (ATECH, Elsevier)</li>
+  <li><i>Data & Knowledge Engineering</i> (DATAK, Elsevier)</li>
+  <li><i>Journal of Traffic and Transportation Engineering</i> (JTTE, Elsevier)</li>
+  <li><i>CAAI Transactions on Intelligence Technology</i> (CIT, Elsevier)</li>
   <li>Springer <i>SN Computer Science</i> (SNCS)</li>
+  <li>The Imaging Science Journal (IMS)</li>
 </ul>
 
 ---
