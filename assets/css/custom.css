@@ -84,7 +84,7 @@ mark {
 
 /* News section smaller font */
 #news, #news li, #news p {
-  font-size: 0.75rem;    
+  font-size: 0.45rem;    
   line-height: 1.2;
 }
 
