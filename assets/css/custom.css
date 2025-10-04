@@ -48,7 +48,7 @@ body {
   color: #333333;
   background: #ffffff;
   
-  font-size: 0.9rem;  
+  font-size: 1.15rem;  
 }
 
 /* Headings: crisp sans for contrast */
@@ -96,50 +96,7 @@ mark {
 }
 
 
-/* Project entry layout */
-.project-entry {
-  display: flex;
-  align-items: flex-start;
-  margin: 20px 0;
-  gap: 15px;
-}
 
-.project-thumb {
-  flex: 0 0 280px;   
-}
-
-.project-thumb img {
-  width: 100%;
-  border-radius: 6px;
-  object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
-.project-info {
-  flex: 1;
-}
-
-.project-info h3 {
-  margin: 0 0 5px 0;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.project-info p {
-  margin: 4px 0;
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
-/* Links (reuse your orange theme) */
-.project-info a {
-  color: #bd5d38;
-  text-decoration: none;
-}
-.project-info a:hover {
-  color: #824027;
-  text-decoration: underline;
-}
 
 
 
