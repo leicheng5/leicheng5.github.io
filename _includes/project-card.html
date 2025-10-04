@@ -19,7 +19,7 @@
       </video>
 
     {% else %}
-      <div class="media-16x9">
+      <div class="media-auto">
         <img src="{{ project.thumb | escape }}"
              alt="{{ project.system_name | default: project.title | escape }}"
              loading="lazy">
