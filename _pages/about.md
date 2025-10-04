@@ -35,7 +35,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 ---
 
 
-# 🗞️ News {#news} 
+# 🗞️ News  
 - *[08/2025]* — 🏆 Joined the *University of Maryland, College Park (UMD)* as a Faculty Assistant.  
 - *[06/2025]* — 🌟 Featured in the *ECE Class of 2025 Spotlight* at the University of Arizona.  
 - *[05/2025]* — 🎓 I successfully defended my *Ph.D. dissertation* and graduated from the University of Arizona!  
