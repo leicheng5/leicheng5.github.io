@@ -1,0 +1,70 @@
+- tag: calibwizard
+  category: calibration
+  thumb: /images/projects/calibwizard.jpg         # left media: image
+  # video_mp4: /videos/calibwizard.mp4            # (optional) local video
+  # video_webm: /videos/calibwizard.webm          # (optional) local video
+  # youtube_id:                                   # (optional) YouTube id
+  system_name: CalibWizard
+  title: Plug-and-play extrinsic calibration for LiDAR–Camera–Radar
+  conference: VISAPP 2025 (Porto, Portugal)
+  conference_web: https://example.com/visapp2025
+  authors: Lei Cheng, Coauthor A, Coauthor B
+  pdf: https://example.com/calibwizard.pdf
+  code: https://github.com/leicheng5/calibwizard
+  demo: https://example.com/calibwizard-demo
+  abstract_less: >
+    A lightweight, field-friendly framework for continuous extrinsic calibration across LiDAR, camera, and radar.
+  abstract_more: >
+    Models temporal/spatial misalignment with uncertainty propagation to maintain long-term stability under vibration, temperature drift, and sensor replacement.
+
+- tag: fogfusion
+  category: sensor fusion
+  thumb: /images/projects/fogfusion.jpg
+  system_name: FogFusion
+  title: Robust perception in adverse weather (fog/rain/snow)
+  conference: IEEE Transactions on Intelligent Transportation Systems, 2024
+  conference_web: https://example.com/tits
+  authors: Lei Cheng, Coauthor C
+  pdf: https://example.com/fogfusion.pdf
+  code: https://github.com/leicheng5/fogfusion
+  dataset: https://example.com/fogfusion-dataset
+  demo:
+  abstract_less: >
+    Adaptive multi-sensor fusion with calibrated uncertainty; improves long-tail cases in fog, rain, and snow.
+  abstract_more: >
+    Combines physics priors with data-driven confidence to reweight modalities on-the-fly and preserve calibration fidelity.
+
+- tag: radar2vec
+  category: radar
+  thumb: /images/projects/radar2vec.jpg
+  # youtube_id: dQw4w9WgXcQ
+  system_name: Radar2Vec
+  title: Self-supervised radar representation learning
+  conference:
+  conference_web:
+  authors: Lei Cheng, Coauthor D
+  pdf: https://example.com/radar2vec.pdf
+  code: https://github.com/leicheng5/radar2vec
+  demo:
+  abstract_less: >
+    Contrastive pretraining for radar BEV features; drop-in replacement for modern detectors.
+  abstract_more: >
+    Learns motion-aware, long-range features with minimal labels and transfers across sensors and weather.
+
+- tag: drivelite
+  category: object detection
+  # 使用本地视频示例（如无视频，删掉这两行并保留 thumb）
+  video_mp4: /videos/drivelite.mp4
+  thumb: /images/projects/drivelite-poster.jpg     # optional poster for the video
+  system_name: DriveLite
+  title: Data-efficient training for edge deployment
+  conference:
+  conference_web:
+  authors: Lei Cheng
+  pdf:
+  code: https://github.com/leicheng5/drivelite
+  demo:
+  abstract_less: >
+    Latency-aware distillation and INT8 quantization with minimal accuracy loss.
+  abstract_more: >
+    Optimizes for embedded platforms under tight compute and memory constraints with reproducible, real-time benchmarks.
