@@ -16,7 +16,7 @@ categories:
 repos:
   - name: TransRAD
     owner: leicheng5
-    url: https://github.com/leicheng5/TransRAD
+    url: https://github.com/radar-lab/TransRAD
     description: "[TRS '25] TransRAD: Retentive Vision Transformer for Enhanced Radar Object Detection"
     language: Python
     language_color: "#3572A5"
@@ -31,7 +31,7 @@ repos:
 
   - name: CalibRefine
     owner: leicheng5
-    url: https://github.com/leicheng5/Lidar_Camera_Automatic_Calibration
+    url: https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration
     description: "[arXiv '25] CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement"
     language: Python
     language_color: "#3572A5"
@@ -42,7 +42,7 @@ repos:
 
   - name: Online-Targetless-Radar-Camera-Extrinsic-Calibration
     owner: leicheng5
-    url: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+    url: https://github.com/radar-lab/Online-Targetless-Radar-Camera-Extrinsic-Calibration
     description: "[NAECON '23] Online Targetless Radar-Camera Extrinsic Calibration Based on the Common Features of Radar and Camera"
     language: Python
     language_color: "#3572A5"
@@ -53,7 +53,7 @@ repos:
 
   - name: Radar-Camera_Co-Calibration
     owner: leicheng5
-    url: https://github.com/leicheng5/Online-Targetless-Radar-Camera-Extrinsic-Calibration
+    url: https://github.com/radar-lab/Online-Targetless-Radar-Camera-Extrinsic-Calibration
     description: "[RadarConf '23] 3D Radar and Camera Co-Calibration: A flexible and Accurate Method for Target-based Extrinsic Calibration"
     language: Python
     language_color: "#3572A5"
@@ -64,7 +64,7 @@ repos:
 
   - name: Radar_Camera_MOT
     owner: leicheng5
-    url: https://github.com/leicheng5/Radar_Camera_MOT
+    url: https://github.com/radar-lab/Radar_Camera_MOT
     description: "Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
