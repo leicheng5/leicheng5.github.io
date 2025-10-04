@@ -18,7 +18,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 
 <div class="smaller-text" markdown="1">
-- 📡 **Sensor Data Processing**  
+- 📸 **Sensor Data Processing**  
   *Multi-sensor fusion* and *calibration* across Camera · Radar · LiDAR · GNSS, with attention to *space alignment*, *time synchronization*, *uncertainty modeling*, and *long-term stability*.
 
 - 🎯 **Deep Learning-based Perception**  
@@ -35,7 +35,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 ---
 
 
-# 🗞️ News  
+# 📢 News  
 <div class="smaller-text" markdown="1">
 - *[08/2025]* — 🏆 Joined the *University of Maryland, College Park (UMD)* as a Faculty Assistant.  
 - *[06/2025]* — 🌟 Featured in the *ECE Class of 2025 Spotlight* at the University of Arizona.  
@@ -49,7 +49,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 ---
 
-# 🧪 Selected Projects
+# 🔬 Selected Projects
 
 {% for project in site.data.projects %}
   {% include project-card.html project=project %}
@@ -73,7 +73,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 <div id="github-cards">
   {% assign items = site.data.featured_repos.repos %}
-  {% comment %} 按 stars 降序（可选） {% endcomment %}
+  {% comment %} stars  {% endcomment %}
   {% assign items = items | sort: "stars" | reverse %}
   {% for repo in items %}
     {% include repo-card.html repo=repo %}
