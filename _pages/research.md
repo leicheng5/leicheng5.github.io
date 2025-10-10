@@ -7,23 +7,23 @@ author_profile: true
 
 <!-- ===== Coursework ===== -->
 ## 📚 Coursework
+<p class="muted">Representative graduate / advanced courses I have completed.</p>
 
 <div class="cw-card">
-  <div class="cw-lead">Representative graduate / advanced courses I have completed.</div>
   <div class="cw-pills">
-    <span>Radar Signal Processing</span>
-    <span>Digital Signal Processing</span>
-    <span>Computer Vision</span>
-    <span>Image Processing &amp; Analysis</span>
-    <span>Theory of Graphs &amp; Networks</span>
-    <span>Machine Learning</span>
-    <span>Neural Networks</span>
-    <span>Artificial Intelligence</span>
-    <span>Natural Language Processing</span>
-    <span>Data Mining and Discovery</span>
-    <span>Computer Networks</span>
-    <span>Quantum Sensing and Machine Learning</span>
-    <span>Advanced Linear Systems Theory</span>
+    <span>ECE538 Radar Signal Processing</span>
+    <span>ECE529 Digital Signal Processing</span>
+    <span>CSC577 Computer Vision</span>
+    <span>ECE532 Image Processing &amp; Analysis</span>
+    <span>CSC543 Theory of Graphs &amp; Networks</span>
+    <span>ECE523 Machine Learning</span>
+    <span>INFO557 Neural Networks</span>
+    <span>INFO550 Artificial Intelligence</span>
+    <span>INFO555 Natural Language Processing</span>
+    <span>INFO523 Data Mining and Discovery</span>
+    <span>ECE578 Computer Networks</span>
+    <span>ECE540 Quantum Sensing and Machine Learning</span>
+    <span>ECE501 Advanced Linear Systems Theory</span>
   </div>
 </div>
 
@@ -46,6 +46,7 @@ author_profile: true
   <li>IEEE <i>Vehicular Technology Conference</i> (VTC 2025)</li>
   <li><i>Information Fusion</i> (INFFUS, Elsevier)</li>
   <li><i>Expert Systems with Applications</i> (ESWA, Elsevier)</li>
+  <li><i>Engineering Applications of Artificial Intelligence</i> (EAAI, Elsevier)</li>
   <li><i>Robotics and Autonomous Systems</i> (ROBOT, Elsevier)</li>
   <li><i>Measurement</i> (MEAS, Elsevier)</li>
   <li><i>SoftwareX</i> (SOFTX, Elsevier)</li>
