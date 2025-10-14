@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Research Faculty in the Department of Civil and Environmental Engineering (CEE)-[Maryland Transportation Institute (MTI)](https://mti.umd.edu/), [University of Maryland, College Park (UMD)](https://umd.edu/). I am honored to work under the supervision of [Dr. Xianfeng (Terry) Yang](https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang) and be part of the [Maryland Transportation & Artificial Intelligence Lab (M-TRAIL)](https://mtrail.umd.edu/). 
 
-Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019–2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
+Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019 to 2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
 
 
 
@@ -19,7 +19,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 <div class="smaller-text" markdown="1">
 - 📸 **Sensor Data Processing**  
-  *Multi-sensor fusion* and *calibration* across Camera · Radar · LiDAR · GNSS, with attention to *spacial alignment*, *time synchronization*, *uncertainty modeling*, and *long-term stability*.
+  *Multi-sensor fusion* and *calibration* across Camera · Radar · LiDAR · GNSS, with attention to *spatial alignment*, *time synchronization*, *uncertainty modeling*, and *long-term stability*.
 
 - 🎯 **Deep Learning-based Perception**  
   Deep models for *object classification*, *detection*, and *multi-object tracking (MOT)*, with the goal of achieving *real-time, reliability-aware perception* in uncertain and dynamic environments. I also seek to develop *perception-driven prediction, control, and planning* strategies that seamlessly translate perception into action, ultimately supporting proactive, safety-critical decisions at system scale.
