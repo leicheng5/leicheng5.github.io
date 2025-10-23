@@ -38,7 +38,7 @@
 # CAN NOT USE : MARK
 - tag: tracking
   category: object tracking
-  thumb: /images/RC_MOT3.png         # left media: image
+  thumb: /images/RC_MOT4.png         # left media: image
   # video_mp4: /videos/calibwizard.mp4            # (optional) local video
   # video_webm: /videos/calibwizard.webm          # (optional) local video
   # youtube_id:                                   # (optional) YouTube id
