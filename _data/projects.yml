@@ -6,7 +6,7 @@
   # youtube_id:                                   # (optional) YouTube id
   system_name: DroneTraff
   title: Drone-based Workzone Safety Alert System
-  conference: M-TRAIL
+  conference: M-TRAIL, 2025
   conference_web: https://mtrail.umd.edu/
   authors: Lei Cheng, Yaobang Gong, Xianfeng Yang, Gang-Len Chang
   pdf: 
@@ -22,7 +22,7 @@
   thumb: /images/1004.gif
   system_name: CalibRefine
   title: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration
-  conference: arXiv
+  conference: arXiv, 2025
   conference_web: 
   authors: Lei Cheng, Lihao Guo, Tianya Zhang, Tam Bang, Austin Harris, Mustafa Hajij, Mina Sartipi, and Siyang Cao
   pdf: https://arxiv.org/abs/2502.17648
@@ -34,25 +34,6 @@
   abstract_more: >
     Accurate multi-sensor calibration is essential for deploying robust perception systems in applications such as autonomous driving and intelligent transportation. Existing LiDAR-camera calibration methods often rely on manually placed targets, preliminary parameter estimates, or intensive data preprocessing, limiting their scalability and adaptability in real-world settings. In this work, we propose a fully automatic, targetless, and online calibration framework, CalibRefine, which directly processes raw LiDAR point clouds and camera images. Our approach is divided into four stages: (1) a Common Feature Discriminator that leverages relative spatial positions, visual appearance embeddings, and semantic class cues to identify and generate reliable LiDAR-camera correspondences, (2) a coarse homography-based calibration that uses the matched feature correspondences to estimate an initial transformation between the LiDAR and camera frames, serving as the foundation for further refinement, (3) an iterative refinement to incrementally improve alignment as additional data frames become available, and (4) an attention-based refinement that addresses non-planar distortions by leveraging a Vision Transformer and cross-attention mechanisms.
 
-- tag: detection
-  category: object detection
-  thumb: /images/transrad.png         # left media: image
-  # video_mp4: /videos/calibwizard.mp4            # (optional) local video
-  # video_webm: /videos/calibwizard.webm          # (optional) local video
-  # youtube_id:                                   # (optional) YouTube id
-  system_name: TransRAD
-  title: Retentive Vision Transformer for Enhanced Radar Object Detection
-  conference: IEEE Transactions on Radar Systems
-  conference_web: 
-  authors: Lei Cheng, Siyang Cao
-  pdf: https://arxiv.org/abs/2501.17977
-  code: https://github.com/radar-lab/TransRAD
-  demo: 
-  abstract_less: >
-   
-  abstract_more: >
-    Despite significant advancements in environment perception capabilities for autonomous driving and intelligent robotics, cameras and LiDARs remain notoriously unreliable in low-light conditions and adverse weather, which limits their effectiveness. Radar serves as a reliable and low-cost sensor that can effectively complement these limitations. However, radar-based object detection has been underexplored due to the inherent weaknesses of radar data, such as low resolution, high noise, and lack of visual information. In this paper, we present TransRAD, a novel 3D radar object detection model designed to address these challenges by leveraging the Retentive Vision Transformer (RMT) to more effectively learn features from information-dense radar Range-Azimuth-Doppler (RAD) data. Our approach leverages the Retentive Manhattan Self-Attention (MaSA) mechanism provided by RMT to incorporate explicit spatial priors, thereby enabling more accurate alignment with the spatial saliency characteristics of radar targets in RAD data and achieving precise 3D radar detection across Range-Azimuth-Doppler dimensions. Furthermore, we propose Location-Aware NMS to effectively mitigate the common issue of duplicate bounding boxes in deep radar object detection. 
-
 
 # CAN NOT USE : MARK
 - tag: tracking
@@ -63,7 +44,7 @@
   # youtube_id:                                   # (optional) YouTube id
   system_name: Radar_Camera_MOT
   title: Radar-Camera Fused Multi-Object Tracking_Online Calibration and Common Feature
-  conference: IEEE Transactions on Intelligent Transportation Systems
+  conference: IEEE Transactions on Intelligent Transportation Systems, 2025
   conference_web: 
   authors: Lei Cheng, and Siyang Cao
   pdf: 
@@ -76,6 +57,29 @@
 
 
 
+
+- tag: detection
+  category: object detection
+  thumb: /images/transrad.png         # left media: image
+  # video_mp4: /videos/calibwizard.mp4            # (optional) local video
+  # video_webm: /videos/calibwizard.webm          # (optional) local video
+  # youtube_id:                                   # (optional) YouTube id
+  system_name: TransRAD
+  title: Retentive Vision Transformer for Enhanced Radar Object Detection
+  conference: IEEE Transactions on Radar Systems, 2024
+  conference_web: 
+  authors: Lei Cheng, Siyang Cao
+  pdf: https://arxiv.org/abs/2501.17977
+  code: https://github.com/radar-lab/TransRAD
+  demo: 
+  abstract_less: >
+   
+  abstract_more: >
+    Despite significant advancements in environment perception capabilities for autonomous driving and intelligent robotics, cameras and LiDARs remain notoriously unreliable in low-light conditions and adverse weather, which limits their effectiveness. Radar serves as a reliable and low-cost sensor that can effectively complement these limitations. However, radar-based object detection has been underexplored due to the inherent weaknesses of radar data, such as low resolution, high noise, and lack of visual information. In this paper, we present TransRAD, a novel 3D radar object detection model designed to address these challenges by leveraging the Retentive Vision Transformer (RMT) to more effectively learn features from information-dense radar Range-Azimuth-Doppler (RAD) data. Our approach leverages the Retentive Manhattan Self-Attention (MaSA) mechanism provided by RMT to incorporate explicit spatial priors, thereby enabling more accurate alignment with the spatial saliency characteristics of radar targets in RAD data and achieving precise 3D radar detection across Range-Azimuth-Doppler dimensions. Furthermore, we propose Location-Aware NMS to effectively mitigate the common issue of duplicate bounding boxes in deep radar object detection. 
+
+
+
+
 - tag: tracking
   category: object tracking
   thumb: /images/Arind_mot.png         # left media: image
@@ -84,7 +88,7 @@
   # youtube_id:                                   # (optional) YouTube id
   system_name: RC_tracking
   title: Robust multiobject tracking using mmwave radar-camera sensor fusion
-  conference: IEEE Sensors Letters
+  conference: IEEE Sensors Letters, 2022
   conference_web: 
   authors: Arindam Sengupta, Lei Cheng, Siyang Cao
   pdf: https://ieeexplore.ieee.org/abstract/document/9916096
@@ -105,7 +109,7 @@
   # youtube_id:                                   # (optional) YouTube id
   system_name: RC_MOT
   title: Deep Learning Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors
-  conference: IEEE Transactions on Intelligent Transportation Systems
+  conference: IEEE Transactions on Intelligent Transportation Systems, 2024
   conference_web: 
   authors: Lei Cheng, Arindam Sengupta, Siyang Cao
   pdf: https://arxiv.org/abs/2407.08049
@@ -145,7 +149,7 @@
   # youtube_id: dQw4w9WgXcQ
   system_name: Online_RC_Calib
   title: Online Targetless Radar Camera Extrinsic Calibration Based on the Common Features of Radar and Camera
-  conference: IEEE National Aerospace and Electronics Conference (NAECON)
+  conference: IEEE National Aerospace and Electronics Conference (NAECON23)
   conference_web:
   authors: Lei Cheng, and Siyang Cao
   pdf: https://arxiv.org/abs/2309.00787
