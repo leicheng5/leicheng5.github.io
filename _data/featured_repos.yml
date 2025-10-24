@@ -65,7 +65,7 @@ repos:
   - name: Radar_Camera_MOT
     owner: leicheng5
     url: https://github.com/radar-lab/Radar_Camera_MOT
-    description: "Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
+    description: "[TITS '25] Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
     stars: 5
