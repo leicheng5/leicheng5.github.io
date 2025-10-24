@@ -68,7 +68,7 @@ repos:
     description: "Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
-    stars: 4
+    stars: 5
     forks: 1
     category: tracking
     updated: 2025-03-10
