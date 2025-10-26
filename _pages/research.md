@@ -35,6 +35,7 @@ author_profile: true
 <p class="muted">Journals &amp; conferences I have served as a reviewer.</p>
 
 <ul class="reviewers">
+  <li>IEEE <i>Transactions on Neural Networks and Learning Systems</i> (TNNLS)</li>
   <li>IEEE <i>Transactions on Mobile Computing</i> (TMC)</li>
   <li>IEEE <i>Transactions on Instrumentation &amp; Measurement</i> (TIM)</li>
   <li>IEEE <i>Transactions on Radar Systems</i> (TRS)</li>
