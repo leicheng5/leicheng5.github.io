@@ -35,7 +35,7 @@ repos:
     description: "[arXiv '25] CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement"
     language: Python
     language_color: "#3572A5"
-    stars: 8
+    stars: 7
     forks: 1
     category: calibration
     updated: 2025-06-27
