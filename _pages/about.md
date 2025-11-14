@@ -37,7 +37,7 @@ My research aims to turn raw sensor data into dependable intelligence for the ph
 
 # 📢 News  
 <div class="smaller-text" markdown="1">
-- *[10/2025]* — 🎉 Paper accepted to *IEEE Transactions on Instrumentation and Measurement (T-IM)*.
+- *[11/2025]* — 🎉 Paper accepted to *IEEE Transactions on Instrumentation and Measurement (T-IM)*.
 - *[10/2025]* — 🎉 Paper accepted to *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*.
 - *[10/2025]* — 🏆 Unlocked first GitHub Achievement *Starstruck*: Created a highly-starred repository.  
 - *[08/2025]* — 🏆 Joined the *University of Maryland, College Park (UMD)* as a Faculty Assistant.  
