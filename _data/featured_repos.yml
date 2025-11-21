@@ -68,7 +68,7 @@ repos:
     description: "[TITS '25] Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
-    stars: 9
+    stars: 11
     forks: 2
     category: tracking
     updated: 2025-03-10
