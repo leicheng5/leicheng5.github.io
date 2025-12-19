@@ -24,7 +24,7 @@ repos:
     # language_color: "#e34c26"
     # language: C++
     # language_color: "#f34b7d"
-    stars: 16
+    stars: 17
     forks: 3
     category: detection
     updated: 2025-07-05
@@ -35,7 +35,7 @@ repos:
     description: "[TIM '25] CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement"
     language: Python
     language_color: "#3572A5"
-    stars: 8
+    stars: 9
     forks: 2
     category: calibration
     updated: 2025-06-27
