@@ -24,7 +24,7 @@ repos:
     # language_color: "#e34c26"
     # language: C++
     # language_color: "#f34b7d"
-    stars: 18
+    stars: 19
     forks: 4
     category: detection
     updated: 2025-07-05
@@ -35,7 +35,7 @@ repos:
     description: "[TIM '25] CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement"
     language: Python
     language_color: "#3572A5"
-    stars: 12
+    stars: 15
     forks: 2
     category: calibration
     updated: 2025-06-27
@@ -46,8 +46,8 @@ repos:
     description: "[NAECON '23] Online Targetless Radar-Camera Extrinsic Calibration Based on the Common Features of Radar and Camera"
     language: Python
     language_color: "#3572A5"
-    stars: 6
-    forks: 2
+    stars: 7
+    forks: 3
     category: calibration
     updated: 2025-05-18
 
@@ -57,8 +57,8 @@ repos:
     description: "[RadarConf '23] 3D Radar and Camera Co-Calibration: A flexible and Accurate Method for Target-based Extrinsic Calibration"
     language: Python
     language_color: "#3572A5"
-    stars: 6
-    forks: 2
+    stars: 7
+    forks: 3
     category: calibration
     updated: 2025-05-01
 
@@ -68,7 +68,7 @@ repos:
     description: "[TITS '25] Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
-    stars: 13
+    stars: 14
     forks: 3
     category: tracking
     updated: 2025-03-10
@@ -79,7 +79,7 @@ repos:
     description: "AWR1843 radar board ROS package"
     language: C++
     language_color: "#f34b7d"
-    stars: 4
+    stars: 5
     forks: 0
     category: tooling
     updated: 2025-03-10
