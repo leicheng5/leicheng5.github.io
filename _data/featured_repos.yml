@@ -24,7 +24,7 @@ repos:
     # language_color: "#e34c26"
     # language: C++
     # language_color: "#f34b7d"
-    stars: 19
+    stars: 20
     forks: 4
     category: detection
     updated: 2025-07-05
@@ -68,7 +68,7 @@ repos:
     description: "[TITS '25] Radar-Camera Fused Multi-Object Tracking: Online Calibration and Common Feature"
     language: Python
     language_color: "#3572A5"
-    stars: 14
+    stars: 16
     forks: 3
     category: tracking
     updated: 2025-03-10
