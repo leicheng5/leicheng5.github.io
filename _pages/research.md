@@ -41,6 +41,7 @@ author_profile: true
   <li>IEEE <i>Transactions on Instrumentation &amp; Measurement</i> (TIM)</li>
   <li>IEEE <i>Transactions on Radar Systems</i> (TRS)</li>
   <li>IEEE <i>Internet of Things Journal</i> (IoT-J)</li>
+  <li>IEEE <i>IEEE Sensors Journal</i></li>
   <li>IEEE/RSJ <i>International Conference on Intelligent Robots and Systems</i> (IROS)</li>
   <li>IEEE <i>Signal Processing Letters</i> (SPL)</li>
   <li>IEEE <i>Sensors Letters</i></li>
