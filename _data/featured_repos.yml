@@ -35,8 +35,8 @@ repos:
     description: "[TIM '25] CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR–Camera Calibration with Iterative and Attention-Driven Post-Refinement"
     language: Python
     language_color: "#3572A5"
-    stars: 26
-    forks: 2
+    stars: 27
+    forks: 3
     category: calibration
     updated: 2025-06-27
 
@@ -69,7 +69,7 @@ repos:
     language: Python
     language_color: "#3572A5"
     stars: 27
-    forks: 3
+    forks: 4
     category: tracking
     updated: 2025-03-10
 
