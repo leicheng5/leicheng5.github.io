@@ -16,27 +16,43 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 # Research Vision
 
-My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information. In real-world systems, sensors may fail, calibration may drift, observations are often incomplete, and rare events can dominate safety outcomes. My work advances the <strong>perception--understanding--decision</strong> loop for intelligent autonomous systems by unifying multi-sensor fusion, reliability-aware perception, multimodal deep learning, and AI foundation models with downstream prediction, control, and planning.
+<div class="research-intro-box">
+  <p>
+    My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
+  </p>
+
+  <p>
+    In real-world systems, sensors may fail, calibration may drift, observations are often incomplete, and rare events can dominate safety outcomes. My work advances the <em>perception--understanding--decision</em> loop for intelligent autonomous systems by unifying multi-sensor fusion, reliability-aware perception, multimodal deep learning, and AI foundation models with downstream prediction, control, and planning.
+  </p>
+</div>
 
 <div class="research-question">
   The central question that drives my research is: <em>How can autonomous systems perceive, reason, and act reliably when the world is noisy, dynamic, and only partially observable?</em>
 </div>
 
-I address this question through three closely connected research directions:
+<p>I address this question through three closely connected research directions:</p>
 
 <div class="research-directions">
 
   <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">01</div>
-      <div class="research-mini-label">Perception</div>
+      <div class="research-mini-label">Sensor-Fused Perception</div>
     </div>
 
     <div class="research-card-right">
       <h3>Multi-Sensor Fusion and Deep Perception</h3>
 
       <p>
-        I develop reliable multimodal perception methods that transform heterogeneous sensor data into robust situational awareness. This direction integrates Camera · Radar · LiDAR · GNSS and other sensing modalities through calibration, spatial alignment, temporal synchronization, uncertainty modeling, adaptive fusion, and deep representation learning. Beyond improving accuracy on standard benchmarks, my goal is to create perception systems that understand their own reliability, detect degradation, and remain functional under occlusion, adverse weather, sensor faults, domain shift, and real-time deployment constraints. This research establishes the perceptual foundation for autonomy that can operate beyond idealized laboratory conditions.
+        I develop reliable multimodal perception methods that transform heterogeneous sensor data into robust situational awareness. This direction integrates Camera · Radar · LiDAR · GNSS and other sensing modalities through calibration, spatial alignment, temporal synchronization, uncertainty modeling, adaptive fusion, and deep representation learning.
+      </p>
+
+      <p>
+        Beyond improving accuracy on standard benchmarks, my goal is to create perception systems that understand their own reliability, detect degradation, and remain functional under occlusion, adverse weather, sensor faults, domain shift, and real-time deployment constraints.
+      </p>
+
+      <p>
+        This research establishes the perceptual foundation for autonomy that can operate beyond idealized laboratory conditions.
       </p>
     </div>
   </div>
@@ -44,14 +60,22 @@ I address this question through three closely connected research directions:
   <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">02</div>
-      <div class="research-mini-label">Foundation AI</div>
+      <div class="research-mini-label">Multimodal AI</div>
     </div>
 
     <div class="research-card-right">
       <h3>Multimodal AI Foundation Models for Autonomous Systems</h3>
 
       <p>
-        I explore how multimodal AI foundation models can enable a new generation of autonomous systems that are more generalizable, context-aware, and adaptive. This direction studies how vision, geometry, motion, language, and semantics can be unified into physically grounded representations that connect low-level sensing with high-level reasoning. Rather than treating foundation models as black-box predictors, my research aims to constrain them with sensor evidence, scene geometry, temporal dynamics, uncertainty estimation, and physical plausibility. The long-term vision is to develop foundation-model-enabled autonomy that can support open-world perception, semantic reasoning, human-system communication, self-supervised adaptation, and safe decision support in complex real environments.
+        I explore how multimodal AI foundation models can enable a new generation of autonomous systems that are more generalizable, context-aware, and adaptive. This direction studies how vision, geometry, motion, language, and semantics can be unified into physically grounded representations that connect low-level sensing with high-level reasoning.
+      </p>
+
+      <p>
+        Rather than treating foundation models as black-box predictors, my research aims to constrain them with sensor evidence, scene geometry, temporal dynamics, uncertainty estimation, and physical plausibility.
+      </p>
+
+      <p>
+        The long-term vision is to develop foundation-model-enabled autonomy that can support open-world perception, semantic reasoning, human-system communication, self-supervised adaptation, and safe decision support in complex real environments.
       </p>
     </div>
   </div>
@@ -59,14 +83,22 @@ I address this question through three closely connected research directions:
   <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">03</div>
-      <div class="research-mini-label">Systems</div>
+      <div class="research-mini-label">Autonomous Systems</div>
     </div>
 
     <div class="research-card-right">
       <h3>Intelligent Autonomous Systems: Prediction, Control, and Planning</h3>
 
       <p>
-        Reliable perception matters only when it leads to better decisions. I study how perception, uncertainty, and scene understanding can be translated into risk-aware prediction, control, and planning for intelligent autonomous systems. In transportation and autonomous driving, this includes predictive safety systems, variable speed limits, advanced safety warnings, uncertainty-aware motion prediction, and planning under occlusion, poor visibility, and rare events. In robotics and smart manufacturing, it includes anomaly-aware monitoring, intent inference, and adaptive operation in human-centered environments. My broader goal is to move autonomy evaluation from isolated perception accuracy toward system-level intelligence, using metrics such as safety margin, robustness, throughput, intervention rate, and human/operator workload.
+        Reliable perception matters only when it leads to better decisions. I study how perception, uncertainty, and scene understanding can be translated into risk-aware prediction, control, and planning for intelligent autonomous systems.
+      </p>
+
+      <p>
+        In transportation and autonomous driving, this includes predictive safety systems, variable speed limits, advanced safety warnings, uncertainty-aware motion prediction, and planning under occlusion, poor visibility, and rare events.
+      </p>
+
+      <p>
+        In robotics and smart manufacturing, it includes anomaly-aware monitoring, intent inference, and adaptive operation in human-centered environments. My broader goal is to move autonomy evaluation from isolated perception accuracy toward system-level intelligence, using metrics such as safety margin, robustness, throughput, intervention rate, and human/operator workload.
       </p>
     </div>
   </div>
@@ -79,11 +111,34 @@ I address this question through three closely connected research directions:
 </div>
 
 <style>
-/* ===== Research Vision Section ===== */
+/* ===== Intro Summary Box ===== */
+
+.research-intro-box {
+  margin: 1rem 0 1.35rem 0;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid rgba(22, 50, 79, 0.12);
+  border-left: 5px solid #16324f;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fbfcfe 0%, #f8fafc 100%);
+  box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
+}
+
+.research-intro-box p {
+  margin: 0;
+  color: #3f4a56;
+  font-size: 0.98rem;
+  line-height: 1.78;
+}
+
+.research-intro-box p + p {
+  margin-top: 0.95rem;
+}
+
+/* ===== Core Question Box ===== */
 
 .research-question {
   position: relative;
-  margin: 1.35rem 0 1.55rem 0;
+  margin: 1.25rem 0 1.45rem 0;
   padding: 1.05rem 1.25rem 1.05rem 1.35rem;
   border-left: 5px solid #b45f06;
   border-radius: 12px;
@@ -91,7 +146,7 @@ I address this question through three closely connected research directions:
     linear-gradient(90deg, rgba(180, 95, 6, 0.075), rgba(255, 255, 255, 0.96)),
     #f8f9fb;
   color: #243447;
-  line-height: 1.68;
+  line-height: 1.7;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
 }
 
@@ -106,33 +161,29 @@ I address this question through three closely connected research directions:
   text-transform: uppercase;
 }
 
+/* ===== Research Cards Layout ===== */
+
 .research-directions {
   display: flex;
   flex-direction: column;
-  gap: 1.15rem;
-  margin-top: 1.35rem;
+  gap: 1.2rem;
+  margin-top: 1.25rem;
 }
-
-/* ===== Horizontal Research Cards ===== */
 
 .research-card {
   position: relative;
   display: grid;
-  grid-template-columns: 120px minmax(0, 1fr);
-  gap: 1.25rem;
-  padding: 1.35rem 1.45rem;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 1.35rem;
+  padding: 1.45rem 1.55rem;
   border: 1px solid rgba(22, 50, 79, 0.13);
   border-radius: 18px;
-  background:
-    linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
   box-shadow:
     0 8px 24px rgba(22, 50, 79, 0.055),
     inset 0 1px 0 rgba(255, 255, 255, 0.9);
   overflow: hidden;
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    border-color 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .research-card::before {
@@ -143,7 +194,7 @@ I address this question through three closely connected research directions:
   height: 4px;
   width: 100%;
   background: linear-gradient(90deg, #b45f06, #16324f);
-  opacity: 0.85;
+  opacity: 0.88;
 }
 
 .research-card::after {
@@ -160,13 +211,13 @@ I address this question through three closely connected research directions:
 
 .research-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(180, 95, 6, 0.38);
+  border-color: rgba(180, 95, 6, 0.36);
   box-shadow:
     0 14px 32px rgba(22, 50, 79, 0.10),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
 }
 
-/* ===== Left Number Panel ===== */
+/* ===== Left Side ===== */
 
 .research-card-left {
   display: flex;
@@ -178,16 +229,14 @@ I address this question through three closely connected research directions:
 }
 
 .research-number {
-  position: relative;
-  width: 64px;
-  height: 64px;
-  margin-top: 0.1rem;
-  margin-bottom: 0.65rem;
+  width: 68px;
+  height: 68px;
+  margin-top: 0.05rem;
+  margin-bottom: 0.7rem;
   border-radius: 18px;
-  background:
-    linear-gradient(135deg, rgba(180, 95, 6, 0.12), rgba(22, 50, 79, 0.06));
+  background: linear-gradient(135deg, rgba(180, 95, 6, 0.12), rgba(22, 50, 79, 0.06));
   color: #b45f06;
-  font-size: 1.45rem;
+  font-size: 1.48rem;
   font-weight: 800;
   letter-spacing: 0.04em;
   display: flex;
@@ -197,15 +246,15 @@ I address this question through three closely connected research directions:
 
 .research-mini-label {
   color: #16324f;
-  font-size: 0.72rem;
+  font-size: 0.73rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
-/* ===== Right Content Panel ===== */
+/* ===== Right Side ===== */
 
 .research-card-right {
   position: relative;
@@ -214,9 +263,9 @@ I address this question through three closely connected research directions:
 
 .research-card h3 {
   margin-top: 0;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.85rem;
   color: #16324f;
-  font-size: 1.13rem;
+  font-size: 1.16rem;
   line-height: 1.35;
   font-weight: 800;
 }
@@ -224,38 +273,41 @@ I address this question through three closely connected research directions:
 .research-card p {
   margin: 0;
   color: #3f4a56;
-  font-size: 0.95rem;
-  line-height: 1.72;
+  font-size: 0.97rem;
+  line-height: 1.78;
+}
+
+.research-card p + p {
+  margin-top: 0.95rem;
 }
 
 /* ===== Research Theme ===== */
 
 .research-theme {
-  margin-top: 1.35rem;
+  margin-top: 1.4rem;
   padding: 1rem 1.2rem;
   border-left: 5px solid #16324f;
   border-radius: 12px;
-  background:
-    linear-gradient(90deg, rgba(22, 50, 79, 0.07), rgba(180, 95, 6, 0.045));
+  background: linear-gradient(90deg, rgba(22, 50, 79, 0.07), rgba(180, 95, 6, 0.045));
   color: #1f2f3f;
-  line-height: 1.58;
+  line-height: 1.6;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
 }
 
 .research-theme span {
   display: block;
   margin-bottom: 0.25rem;
-  font-weight: 800;
+  font-weight: 700;
   color: #16324f;
   letter-spacing: 0.02em;
 }
 
-/* ===== Mobile Layout ===== */
+/* ===== Mobile ===== */
 
 @media (max-width: 760px) {
   .research-card {
     grid-template-columns: 1fr;
-    gap: 0.85rem;
+    gap: 0.9rem;
     padding: 1.15rem 1rem;
   }
 
@@ -266,12 +318,12 @@ I address this question through three closely connected research directions:
     border-right: none;
     border-bottom: 1px solid rgba(22, 50, 79, 0.12);
     padding-right: 0;
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.8rem;
   }
 
   .research-number {
-    width: 52px;
-    height: 52px;
+    width: 54px;
+    height: 54px;
     margin: 0;
     font-size: 1.25rem;
     border-radius: 14px;
@@ -282,11 +334,12 @@ I address this question through three closely connected research directions:
   }
 
   .research-card h3 {
-    font-size: 1.03rem;
+    font-size: 1.04rem;
   }
 
-  .research-card p {
-    font-size: 0.92rem;
+  .research-card p,
+  .research-intro-box p {
+    font-size: 0.93rem;
   }
 }
 </style>
