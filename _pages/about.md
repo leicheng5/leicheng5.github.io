@@ -16,7 +16,9 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 # Research Vision
 
-<div class="research-intro-box">
+<div class="research-intro-box refined">
+  <div class="intro-label">Research Agenda</div>
+
   <p>
     My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
   </p>
@@ -26,15 +28,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   </p>
 </div>
 
-<div class="research-question">
+<div class="research-question refined">
   The central question that drives my research is: <em>How can autonomous systems perceive, reason, and act reliably when the world is noisy, dynamic, and only partially observable?</em>
 </div>
 
 <p>I address this question through three closely connected research directions:</p>
 
-<div class="research-directions">
+<div class="research-directions refined">
 
-  <div class="research-card">
+  <div class="research-card refined">
     <div class="research-card-left">
       <div class="research-number">01</div>
       <div class="research-mini-label">Sensor-Fused Perception</div>
@@ -57,7 +59,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     </div>
   </div>
 
-  <div class="research-card">
+  <div class="research-card refined">
     <div class="research-card-left">
       <div class="research-number">02</div>
       <div class="research-mini-label">Multimodal AI</div>
@@ -80,7 +82,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     </div>
   </div>
 
-  <div class="research-card">
+  <div class="research-card refined">
     <div class="research-card-left">
       <div class="research-number">03</div>
       <div class="research-mini-label">Autonomous Systems</div>
@@ -105,88 +107,128 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 </div>
 
-<div class="research-theme">
+<div class="research-theme refined">
   <span>Research theme.</span>
   <em>From heterogeneous sensing to trustworthy autonomous intelligence: perception, reasoning, and decision-making under uncertainty.</em>
 </div>
 
 <style>
-/* ===== Intro Summary Box ===== */
-
-.research-intro-box {
-  margin: 1rem 0 1.35rem 0;
-  padding: 1.2rem 1.35rem;
+.research-intro-box.refined {
+  position: relative;
+  margin: 1rem 0 1.4rem 0;
+  padding: 1.35rem 1.45rem;
   border: 1px solid rgba(22, 50, 79, 0.12);
-  border-left: 5px solid #16324f;
-  border-radius: 14px;
-  background: linear-gradient(180deg, #fbfcfe 0%, #f8fafc 100%);
-  box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(22, 50, 79, 0.045), rgba(180, 95, 6, 0.035)),
+    #ffffff;
+  box-shadow:
+    0 10px 28px rgba(22, 50, 79, 0.055),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  overflow: hidden;
 }
 
-.research-intro-box p {
+.research-intro-box.refined::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #16324f, #b45f06);
+}
+
+.research-intro-box.refined::after {
+  content: "";
+  position: absolute;
+  right: -70px;
+  top: -70px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(22, 50, 79, 0.07), transparent 68%);
+  pointer-events: none;
+}
+
+.intro-label {
+  display: inline-block;
+  margin-bottom: 0.65rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(22, 50, 79, 0.08);
+  color: #16324f;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-intro-box.refined p {
+  position: relative;
+  z-index: 1;
   margin: 0;
   color: #3f4a56;
   font-size: 0.98rem;
   line-height: 1.78;
 }
 
-.research-intro-box p + p {
+.research-intro-box.refined p + p {
   margin-top: 0.95rem;
 }
 
-/* ===== Core Question Box ===== */
-
-.research-question {
+.research-question.refined {
   position: relative;
   margin: 1.25rem 0 1.45rem 0;
   padding: 1.05rem 1.25rem 1.05rem 1.35rem;
   border-left: 5px solid #b45f06;
-  border-radius: 12px;
+  border-radius: 14px;
   background:
-    linear-gradient(90deg, rgba(180, 95, 6, 0.075), rgba(255, 255, 255, 0.96)),
+    linear-gradient(90deg, rgba(180, 95, 6, 0.08), rgba(255, 255, 255, 0.98)),
     #f8f9fb;
   color: #243447;
   line-height: 1.7;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
+  box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
 }
 
-.research-question::before {
+.research-question.refined::before {
   content: "Core Question";
   display: block;
   margin-bottom: 0.35rem;
   color: #8a4a05;
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-/* ===== Research Cards Layout ===== */
-
-.research-directions {
+.research-directions.refined {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   margin-top: 1.25rem;
 }
 
-.research-card {
+.research-card.refined {
   position: relative;
   display: grid;
-  grid-template-columns: 130px minmax(0, 1fr);
+  grid-template-columns: 132px minmax(0, 1fr);
   gap: 1.35rem;
   padding: 1.45rem 1.55rem;
   border: 1px solid rgba(22, 50, 79, 0.13);
   border-radius: 18px;
-  background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
   box-shadow:
-    0 8px 24px rgba(22, 50, 79, 0.055),
-    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    0 9px 26px rgba(22, 50, 79, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
   overflow: hidden;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
 }
 
-.research-card::before {
+.research-card.refined::before {
   content: "";
   position: absolute;
   top: 0;
@@ -194,32 +236,30 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   height: 4px;
   width: 100%;
   background: linear-gradient(90deg, #b45f06, #16324f);
-  opacity: 0.88;
+  opacity: 0.9;
 }
 
-.research-card::after {
+.research-card.refined::after {
   content: "";
   position: absolute;
   right: -60px;
   top: -60px;
-  width: 150px;
-  height: 150px;
+  width: 155px;
+  height: 155px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(180, 95, 6, 0.08), transparent 68%);
+  background: radial-gradient(circle, rgba(180, 95, 6, 0.08), transparent 70%);
   pointer-events: none;
 }
 
-.research-card:hover {
+.research-card.refined:hover {
   transform: translateY(-3px);
-  border-color: rgba(180, 95, 6, 0.36);
+  border-color: rgba(180, 95, 6, 0.38);
   box-shadow:
-    0 14px 32px rgba(22, 50, 79, 0.10),
-    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    0 15px 34px rgba(22, 50, 79, 0.11),
+    inset 0 1px 0 rgba(255, 255, 255, 0.96);
 }
 
-/* ===== Left Side ===== */
-
-.research-card-left {
+.research-card.refined .research-card-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,13 +268,14 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   border-right: 1px solid rgba(22, 50, 79, 0.12);
 }
 
-.research-number {
+.research-card.refined .research-number {
   width: 68px;
   height: 68px;
   margin-top: 0.05rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.75rem;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(180, 95, 6, 0.12), rgba(22, 50, 79, 0.06));
+  background:
+    linear-gradient(135deg, rgba(180, 95, 6, 0.13), rgba(22, 50, 79, 0.07));
   color: #b45f06;
   font-size: 1.48rem;
   font-weight: 800;
@@ -244,74 +285,71 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   justify-content: center;
 }
 
-.research-mini-label {
+.research-card.refined .research-mini-label {
   color: #16324f;
   font-size: 0.73rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.4;
 }
 
-/* ===== Right Side ===== */
-
-.research-card-right {
+.research-card.refined .research-card-right {
   position: relative;
   z-index: 1;
 }
 
-.research-card h3 {
+.research-card.refined h3 {
   margin-top: 0;
   margin-bottom: 0.85rem;
   color: #16324f;
-  font-size: 1.16rem;
+  font-size: 1.17rem;
   line-height: 1.35;
   font-weight: 800;
 }
 
-.research-card p {
+.research-card.refined p {
   margin: 0;
   color: #3f4a56;
   font-size: 0.97rem;
   line-height: 1.78;
 }
 
-.research-card p + p {
+.research-card.refined p + p {
   margin-top: 0.95rem;
 }
 
-/* ===== Research Theme ===== */
-
-.research-theme {
+.research-theme.refined {
+  position: relative;
   margin-top: 1.4rem;
-  padding: 1rem 1.2rem;
+  padding: 1.05rem 1.25rem;
+  border-radius: 14px;
+  border: 1px solid rgba(22, 50, 79, 0.12);
   border-left: 5px solid #16324f;
-  border-radius: 12px;
-  background: linear-gradient(90deg, rgba(22, 50, 79, 0.07), rgba(180, 95, 6, 0.045));
+  background:
+    linear-gradient(90deg, rgba(22, 50, 79, 0.075), rgba(180, 95, 6, 0.045));
   color: #1f2f3f;
   line-height: 1.6;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
+  box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
 }
 
-.research-theme span {
+.research-theme.refined span {
   display: block;
   margin-bottom: 0.25rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #16324f;
   letter-spacing: 0.02em;
 }
 
-/* ===== Mobile ===== */
-
 @media (max-width: 760px) {
-  .research-card {
+  .research-card.refined {
     grid-template-columns: 1fr;
     gap: 0.9rem;
     padding: 1.15rem 1rem;
   }
 
-  .research-card-left {
+  .research-card.refined .research-card-left {
     flex-direction: row;
     justify-content: flex-start;
     gap: 0.75rem;
@@ -321,7 +359,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     padding-bottom: 0.8rem;
   }
 
-  .research-number {
+  .research-card.refined .research-number {
     width: 54px;
     height: 54px;
     margin: 0;
@@ -329,16 +367,16 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     border-radius: 14px;
   }
 
-  .research-mini-label {
+  .research-card.refined .research-mini-label {
     text-align: left;
   }
 
-  .research-card h3 {
+  .research-card.refined h3 {
     font-size: 1.04rem;
   }
 
-  .research-card p,
-  .research-intro-box p {
+  .research-card.refined p,
+  .research-intro-box.refined p {
     font-size: 0.93rem;
   }
 }
