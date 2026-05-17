@@ -29,6 +29,7 @@ I address this question through three closely connected research directions:
   <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">01</div>
+      <div class="research-mini-label">Perception</div>
     </div>
 
     <div class="research-card-right">
@@ -43,6 +44,7 @@ I address this question through three closely connected research directions:
   <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">02</div>
+      <div class="research-mini-label">Foundation AI</div>
     </div>
 
     <div class="research-card-right">
@@ -57,6 +59,7 @@ I address this question through three closely connected research directions:
   <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">03</div>
+      <div class="research-mini-label">Systems</div>
     </div>
 
     <div class="research-card-right">
@@ -76,115 +79,217 @@ I address this question through three closely connected research directions:
 </div>
 
 <style>
+/* ===== Research Vision Section ===== */
+
 .research-question {
-  margin: 1.15rem 0 1.25rem 0;
-  padding: 0.95rem 1.15rem;
-  border-left: 4px solid #b45f06;
-  border-radius: 8px;
-  background: #f8f9fb;
+  position: relative;
+  margin: 1.35rem 0 1.55rem 0;
+  padding: 1.05rem 1.25rem 1.05rem 1.35rem;
+  border-left: 5px solid #b45f06;
+  border-radius: 12px;
+  background:
+    linear-gradient(90deg, rgba(180, 95, 6, 0.075), rgba(255, 255, 255, 0.96)),
+    #f8f9fb;
   color: #243447;
-  line-height: 1.6;
+  line-height: 1.68;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
+}
+
+.research-question::before {
+  content: "Core Question";
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #8a4a05;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .research-directions {
   display: flex;
   flex-direction: column;
-  gap: 1.05rem;
-  margin-top: 1.2rem;
+  gap: 1.15rem;
+  margin-top: 1.35rem;
 }
 
+/* ===== Horizontal Research Cards ===== */
+
 .research-card {
+  position: relative;
   display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
-  gap: 1.15rem;
-  padding: 1.2rem 1.35rem;
-  border: 1px solid #d9e2ec;
-  border-radius: 14px;
-  background: #ffffff;
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.045);
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.35rem 1.45rem;
+  border: 1px solid rgba(22, 50, 79, 0.13);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+  box-shadow:
+    0 8px 24px rgba(22, 50, 79, 0.055),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
 }
+
+.research-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #b45f06, #16324f);
+  opacity: 0.85;
+}
+
+.research-card::after {
+  content: "";
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(180, 95, 6, 0.08), transparent 68%);
+  pointer-events: none;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(180, 95, 6, 0.38);
+  box-shadow:
+    0 14px 32px rgba(22, 50, 79, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+/* ===== Left Number Panel ===== */
 
 .research-card-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-right: 0.9rem;
-  border-right: 1px solid #e6edf3;
+  padding-right: 1rem;
+  border-right: 1px solid rgba(22, 50, 79, 0.12);
 }
 
 .research-number {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-top: 0.1rem;
+  margin-bottom: 0.65rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(180, 95, 6, 0.12), rgba(22, 50, 79, 0.06));
   color: #b45f06;
-  font-size: 1.35rem;
-  font-weight: 700;
+  font-size: 1.45rem;
+  font-weight: 800;
   letter-spacing: 0.04em;
-  margin-bottom: 0.45rem;
-}
-
-.research-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: #f8f1e8;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
+}
+
+.research-mini-label {
+  color: #16324f;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.35;
+}
+
+/* ===== Right Content Panel ===== */
+
+.research-card-right {
+  position: relative;
+  z-index: 1;
 }
 
 .research-card h3 {
   margin-top: 0;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.65rem;
   color: #16324f;
-  font-size: 1.08rem;
+  font-size: 1.13rem;
   line-height: 1.35;
+  font-weight: 800;
 }
 
 .research-card p {
   margin: 0;
   color: #3f4a56;
   font-size: 0.95rem;
-  line-height: 1.7;
+  line-height: 1.72;
 }
 
+/* ===== Research Theme ===== */
+
 .research-theme {
-  margin-top: 1.25rem;
-  padding: 0.95rem 1.15rem;
-  border-left: 4px solid #16324f;
-  border-radius: 8px;
-  background: #f8f9fb;
+  margin-top: 1.35rem;
+  padding: 1rem 1.2rem;
+  border-left: 5px solid #16324f;
+  border-radius: 12px;
+  background:
+    linear-gradient(90deg, rgba(22, 50, 79, 0.07), rgba(180, 95, 6, 0.045));
   color: #1f2f3f;
-  line-height: 1.55;
+  line-height: 1.58;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
 }
 
 .research-theme span {
-  font-weight: 700;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 800;
   color: #16324f;
+  letter-spacing: 0.02em;
 }
+
+/* ===== Mobile Layout ===== */
 
 @media (max-width: 760px) {
   .research-card {
     grid-template-columns: 1fr;
-    gap: 0.8rem;
-    padding: 1.1rem 1rem;
+    gap: 0.85rem;
+    padding: 1.15rem 1rem;
   }
 
   .research-card-left {
     flex-direction: row;
     justify-content: flex-start;
-    gap: 0.65rem;
+    gap: 0.75rem;
     border-right: none;
-    border-bottom: 1px solid #e6edf3;
+    border-bottom: 1px solid rgba(22, 50, 79, 0.12);
     padding-right: 0;
     padding-bottom: 0.75rem;
   }
 
   .research-number {
-    margin-bottom: 0;
+    width: 52px;
+    height: 52px;
+    margin: 0;
+    font-size: 1.25rem;
+    border-radius: 14px;
+  }
+
+  .research-mini-label {
+    text-align: left;
+  }
+
+  .research-card h3 {
+    font-size: 1.03rem;
+  }
+
+  .research-card p {
+    font-size: 0.92rem;
   }
 }
 </style>
-
 ---
 
 
