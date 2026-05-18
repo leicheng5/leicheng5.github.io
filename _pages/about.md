@@ -17,7 +17,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 # Research Vision
 
 <div class="research-intro-box">
-  <div class="section-label">Research Agenda</div>
+  <div class="section-label agenda-label">Research Agenda</div>
 
   <p>
     My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
