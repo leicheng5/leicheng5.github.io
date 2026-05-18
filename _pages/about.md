@@ -162,25 +162,25 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.3;
 }
 
-/* Research Agenda: warm golden-orange, softer and lighter than Core Question */
+/* Research Agenda: very light warm-orange */
 .agenda-label {
-  background: rgba(205, 126, 28, 0.12);
+  background: rgba(205, 126, 28, 0.055);
   color: #8b4e08;
-  border: 1px solid rgba(205, 126, 28, 0.18);
+  border: 1px solid rgba(205, 126, 28, 0.10);
 }
 
-/* Core Question: darker burnt orange, stronger emphasis */
+/* Core Question: light burnt-orange, still slightly stronger than Agenda */
 .question-label {
-  background: rgba(180, 95, 6, 0.15);
-  color: #743b03;
-  border: 1px solid rgba(180, 95, 6, 0.20);
+  background: rgba(180, 95, 6, 0.075);
+  color: #7a3f03;
+  border: 1px solid rgba(180, 95, 6, 0.12);
 }
 
-/* Research Theme: deeper bronze-orange, formal closing tone */
+/* Research Theme: light bronze-orange */
 .theme-label {
-  background: rgba(140, 72, 8, 0.13);
-  color: #653503;
-  border: 1px solid rgba(140, 72, 8, 0.18);
+  background: rgba(150, 78, 8, 0.065);
+  color: #6f3b04;
+  border: 1px solid rgba(150, 78, 8, 0.11);
 }
 
 /* ===== Intro Summary Box: Research Agenda ===== */
@@ -189,14 +189,14 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   position: relative;
   margin: 1rem 0 1.35rem 0;
   padding: 1.25rem 1.4rem;
-  border: 1px solid rgba(205, 126, 28, 0.12);
+  border: 1px solid rgba(205, 126, 28, 0.09);
   border-radius: 16px;
   background:
-    linear-gradient(135deg, rgba(205, 126, 28, 0.028), rgba(255, 255, 255, 0.98)),
+    linear-gradient(135deg, rgba(205, 126, 28, 0.018), rgba(255, 255, 255, 0.99)),
     #ffffff;
   box-shadow:
-    0 6px 18px rgba(130, 75, 12, 0.028),
-    inset 0 1px 0 rgba(255, 255, 255, 0.98);
+    0 5px 16px rgba(130, 75, 12, 0.022),
+    inset 0 1px 0 rgba(255, 255, 255, 0.99);
   overflow: hidden;
   transition:
     transform 0.18s ease,
@@ -211,27 +211,27 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   left: 0;
   height: 3px;
   width: 100%;
-  background: linear-gradient(90deg, rgba(201, 120, 28, 0.72), rgba(226, 166, 74, 0.42));
+  background: linear-gradient(90deg, rgba(201, 120, 28, 0.52), rgba(226, 166, 74, 0.30));
 }
 
 .research-intro-box::after {
   content: "";
   position: absolute;
-  right: -80px;
-  top: -80px;
+  right: -85px;
+  top: -85px;
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(205, 126, 28, 0.035), transparent 68%);
+  background: radial-gradient(circle, rgba(205, 126, 28, 0.022), transparent 68%);
   pointer-events: none;
 }
 
 .research-intro-box:hover {
   transform: translateY(-2px);
-  border-color: rgba(205, 126, 28, 0.20);
+  border-color: rgba(205, 126, 28, 0.16);
   box-shadow:
-    0 10px 26px rgba(130, 75, 12, 0.045),
-    inset 0 1px 0 rgba(255, 255, 255, 0.98);
+    0 9px 24px rgba(130, 75, 12, 0.038),
+    inset 0 1px 0 rgba(255, 255, 255, 0.99);
 }
 
 .research-intro-box p {
@@ -247,57 +247,21 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   margin-top: 0.95rem;
 }
 
-/* ===== Text Emphasis Inside Research Agenda ===== */
-
-.text-highlight {
-  display: inline;
-  padding: 0.04rem 0.22rem;
-  border-radius: 5px;
-  font-weight: 700;
-  white-space: normal;
-}
-  
-.text-highlight.blue {
-  color: #16324f;
-  background: rgba(22, 50, 79, 0.075);
-}
-  
-.text-highlight.gold {
-  color: #7b4708;
-  background: rgba(205, 126, 28, 0.12);
-}
-
-.text-highlight.orange {
-  color: #743b03;
-  background: rgba(180, 95, 6, 0.11);
-}
-
-.loop-highlight {
-  display: inline;
-  padding: 0.04rem 0.25rem;
-  border-radius: 5px;
-  color: #6f3b04;
-  background:
-    linear-gradient(90deg, rgba(205, 126, 28, 0.12), rgba(180, 95, 6, 0.11));
-  font-weight: 800;
-  letter-spacing: 0.01em;
-}  
-
-/* ===== Core Question Box ===== */
+/* ===== Core Question Box: lighter version ===== */
 
 .research-question {
   position: relative;
   margin: 1.25rem 0 1.45rem 0;
   padding: 1.05rem 1.25rem 1.1rem 1.35rem;
-  border: 1px solid rgba(180, 95, 6, 0.16);
-  border-left: 5px solid #b45f06;
+  border: 1px solid rgba(180, 95, 6, 0.105);
+  border-left: 4px solid rgba(180, 95, 6, 0.62);
   border-radius: 14px;
   background:
-    linear-gradient(90deg, rgba(180, 95, 6, 0.08), rgba(255, 255, 255, 0.98)),
-    #f8f9fb;
+    linear-gradient(90deg, rgba(180, 95, 6, 0.038), rgba(255, 255, 255, 0.99)),
+    #ffffff;
   color: #243447;
   line-height: 1.7;
-  box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
+  box-shadow: 0 5px 16px rgba(120, 63, 4, 0.026);
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
@@ -306,8 +270,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 .research-question:hover {
   transform: translateY(-2px);
-  border-color: rgba(180, 95, 6, 0.30);
-  box-shadow: 0 10px 26px rgba(22, 50, 79, 0.065);
+  border-color: rgba(180, 95, 6, 0.18);
+  box-shadow: 0 9px 22px rgba(120, 63, 4, 0.043);
 }
 
 .question-text {
@@ -316,6 +280,54 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.72;
 }
 
+/* ===== Research Theme: lighter version ===== */
+
+.research-theme {
+  position: relative;
+  margin-top: 1.4rem;
+  padding: 1.05rem 1.25rem;
+  border: 1px solid rgba(150, 78, 8, 0.10);
+  border-left: 4px solid rgba(150, 78, 8, 0.58);
+  border-radius: 14px;
+  background:
+    linear-gradient(90deg, rgba(150, 78, 8, 0.035), rgba(255, 255, 255, 0.99)),
+    #ffffff;
+  color: #1f2f3f;
+  line-height: 1.6;
+  box-shadow: 0 5px 16px rgba(120, 63, 4, 0.024);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+  overflow: hidden;
+}
+
+.research-theme::after {
+  content: "";
+  position: absolute;
+  right: -60px;
+  bottom: -70px;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(180, 95, 6, 0.028), transparent 68%);
+  pointer-events: none;
+}
+
+.research-theme:hover {
+  transform: translateY(-2px);
+  border-color: rgba(150, 78, 8, 0.17);
+  box-shadow: 0 9px 22px rgba(120, 63, 4, 0.04);
+}
+
+.theme-text {
+  position: relative;
+  z-index: 1;
+  color: #1f2f3f;
+  font-size: 0.99rem;
+  line-height: 1.62;
+}
+  
 /* ===== Research Cards Layout ===== */
 
 .research-directions {
@@ -505,53 +517,6 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.76;
 }
 
-/* ===== Research Theme ===== */
-
-.research-theme {
-  position: relative;
-  margin-top: 1.4rem;
-  padding: 1.05rem 1.25rem;
-  border: 1px solid rgba(150, 78, 8, 0.14);
-  border-left: 5px solid #8a4a05;
-  border-radius: 14px;
-  background:
-    linear-gradient(90deg, rgba(150, 78, 8, 0.085), rgba(180, 95, 6, 0.045)),
-    #ffffff;
-  color: #1f2f3f;
-  line-height: 1.6;
-  box-shadow: 0 6px 18px rgba(120, 63, 4, 0.04);
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    border-color 0.18s ease;
-  overflow: hidden;
-}
-
-.research-theme::after {
-  content: "";
-  position: absolute;
-  right: -55px;
-  bottom: -65px;
-  width: 145px;
-  height: 145px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(180, 95, 6, 0.065), transparent 68%);
-  pointer-events: none;
-}
-
-.research-theme:hover {
-  transform: translateY(-2px);
-  border-color: rgba(150, 78, 8, 0.25);
-  box-shadow: 0 10px 26px rgba(120, 63, 4, 0.065);
-}
-  
-.theme-text {
-  position: relative;
-  z-index: 1;
-  color: #1f2f3f;
-  font-size: 0.99rem;
-  line-height: 1.62;
-}
 
 /* ===== Mobile ===== */
 
