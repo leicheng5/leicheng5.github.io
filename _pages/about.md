@@ -21,20 +21,20 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
   <p>
     My research seeks to build the scientific and computational foundations for
-    <span class="text-highlight gold">reliable autonomous intelligence</span>
+    <span class="text-highlight blue">reliable autonomous intelligence</span>
     in the physical world. Autonomy is not merely a perception problem; it is a
-    <span class="text-highlight gold">closed-loop challenge</span>
+    <span class="text-highlight blue">closed-loop challenge</span>
     in which machines must sense uncertain environments, understand evolving situations,
     and make timely decisions with
-    <span class="text-highlight gold">imperfect information</span>.
+    <span class="text-highlight blue">imperfect information</span>.
   </p>
 
   <p>
     In real-world systems,
-    <span class="text-highlight orange">sensors may fail</span>,
-    <span class="text-highlight orange">calibration may drift</span>,
+    <span class="text-highlight blue">sensors may fail</span>,
+    <span class="text-highlight blue">calibration may drift</span>,
     observations are often incomplete, and
-    <span class="text-highlight orange">rare events</span>
+    <span class="text-highlight blue">rare events</span>
     can dominate safety outcomes. My work advances the
     <span class="loop-highlight">perception--understanding--decision</span>
     loop for intelligent autonomous systems by unifying multi-sensor fusion,
@@ -272,7 +272,12 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   font-weight: 700;
   white-space: normal;
 }
-
+  
+.text-highlight.blue {
+  color: #16324f;
+  background: rgba(22, 50, 79, 0.075);
+}
+  
 .text-highlight.gold {
   color: #7b4708;
   background: rgba(205, 126, 28, 0.12);
