@@ -17,14 +17,29 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 # Research Vision
 
 <div class="research-intro-box">
-  <div class="section-label">Research Agenda</div>
+  <div class="section-label agenda-label">Research Agenda</div>
 
   <p>
-    My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
+    My research seeks to build the scientific and computational foundations for
+    <span class="text-highlight gold">reliable autonomous intelligence</span>
+    in the physical world. Autonomy is not merely a perception problem; it is a
+    <span class="text-highlight gold">closed-loop challenge</span>
+    in which machines must sense uncertain environments, understand evolving situations,
+    and make timely decisions with
+    <span class="text-highlight gold">imperfect information</span>.
   </p>
 
   <p>
-    In real-world systems, sensors may fail, calibration may drift, observations are often incomplete, and rare events can dominate safety outcomes. My work advances the <em>perception--understanding--decision</em> loop for intelligent autonomous systems by unifying multi-sensor fusion, reliability-aware perception, multimodal deep learning, and AI foundation models with downstream prediction, control, and planning.
+    In real-world systems,
+    <span class="text-highlight orange">sensors may fail</span>,
+    <span class="text-highlight orange">calibration may drift</span>,
+    observations are often incomplete, and
+    <span class="text-highlight orange">rare events</span>
+    can dominate safety outcomes. My work advances the
+    <span class="loop-highlight">perception--understanding--decision</span>
+    loop for intelligent autonomous systems by unifying multi-sensor fusion,
+    reliability-aware perception, multimodal deep learning, and AI foundation models
+    with downstream prediction, control, and planning.
   </p>
 </div>
 
@@ -155,8 +170,6 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   margin-bottom: 0.7rem;
   padding: 0.26rem 0.72rem;
   border-radius: 999px;
-  background: rgba(170, 89, 10, 0.10);
-  color: #8a4a05;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -164,41 +177,41 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.3;
 }
 
-/* Research Agenda label: dark orange, slightly softer */
-.research-intro-box .section-label {
-  background: rgba(170, 89, 10, 0.11);
-  color: #7f4304;
-  border: 1px solid rgba(170, 89, 10, 0.14);
+/* Research Agenda: warm golden-orange, softer and lighter than Core Question */
+.agenda-label {
+  background: rgba(205, 126, 28, 0.12);
+  color: #8b4e08;
+  border: 1px solid rgba(205, 126, 28, 0.18);
 }
 
-/* Core Question label: keep close to current, slightly stronger */
+/* Core Question: darker burnt orange, stronger emphasis */
 .question-label {
-  background: rgba(180, 95, 6, 0.13);
-  color: #7a3f03;
-  border: 1px solid rgba(180, 95, 6, 0.16);
+  background: rgba(180, 95, 6, 0.15);
+  color: #743b03;
+  border: 1px solid rgba(180, 95, 6, 0.20);
 }
 
-/* Research Theme label: same family, deeper and more formal */
+/* Research Theme: deeper bronze-orange, formal closing tone */
 .theme-label {
-  background: rgba(150, 78, 8, 0.12);
-  color: #6f3b04;
-  border: 1px solid rgba(150, 78, 8, 0.15);
+  background: rgba(140, 72, 8, 0.13);
+  color: #653503;
+  border: 1px solid rgba(140, 72, 8, 0.18);
 }
 
-/* ===== Intro Summary Box ===== */
+/* ===== Intro Summary Box: Research Agenda ===== */
 
 .research-intro-box {
   position: relative;
   margin: 1rem 0 1.35rem 0;
   padding: 1.25rem 1.4rem;
-  border: 1px solid rgba(170, 89, 10, 0.13);
+  border: 1px solid rgba(205, 126, 28, 0.16);
   border-radius: 16px;
   background:
-    linear-gradient(135deg, rgba(170, 89, 10, 0.055), rgba(120, 63, 4, 0.025)),
+    linear-gradient(135deg, rgba(205, 126, 28, 0.065), rgba(255, 248, 235, 0.76)),
     #ffffff;
   box-shadow:
-    0 8px 22px rgba(120, 63, 4, 0.045),
-    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    0 8px 22px rgba(130, 75, 12, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.96);
   overflow: hidden;
   transition:
     transform 0.18s ease,
@@ -213,7 +226,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   left: 0;
   height: 4px;
   width: 100%;
-  background: linear-gradient(90deg, #8a4a05, #c46a08);
+  background: linear-gradient(90deg, #c9781c, #e2a64a);
   opacity: 0.92;
 }
 
@@ -225,18 +238,18 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(180, 95, 6, 0.075), transparent 68%);
+  background: radial-gradient(circle, rgba(205, 126, 28, 0.075), transparent 68%);
   pointer-events: none;
 }
 
 .research-intro-box:hover {
   transform: translateY(-2px);
-  border-color: rgba(170, 89, 10, 0.24);
+  border-color: rgba(205, 126, 28, 0.28);
   box-shadow:
-    0 12px 30px rgba(120, 63, 4, 0.07),
-    inset 0 1px 0 rgba(255, 255, 255, 0.96);
+    0 12px 30px rgba(130, 75, 12, 0.065),
+    inset 0 1px 0 rgba(255, 255, 255, 0.97);
 }
-  
+
 .research-intro-box p {
   position: relative;
   z-index: 1;
@@ -249,6 +262,37 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 .research-intro-box p + p {
   margin-top: 0.95rem;
 }
+
+/* ===== Text Emphasis Inside Research Agenda ===== */
+
+.text-highlight {
+  display: inline;
+  padding: 0.04rem 0.22rem;
+  border-radius: 5px;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.text-highlight.gold {
+  color: #7b4708;
+  background: rgba(205, 126, 28, 0.12);
+}
+
+.text-highlight.orange {
+  color: #743b03;
+  background: rgba(180, 95, 6, 0.11);
+}
+
+.loop-highlight {
+  display: inline;
+  padding: 0.04rem 0.25rem;
+  border-radius: 5px;
+  color: #6f3b04;
+  background:
+    linear-gradient(90deg, rgba(205, 126, 28, 0.12), rgba(180, 95, 6, 0.11));
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}  
 
 /* ===== Core Question Box ===== */
 
