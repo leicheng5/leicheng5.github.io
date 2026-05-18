@@ -148,16 +148,16 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 </div>
 
 <style>
-/* ===== Shared Section Labels: unified scholarly blue ===== */
+/* ===== Shared Section Labels: brighter scholarly blue ===== */
 
 .section-label {
   display: inline-block;
   margin-bottom: 0.7rem;
   padding: 0.26rem 0.72rem;
   border-radius: 999px;
-  background: rgba(22, 50, 79, 0.075);
-  color: #16324f;
-  border: 1px solid rgba(22, 50, 79, 0.13);
+  background: rgba(30, 92, 140, 0.075);
+  color: #1e5c8c;
+  border: 1px solid rgba(30, 92, 140, 0.14);
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -165,39 +165,38 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.3;
 }
 
-/* Keep all section labels blue, but allow tiny differences if needed */
 .agenda-label {
-  background: rgba(22, 50, 79, 0.065);
-  color: #16324f;
-  border-color: rgba(22, 50, 79, 0.12);
+  background: rgba(30, 92, 140, 0.065);
+  color: #1e5c8c;
+  border-color: rgba(30, 92, 140, 0.12);
 }
 
 .question-label {
-  background: rgba(22, 50, 79, 0.085);
-  color: #16324f;
-  border-color: rgba(22, 50, 79, 0.15);
+  background: rgba(30, 92, 140, 0.075);
+  color: #1e5c8c;
+  border-color: rgba(30, 92, 140, 0.14);
 }
 
 .theme-label {
-  background: rgba(22, 50, 79, 0.075);
-  color: #16324f;
-  border-color: rgba(22, 50, 79, 0.13);
+  background: rgba(30, 92, 140, 0.065);
+  color: #1e5c8c;
+  border-color: rgba(30, 92, 140, 0.12);
 }
 
 
-/* ===== Research Agenda: quiet white / blue-gray academic box ===== */
+/* ===== Research Agenda: bright, clean, optimistic academic box ===== */
 
 .research-intro-box {
   position: relative;
   margin: 1rem 0 1.35rem 0;
   padding: 1.25rem 1.4rem;
-  border: 1px solid rgba(22, 50, 79, 0.10);
+  border: 1px solid rgba(64, 137, 184, 0.13);
   border-radius: 16px;
   background:
-    linear-gradient(135deg, rgba(22, 50, 79, 0.018), rgba(255, 255, 255, 0.995)),
+    linear-gradient(135deg, rgba(64, 137, 184, 0.035), rgba(255, 255, 255, 0.995)),
     #ffffff;
   box-shadow:
-    0 5px 16px rgba(22, 50, 79, 0.022),
+    0 6px 18px rgba(64, 137, 184, 0.035),
     inset 0 1px 0 rgba(255, 255, 255, 0.99);
   overflow: hidden;
   transition:
@@ -213,7 +212,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   left: 0;
   height: 3px;
   width: 100%;
-  background: linear-gradient(90deg, rgba(22, 50, 79, 0.48), rgba(22, 50, 79, 0.18));
+  background: linear-gradient(90deg, rgba(30, 92, 140, 0.62), rgba(86, 170, 212, 0.36));
 }
 
 .research-intro-box::after {
@@ -224,15 +223,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(22, 50, 79, 0.018), transparent 68%);
+  background: radial-gradient(circle, rgba(86, 170, 212, 0.030), transparent 68%);
   pointer-events: none;
 }
 
 .research-intro-box:hover {
   transform: translateY(-2px);
-  border-color: rgba(22, 50, 79, 0.17);
+  border-color: rgba(64, 137, 184, 0.22);
   box-shadow:
-    0 9px 24px rgba(22, 50, 79, 0.035),
+    0 10px 26px rgba(64, 137, 184, 0.055),
     inset 0 1px 0 rgba(255, 255, 255, 0.99);
 }
 
@@ -250,21 +249,21 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 }
 
 
-/* ===== Core Question: keep warm orange as the only major orange highlight ===== */
+/* ===== Core Question: warm, positive orange accent ===== */
 
 .research-question {
   position: relative;
   margin: 1.25rem 0 1.45rem 0;
   padding: 1.05rem 1.25rem 1.1rem 1.35rem;
-  border: 1px solid rgba(180, 95, 6, 0.13);
-  border-left: 4px solid rgba(180, 95, 6, 0.70);
+  border: 1px solid rgba(223, 132, 36, 0.16);
+  border-left: 4px solid rgba(223, 132, 36, 0.68);
   border-radius: 14px;
   background:
-    linear-gradient(90deg, rgba(180, 95, 6, 0.045), rgba(255, 255, 255, 0.99)),
+    linear-gradient(90deg, rgba(223, 132, 36, 0.050), rgba(255, 255, 255, 0.99)),
     #ffffff;
   color: #243447;
   line-height: 1.7;
-  box-shadow: 0 5px 16px rgba(120, 63, 4, 0.03);
+  box-shadow: 0 6px 18px rgba(223, 132, 36, 0.032);
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
@@ -273,8 +272,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 .research-question:hover {
   transform: translateY(-2px);
-  border-color: rgba(180, 95, 6, 0.22);
-  box-shadow: 0 9px 22px rgba(120, 63, 4, 0.05);
+  border-color: rgba(223, 132, 36, 0.26);
+  box-shadow: 0 10px 24px rgba(223, 132, 36, 0.055);
 }
 
 .question-text {
@@ -284,21 +283,21 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 }
 
 
-/* ===== Research Theme: blue-gray closing statement ===== */
+/* ===== Research Theme: bright blue-teal closing statement ===== */
 
 .research-theme {
   position: relative;
   margin-top: 1.4rem;
   padding: 1.05rem 1.25rem;
-  border: 1px solid rgba(22, 50, 79, 0.12);
-  border-left: 4px solid rgba(22, 50, 79, 0.62);
+  border: 1px solid rgba(54, 144, 160, 0.14);
+  border-left: 4px solid rgba(54, 144, 160, 0.60);
   border-radius: 14px;
   background:
-    linear-gradient(90deg, rgba(22, 50, 79, 0.04), rgba(255, 255, 255, 0.99)),
+    linear-gradient(90deg, rgba(54, 144, 160, 0.045), rgba(255, 255, 255, 0.99)),
     #ffffff;
   color: #1f2f3f;
   line-height: 1.6;
-  box-shadow: 0 5px 16px rgba(22, 50, 79, 0.026);
+  box-shadow: 0 6px 18px rgba(54, 144, 160, 0.03);
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
@@ -314,14 +313,14 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   width: 145px;
   height: 145px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(22, 50, 79, 0.028), transparent 68%);
+  background: radial-gradient(circle, rgba(54, 144, 160, 0.035), transparent 68%);
   pointer-events: none;
 }
 
 .research-theme:hover {
   transform: translateY(-2px);
-  border-color: rgba(22, 50, 79, 0.20);
-  box-shadow: 0 9px 22px rgba(22, 50, 79, 0.045);
+  border-color: rgba(54, 144, 160, 0.24);
+  box-shadow: 0 10px 24px rgba(54, 144, 160, 0.050);
 }
 
 .theme-text {
@@ -367,8 +366,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   left: 0;
   height: 4px;
   width: 100%;
-  background: linear-gradient(90deg, #b45f06, #16324f);
-  opacity: 0.88;
+  background: linear-gradient(90deg, #df8424, #2f87b7);
+  opacity: 0.82;
 }
 
 .research-card::after {
@@ -417,8 +416,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   margin-top: 0.05rem;
   margin-bottom: 0.7rem;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(180, 95, 6, 0.12), rgba(22, 50, 79, 0.06));
-  color: #b45f06;
+  background: linear-gradient(135deg, rgba(223, 132, 36, 0.12), rgba(47, 135, 183, 0.06));
+  color: #c96f16;
   font-size: 1.48rem;
   font-weight: 800;
   letter-spacing: 0.04em;
