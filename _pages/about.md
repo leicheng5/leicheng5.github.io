@@ -155,8 +155,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   margin-bottom: 0.7rem;
   padding: 0.26rem 0.72rem;
   border-radius: 999px;
-  background: rgba(22, 50, 79, 0.08);
-  color: #16324f;
+  background: rgba(170, 89, 10, 0.10);
+  color: #8a4a05;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -164,14 +164,25 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.3;
 }
 
-.question-label {
-  background: rgba(180, 95, 6, 0.10);
-  color: #8a4a05;
+/* Research Agenda label: dark orange, slightly softer */
+.research-intro-box .section-label {
+  background: rgba(170, 89, 10, 0.11);
+  color: #7f4304;
+  border: 1px solid rgba(170, 89, 10, 0.14);
 }
 
+/* Core Question label: keep close to current, slightly stronger */
+.question-label {
+  background: rgba(180, 95, 6, 0.13);
+  color: #7a3f03;
+  border: 1px solid rgba(180, 95, 6, 0.16);
+}
+
+/* Research Theme label: same family, deeper and more formal */
 .theme-label {
-  background: rgba(22, 50, 79, 0.09);
-  color: #16324f;
+  background: rgba(150, 78, 8, 0.12);
+  color: #6f3b04;
+  border: 1px solid rgba(150, 78, 8, 0.15);
 }
 
 /* ===== Intro Summary Box ===== */
@@ -180,13 +191,13 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   position: relative;
   margin: 1rem 0 1.35rem 0;
   padding: 1.25rem 1.4rem;
-  border: 1px solid rgba(22, 50, 79, 0.12);
+  border: 1px solid rgba(170, 89, 10, 0.13);
   border-radius: 16px;
   background:
-    linear-gradient(135deg, rgba(22, 50, 79, 0.045), rgba(180, 95, 6, 0.035)),
+    linear-gradient(135deg, rgba(170, 89, 10, 0.055), rgba(120, 63, 4, 0.025)),
     #ffffff;
   box-shadow:
-    0 8px 22px rgba(22, 50, 79, 0.05),
+    0 8px 22px rgba(120, 63, 4, 0.045),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
   overflow: hidden;
   transition:
@@ -202,8 +213,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   left: 0;
   height: 4px;
   width: 100%;
-  background: linear-gradient(90deg, #16324f, #b45f06);
-  opacity: 0.9;
+  background: linear-gradient(90deg, #8a4a05, #c46a08);
+  opacity: 0.92;
 }
 
 .research-intro-box::after {
@@ -214,18 +225,18 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(22, 50, 79, 0.07), transparent 68%);
+  background: radial-gradient(circle, rgba(180, 95, 6, 0.075), transparent 68%);
   pointer-events: none;
 }
 
 .research-intro-box:hover {
   transform: translateY(-2px);
-  border-color: rgba(22, 50, 79, 0.20);
+  border-color: rgba(170, 89, 10, 0.24);
   box-shadow:
-    0 12px 30px rgba(22, 50, 79, 0.075),
+    0 12px 30px rgba(120, 63, 4, 0.07),
     inset 0 1px 0 rgba(255, 255, 255, 0.96);
 }
-
+  
 .research-intro-box p {
   position: relative;
   z-index: 1;
@@ -467,15 +478,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   position: relative;
   margin-top: 1.4rem;
   padding: 1.05rem 1.25rem;
-  border: 1px solid rgba(22, 50, 79, 0.12);
-  border-left: 5px solid #16324f;
+  border: 1px solid rgba(150, 78, 8, 0.14);
+  border-left: 5px solid #8a4a05;
   border-radius: 14px;
   background:
-    linear-gradient(90deg, rgba(22, 50, 79, 0.075), rgba(180, 95, 6, 0.045)),
+    linear-gradient(90deg, rgba(150, 78, 8, 0.085), rgba(180, 95, 6, 0.045)),
     #ffffff;
   color: #1f2f3f;
   line-height: 1.6;
-  box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
+  box-shadow: 0 6px 18px rgba(120, 63, 4, 0.04);
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
@@ -491,16 +502,16 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   width: 145px;
   height: 145px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(22, 50, 79, 0.06), transparent 68%);
+  background: radial-gradient(circle, rgba(180, 95, 6, 0.065), transparent 68%);
   pointer-events: none;
 }
 
 .research-theme:hover {
   transform: translateY(-2px);
-  border-color: rgba(22, 50, 79, 0.22);
-  box-shadow: 0 10px 26px rgba(22, 50, 79, 0.065);
+  border-color: rgba(150, 78, 8, 0.25);
+  box-shadow: 0 10px 26px rgba(120, 63, 4, 0.065);
 }
-
+  
 .theme-text {
   position: relative;
   z-index: 1;
