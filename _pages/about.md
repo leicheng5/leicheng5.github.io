@@ -80,7 +80,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     </div>
 
     <div class="research-card-right">
-      <h3>Multimodal AI Foundation Models for Autonomous Systems</h3>
+      <h3>Multimodal AI for Autonomous Systems</h3>
 
       <div class="research-point">
         <div class="point-marker">Focus</div>
