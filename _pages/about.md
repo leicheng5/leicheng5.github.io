@@ -16,8 +16,8 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 # Research Vision
 
-<div class="research-intro-box refined">
-  <div class="intro-label">Research Agenda</div>
+<div class="research-intro-box">
+  <div class="section-label">Research Agenda</div>
 
   <p>
     My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
@@ -28,15 +28,20 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   </p>
 </div>
 
-<div class="research-question refined">
-  The central question that drives my research is: <em>How can autonomous systems perceive, reason, and act reliably when the world is noisy, dynamic, and only partially observable?</em>
+<div class="research-question">
+  <div class="section-label question-label">Core Question</div>
+
+  <div class="question-text">
+    The central question that drives my research is:
+    <em>How can autonomous systems perceive, reason, and act reliably when the world is noisy, dynamic, and only partially observable?</em>
+  </div>
 </div>
 
 <p>I address this question through three closely connected research directions:</p>
 
-<div class="research-directions refined">
+<div class="research-directions">
 
-  <div class="research-card refined">
+  <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">01</div>
       <div class="research-mini-label">Sensor-Fused Perception</div>
@@ -45,21 +50,30 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     <div class="research-card-right">
       <h3>Multi-Sensor Fusion and Deep Perception</h3>
 
-      <p>
-        I develop reliable multimodal perception methods that transform heterogeneous sensor data into robust situational awareness. This direction integrates Camera · Radar · LiDAR · GNSS and other sensing modalities through calibration, spatial alignment, temporal synchronization, uncertainty modeling, adaptive fusion, and deep representation learning.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Focus</div>
+        <p>
+          I develop reliable multimodal perception methods that transform heterogeneous sensor data into robust situational awareness. This direction integrates Camera · Radar · LiDAR · GNSS and other sensing modalities through calibration, spatial alignment, temporal synchronization, uncertainty modeling, adaptive fusion, and deep representation learning.
+        </p>
+      </div>
 
-      <p>
-        Beyond improving accuracy on standard benchmarks, my goal is to create perception systems that understand their own reliability, detect degradation, and remain functional under occlusion, adverse weather, sensor faults, domain shift, and real-time deployment constraints.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Reliability</div>
+        <p>
+          Beyond improving accuracy on standard benchmarks, my goal is to create perception systems that understand their own reliability, detect degradation, and remain functional under occlusion, adverse weather, sensor faults, domain shift, and real-time deployment constraints.
+        </p>
+      </div>
 
-      <p>
-        This research establishes the perceptual foundation for autonomy that can operate beyond idealized laboratory conditions.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Vision</div>
+        <p>
+          This research establishes the perceptual foundation for autonomy that can operate beyond idealized laboratory conditions.
+        </p>
+      </div>
     </div>
   </div>
 
-  <div class="research-card refined">
+  <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">02</div>
       <div class="research-mini-label">Multimodal AI</div>
@@ -68,21 +82,30 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     <div class="research-card-right">
       <h3>Multimodal AI Foundation Models for Autonomous Systems</h3>
 
-      <p>
-        I explore how multimodal AI foundation models can enable a new generation of autonomous systems that are more generalizable, context-aware, and adaptive. This direction studies how vision, geometry, motion, language, and semantics can be unified into physically grounded representations that connect low-level sensing with high-level reasoning.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Focus</div>
+        <p>
+          I explore how multimodal AI foundation models can enable a new generation of autonomous systems that are more generalizable, context-aware, and adaptive. This direction studies how vision, geometry, motion, language, and semantics can be unified into physically grounded representations that connect low-level sensing with high-level reasoning.
+        </p>
+      </div>
 
-      <p>
-        Rather than treating foundation models as black-box predictors, my research aims to constrain them with sensor evidence, scene geometry, temporal dynamics, uncertainty estimation, and physical plausibility.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Method</div>
+        <p>
+          Rather than treating foundation models as black-box predictors, my research aims to constrain them with sensor evidence, scene geometry, temporal dynamics, uncertainty estimation, and physical plausibility.
+        </p>
+      </div>
 
-      <p>
-        The long-term vision is to develop foundation-model-enabled autonomy that can support open-world perception, semantic reasoning, human-system communication, self-supervised adaptation, and safe decision support in complex real environments.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Vision</div>
+        <p>
+          The long-term vision is to develop foundation-model-enabled autonomy that can support open-world perception, semantic reasoning, human-system communication, self-supervised adaptation, and safe decision support in complex real environments.
+        </p>
+      </div>
     </div>
   </div>
 
-  <div class="research-card refined">
+  <div class="research-card">
     <div class="research-card-left">
       <div class="research-number">03</div>
       <div class="research-mini-label">Autonomous Systems</div>
@@ -91,44 +114,88 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     <div class="research-card-right">
       <h3>Intelligent Autonomous Systems: Prediction, Control, and Planning</h3>
 
-      <p>
-        Reliable perception matters only when it leads to better decisions. I study how perception, uncertainty, and scene understanding can be translated into risk-aware prediction, control, and planning for intelligent autonomous systems.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Focus</div>
+        <p>
+          Reliable perception matters only when it leads to better decisions. I study how perception, uncertainty, and scene understanding can be translated into risk-aware prediction, control, and planning for intelligent autonomous systems.
+        </p>
+      </div>
 
-      <p>
-        In transportation and autonomous driving, this includes predictive safety systems, variable speed limits, advanced safety warnings, uncertainty-aware motion prediction, and planning under occlusion, poor visibility, and rare events.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Domains</div>
+        <p>
+          In transportation and autonomous driving, this includes predictive safety systems, variable speed limits, advanced safety warnings, uncertainty-aware motion prediction, and planning under occlusion, poor visibility, and rare events.
+        </p>
+      </div>
 
-      <p>
-        In robotics and smart manufacturing, it includes anomaly-aware monitoring, intent inference, and adaptive operation in human-centered environments. My broader goal is to move autonomy evaluation from isolated perception accuracy toward system-level intelligence, using metrics such as safety margin, robustness, throughput, intervention rate, and human/operator workload.
-      </p>
+      <div class="research-point">
+        <div class="point-marker">Impact</div>
+        <p>
+          In robotics and smart manufacturing, it includes anomaly-aware monitoring, intent inference, and adaptive operation in human-centered environments. My broader goal is to move autonomy evaluation from isolated perception accuracy toward system-level intelligence, using metrics such as safety margin, robustness, throughput, intervention rate, and human/operator workload.
+        </p>
+      </div>
     </div>
   </div>
 
 </div>
 
-<div class="research-theme refined">
-  <span>Research theme.</span>
-  <em>From heterogeneous sensing to trustworthy autonomous intelligence: perception, reasoning, and decision-making under uncertainty.</em>
+<div class="research-theme">
+  <div class="section-label theme-label">Research Theme</div>
+
+  <div class="theme-text">
+    <em>From heterogeneous sensing to trustworthy autonomous intelligence: perception, reasoning, and decision-making under uncertainty.</em>
+  </div>
 </div>
 
 <style>
-.research-intro-box.refined {
+/* ===== Shared Label Style ===== */
+
+.section-label {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  padding: 0.26rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(22, 50, 79, 0.08);
+  color: #16324f;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.question-label {
+  background: rgba(180, 95, 6, 0.10);
+  color: #8a4a05;
+}
+
+.theme-label {
+  background: rgba(22, 50, 79, 0.09);
+  color: #16324f;
+}
+
+/* ===== Intro Summary Box ===== */
+
+.research-intro-box {
   position: relative;
-  margin: 1rem 0 1.4rem 0;
-  padding: 1.35rem 1.45rem;
+  margin: 1rem 0 1.35rem 0;
+  padding: 1.25rem 1.4rem;
   border: 1px solid rgba(22, 50, 79, 0.12);
-  border-radius: 18px;
+  border-radius: 16px;
   background:
     linear-gradient(135deg, rgba(22, 50, 79, 0.045), rgba(180, 95, 6, 0.035)),
     #ffffff;
   box-shadow:
-    0 10px 28px rgba(22, 50, 79, 0.055),
+    0 8px 22px rgba(22, 50, 79, 0.05),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
   overflow: hidden;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
 }
 
-.research-intro-box.refined::before {
+.research-intro-box::before {
   content: "";
   position: absolute;
   top: 0;
@@ -136,9 +203,10 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   height: 4px;
   width: 100%;
   background: linear-gradient(90deg, #16324f, #b45f06);
+  opacity: 0.9;
 }
 
-.research-intro-box.refined::after {
+.research-intro-box::after {
   content: "";
   position: absolute;
   right: -70px;
@@ -150,20 +218,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   pointer-events: none;
 }
 
-.intro-label {
-  display: inline-block;
-  margin-bottom: 0.65rem;
-  padding: 0.25rem 0.7rem;
-  border-radius: 999px;
-  background: rgba(22, 50, 79, 0.08);
-  color: #16324f;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.research-intro-box:hover {
+  transform: translateY(-2px);
+  border-color: rgba(22, 50, 79, 0.20);
+  box-shadow:
+    0 12px 30px rgba(22, 50, 79, 0.075),
+    inset 0 1px 0 rgba(255, 255, 255, 0.96);
 }
 
-.research-intro-box.refined p {
+.research-intro-box p {
   position: relative;
   z-index: 1;
   margin: 0;
@@ -172,14 +235,17 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   line-height: 1.78;
 }
 
-.research-intro-box.refined p + p {
+.research-intro-box p + p {
   margin-top: 0.95rem;
 }
 
-.research-question.refined {
+/* ===== Core Question Box ===== */
+
+.research-question {
   position: relative;
   margin: 1.25rem 0 1.45rem 0;
-  padding: 1.05rem 1.25rem 1.05rem 1.35rem;
+  padding: 1.05rem 1.25rem 1.1rem 1.35rem;
+  border: 1px solid rgba(180, 95, 6, 0.16);
   border-left: 5px solid #b45f06;
   border-radius: 14px;
   background:
@@ -188,39 +254,45 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   color: #243447;
   line-height: 1.7;
   box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
 }
 
-.research-question.refined::before {
-  content: "Core Question";
-  display: block;
-  margin-bottom: 0.35rem;
-  color: #8a4a05;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.research-question:hover {
+  transform: translateY(-2px);
+  border-color: rgba(180, 95, 6, 0.30);
+  box-shadow: 0 10px 26px rgba(22, 50, 79, 0.065);
 }
 
-.research-directions.refined {
+.question-text {
+  color: #243447;
+  font-size: 0.99rem;
+  line-height: 1.72;
+}
+
+/* ===== Research Cards Layout ===== */
+
+.research-directions {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   margin-top: 1.25rem;
 }
 
-.research-card.refined {
+.research-card {
   position: relative;
   display: grid;
-  grid-template-columns: 132px minmax(0, 1fr);
+  grid-template-columns: 130px minmax(0, 1fr);
   gap: 1.35rem;
   padding: 1.45rem 1.55rem;
   border: 1px solid rgba(22, 50, 79, 0.13);
   border-radius: 18px;
-  background:
-    linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
   box-shadow:
-    0 9px 26px rgba(22, 50, 79, 0.06),
-    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+    0 8px 24px rgba(22, 50, 79, 0.055),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
   overflow: hidden;
   transition:
     transform 0.18s ease,
@@ -228,7 +300,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     border-color 0.18s ease;
 }
 
-.research-card.refined::before {
+.research-card::before {
   content: "";
   position: absolute;
   top: 0;
@@ -236,30 +308,41 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   height: 4px;
   width: 100%;
   background: linear-gradient(90deg, #b45f06, #16324f);
-  opacity: 0.9;
+  opacity: 0.88;
 }
 
-.research-card.refined::after {
+.research-card::after {
   content: "";
   position: absolute;
   right: -60px;
   top: -60px;
-  width: 155px;
-  height: 155px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(180, 95, 6, 0.08), transparent 70%);
+  background: radial-gradient(circle, rgba(180, 95, 6, 0.08), transparent 68%);
   pointer-events: none;
 }
 
-.research-card.refined:hover {
+.research-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(180, 95, 6, 0.38);
+  border-color: rgba(180, 95, 6, 0.36);
   box-shadow:
-    0 15px 34px rgba(22, 50, 79, 0.11),
-    inset 0 1px 0 rgba(255, 255, 255, 0.96);
+    0 14px 32px rgba(22, 50, 79, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
 }
 
-.research-card.refined .research-card-left {
+.research-card:hover .research-number {
+  transform: scale(1.04);
+  background: linear-gradient(135deg, rgba(180, 95, 6, 0.16), rgba(22, 50, 79, 0.09));
+}
+
+.research-card:hover h3 {
+  color: #0f2a44;
+}
+
+/* ===== Left Side ===== */
+
+.research-card-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,14 +351,13 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   border-right: 1px solid rgba(22, 50, 79, 0.12);
 }
 
-.research-card.refined .research-number {
+.research-number {
   width: 68px;
   height: 68px;
   margin-top: 0.05rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.7rem;
   border-radius: 18px;
-  background:
-    linear-gradient(135deg, rgba(180, 95, 6, 0.13), rgba(22, 50, 79, 0.07));
+  background: linear-gradient(135deg, rgba(180, 95, 6, 0.12), rgba(22, 50, 79, 0.06));
   color: #b45f06;
   font-size: 1.48rem;
   font-weight: 800;
@@ -283,73 +365,160 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   display: flex;
   align-items: center;
   justify-content: center;
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease;
 }
 
-.research-card.refined .research-mini-label {
+.research-mini-label {
   color: #16324f;
   font-size: 0.73rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.4;
 }
 
-.research-card.refined .research-card-right {
+/* ===== Right Side ===== */
+
+.research-card-right {
   position: relative;
   z-index: 1;
 }
 
-.research-card.refined h3 {
+.research-card h3 {
   margin-top: 0;
-  margin-bottom: 0.85rem;
+  margin-bottom: 1rem;
   color: #16324f;
-  font-size: 1.17rem;
+  font-size: 1.16rem;
   line-height: 1.35;
   font-weight: 800;
+  transition: color 0.18s ease;
 }
 
-.research-card.refined p {
+/* ===== Paragraph-Level Design Inside Cards ===== */
+
+.research-point {
+  position: relative;
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 0.85rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid rgba(22, 50, 79, 0.08);
+  transition:
+    background 0.18s ease,
+    padding-left 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.research-point:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.research-point:last-of-type {
+  padding-bottom: 0;
+}
+
+.research-point:hover {
+  padding-left: 0.35rem;
+  border-color: rgba(180, 95, 6, 0.16);
+  background: linear-gradient(90deg, rgba(180, 95, 6, 0.035), rgba(255, 255, 255, 0));
+}
+
+.point-marker {
+  align-self: start;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 78px;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(180, 95, 6, 0.09);
+  color: #8a4a05;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  transition:
+    background 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.research-point:hover .point-marker {
+  transform: translateX(2px);
+  background: rgba(180, 95, 6, 0.14);
+  color: #6f3b04;
+}
+
+.research-point p {
   margin: 0;
   color: #3f4a56;
-  font-size: 0.97rem;
-  line-height: 1.78;
+  font-size: 0.96rem;
+  line-height: 1.76;
 }
 
-.research-card.refined p + p {
-  margin-top: 0.95rem;
-}
+/* ===== Research Theme ===== */
 
-.research-theme.refined {
+.research-theme {
   position: relative;
   margin-top: 1.4rem;
   padding: 1.05rem 1.25rem;
-  border-radius: 14px;
   border: 1px solid rgba(22, 50, 79, 0.12);
   border-left: 5px solid #16324f;
+  border-radius: 14px;
   background:
-    linear-gradient(90deg, rgba(22, 50, 79, 0.075), rgba(180, 95, 6, 0.045));
+    linear-gradient(90deg, rgba(22, 50, 79, 0.075), rgba(180, 95, 6, 0.045)),
+    #ffffff;
   color: #1f2f3f;
   line-height: 1.6;
   box-shadow: 0 6px 18px rgba(22, 50, 79, 0.04);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+  overflow: hidden;
 }
 
-.research-theme.refined span {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-weight: 800;
-  color: #16324f;
-  letter-spacing: 0.02em;
+.research-theme::after {
+  content: "";
+  position: absolute;
+  right: -55px;
+  bottom: -65px;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(22, 50, 79, 0.06), transparent 68%);
+  pointer-events: none;
 }
+
+.research-theme:hover {
+  transform: translateY(-2px);
+  border-color: rgba(22, 50, 79, 0.22);
+  box-shadow: 0 10px 26px rgba(22, 50, 79, 0.065);
+}
+
+.theme-text {
+  position: relative;
+  z-index: 1;
+  color: #1f2f3f;
+  font-size: 0.99rem;
+  line-height: 1.62;
+}
+
+/* ===== Mobile ===== */
 
 @media (max-width: 760px) {
-  .research-card.refined {
+  .research-card {
     grid-template-columns: 1fr;
     gap: 0.9rem;
     padding: 1.15rem 1rem;
   }
 
-  .research-card.refined .research-card-left {
+  .research-card-left {
     flex-direction: row;
     justify-content: flex-start;
     gap: 0.75rem;
@@ -359,7 +528,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     padding-bottom: 0.8rem;
   }
 
-  .research-card.refined .research-number {
+  .research-number {
     width: 54px;
     height: 54px;
     margin: 0;
@@ -367,20 +536,36 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     border-radius: 14px;
   }
 
-  .research-card.refined .research-mini-label {
+  .research-mini-label {
     text-align: left;
   }
 
-  .research-card.refined h3 {
+  .research-card h3 {
     font-size: 1.04rem;
   }
 
-  .research-card.refined p,
-  .research-intro-box.refined p {
+  .research-point {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    padding: 0.8rem 0;
+  }
+
+  .research-point:hover {
+    padding-left: 0;
+  }
+
+  .point-marker {
+    justify-content: flex-start;
+    width: fit-content;
+  }
+
+  .research-point p,
+  .research-intro-box p {
     font-size: 0.93rem;
   }
 }
 </style>
+
 ---
 
 
