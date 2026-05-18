@@ -204,14 +204,14 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   position: relative;
   margin: 1rem 0 1.35rem 0;
   padding: 1.25rem 1.4rem;
-  border: 1px solid rgba(205, 126, 28, 0.16);
+  border: 1px solid rgba(205, 126, 28, 0.12);
   border-radius: 16px;
   background:
-    linear-gradient(135deg, rgba(205, 126, 28, 0.065), rgba(255, 248, 235, 0.76)),
+    linear-gradient(135deg, rgba(205, 126, 28, 0.028), rgba(255, 255, 255, 0.98)),
     #ffffff;
   box-shadow:
-    0 8px 22px rgba(130, 75, 12, 0.04),
-    inset 0 1px 0 rgba(255, 255, 255, 0.96);
+    0 6px 18px rgba(130, 75, 12, 0.028),
+    inset 0 1px 0 rgba(255, 255, 255, 0.98);
   overflow: hidden;
   transition:
     transform 0.18s ease,
@@ -224,30 +224,29 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   position: absolute;
   top: 0;
   left: 0;
-  height: 4px;
+  height: 3px;
   width: 100%;
-  background: linear-gradient(90deg, #c9781c, #e2a64a);
-  opacity: 0.92;
+  background: linear-gradient(90deg, rgba(201, 120, 28, 0.72), rgba(226, 166, 74, 0.42));
 }
 
 .research-intro-box::after {
   content: "";
   position: absolute;
-  right: -70px;
-  top: -70px;
+  right: -80px;
+  top: -80px;
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(205, 126, 28, 0.075), transparent 68%);
+  background: radial-gradient(circle, rgba(205, 126, 28, 0.035), transparent 68%);
   pointer-events: none;
 }
 
 .research-intro-box:hover {
   transform: translateY(-2px);
-  border-color: rgba(205, 126, 28, 0.28);
+  border-color: rgba(205, 126, 28, 0.20);
   box-shadow:
-    0 12px 30px rgba(130, 75, 12, 0.065),
-    inset 0 1px 0 rgba(255, 255, 255, 0.97);
+    0 10px 26px rgba(130, 75, 12, 0.045),
+    inset 0 1px 0 rgba(255, 255, 255, 0.98);
 }
 
 .research-intro-box p {
