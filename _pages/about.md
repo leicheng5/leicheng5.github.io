@@ -17,29 +17,14 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 # Research Vision
 
 <div class="research-intro-box">
-  <div class="section-label agenda-label">Research Agenda</div>
+  <div class="section-label">Research Agenda</div>
 
   <p>
-    My research seeks to build the scientific and computational foundations for
-    <span class="text-highlight blue">reliable autonomous intelligence</span>
-    in the physical world. Autonomy is not merely a perception problem; it is a
-    <span class="text-highlight blue">closed-loop challenge</span>
-    in which machines must sense uncertain environments, understand evolving situations,
-    and make timely decisions with
-    <span class="text-highlight blue">imperfect information</span>.
+    My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
   </p>
 
   <p>
-    In real-world systems,
-    <span class="text-highlight blue">sensors may fail</span>,
-    <span class="text-highlight blue">calibration may drift</span>,
-    observations are often incomplete, and
-    <span class="text-highlight blue">rare events</span>
-    can dominate safety outcomes. My work advances the
-    <span class="loop-highlight">perception--understanding--decision</span>
-    loop for intelligent autonomous systems by unifying multi-sensor fusion,
-    reliability-aware perception, multimodal deep learning, and AI foundation models
-    with downstream prediction, control, and planning.
+    In real-world systems, sensors may fail, calibration may drift, observations are often incomplete, and rare events can dominate safety outcomes. My work advances the <em>perception--understanding--decision</em> loop for intelligent autonomous systems by unifying multi-sensor fusion, reliability-aware perception, multimodal deep learning, and AI foundation models with downstream prediction, control, and planning.
   </p>
 </div>
 
