@@ -147,6 +147,16 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   </div>
 </div>
 
+<div class="research-overview-box">
+
+  <div class="section-label research-label">Research Overview</div>
+
+  <div class="research-overview-image">
+    <img src="/images/Research.png" alt="Research overview of Lei Cheng">
+  </div>
+
+</div>
+
 <style>
 /* ===== Shared Section Labels: brighter scholarly blue ===== */
 
@@ -330,6 +340,44 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   font-size: 0.99rem;
   line-height: 1.62;
 }
+
+  
+/* ===== Research Overview: bright blue-teal closing statement ===== */
+
+.research-overview-box {
+  margin: 40px 0;
+  padding: 28px 32px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.research-label {
+  display: inline-block;
+  margin-bottom: 22px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #e8f1ff;
+  color: #003f7f;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.research-overview-image {
+  width: 100%;
+  text-align: center;
+}
+
+.research-overview-image img {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto;
+}  
   
 /* ===== Research Cards Layout ===== */
 
