@@ -38,13 +38,9 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   <p>
     Prospective students with interests in artificial intelligence, autonomous systems,
     robotics, computer vision, sensor fusion, and intelligent transportation are encouraged
-    to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
+    to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:   <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
   </p>
   
-  <p class="paia-subject-line">
-    <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
-  </p>
-
 
   <div class="paia-flyer-wrap">
     <a class="paia-flyer-button" href="/files/PhD_openings_at_UTRGV.pdf" target="_blank" rel="noopener">
