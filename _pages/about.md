@@ -32,11 +32,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
   <p>
     I am currently seeking <strong>1--2 fully funded Ph.D. students</strong> to join the lab in
-    <strong>Fall 2026 or Spring 2027</strong>.
-  </p>
-  
-  <p>
-    Prospective students with interests in artificial intelligence, autonomous systems,
+    <strong>Fall 2026 or Spring 2027</strong>. Prospective students with interests in artificial intelligence, autonomous systems,
     robotics, computer vision, sensor fusion, and intelligent transportation are encouraged
     to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:   <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
   </p>
@@ -45,7 +41,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   <div class="paia-flyer-wrap">
     <a class="paia-flyer-button" href="/files/PhD_openings_at_UTRGV.pdf" target="_blank" rel="noopener">
       <span class="paia-flyer-text">View Ph.D. recruitment flyer</span>
-      <span class="paia-click-icon">☝</span>
+      <span class="paia-click-icon">👈</span>
     </a>
   </div>
 
@@ -433,6 +429,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   display: inline-block;
   font-size: 1.05rem;
   animation: paia-click-move 1.15s ease-in-out infinite;
+}
+  
+@keyframes paia-click-move {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  45% {
+    transform: translateX(-5px);
+  }
 }
 
   
