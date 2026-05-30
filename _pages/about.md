@@ -29,17 +29,22 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     <strong>The Perception, AI, and Autonomy Lab (PAIA Lab)</strong>.
   </p>
 
+
   <p>
     I am currently seeking <strong>1--2 fully funded Ph.D. students</strong> to join the lab in
-    <strong>Fall 2026 or Spring 2027</strong>. 
-    
-    Prospective students with interests in
-    artificial intelligence, autonomous systems, robotics, computer vision, sensor fusion,
-    and intelligent transportation are encouraged to email me at
-    <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
-    
-    <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>.
+    <strong>Fall 2026 or Spring 2027</strong>.
   </p>
+  
+  <p>
+    Prospective students with interests in artificial intelligence, autonomous systems,
+    robotics, computer vision, sensor fusion, and intelligent transportation are encouraged
+    to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
+  </p>
+  
+  <p class="paia-subject-line">
+    <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
+  </p>
+
 
   <div class="paia-flyer-wrap">
     <a class="paia-flyer-button" href="/files/PhD_openings_at_UTRGV.pdf" target="_blank" rel="noopener">
@@ -295,7 +300,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 }
 
 .paia-logo-wrap img {
-  width: 72%;
+  width: 68%;
   max-width: 560px;
   height: auto;
   display: block;
@@ -370,39 +375,58 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   }
 }  
 
-/* ===== PAIA Flyer Button ===== */
-
-.paia-flyer-wrap {
-  position: relative;
-  z-index: 1;
-  margin-top: 1.15rem;
-  display: flex;
-  justify-content: flex-start;
+.paia-subject-line {
+  margin-top: 0.45rem !important;
+  padding: 0.55rem 0.75rem;
+  border-radius: 12px;
+  background: rgba(30, 92, 140, 0.055);
+  border: 1px solid rgba(30, 92, 140, 0.11);
+  color: #16324f !important;
+  font-size: 0.95rem;
+}
+  
+.paia-recruiting-box strong {
+  color: #16324f;
+  font-weight: 800;
 }
 
+
+
+  
 .paia-flyer-button {
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
-  padding: 0.68rem 1rem;
+  padding: 0.68rem 1.05rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, #f36b21, #16324f);
-  color: #ffffff !important;
+  background: linear-gradient(135deg, #fff1df 0%, #ffe4bd 42%, #e8f6ff 100%);
+  color: #17415f !important;
+  border: 1px solid rgba(243, 107, 33, 0.22);
   font-size: 0.92rem;
   font-weight: 800;
   letter-spacing: 0.02em;
   text-decoration: none !important;
-  box-shadow: 0 8px 22px rgba(22, 50, 79, 0.16);
+  box-shadow:
+    0 8px 20px rgba(243, 107, 33, 0.10),
+    0 4px 14px rgba(30, 92, 140, 0.08);
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
-    filter 0.18s ease;
+    background 0.18s ease,
+    border-color 0.18s ease;
 }
 
 .paia-flyer-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(22, 50, 79, 0.24);
-  filter: brightness(1.05);
+  background: linear-gradient(135deg, #ffe6c7 0%, #ffd8a3 42%, #dff3ff 100%);
+  border-color: rgba(243, 107, 33, 0.34);
+  box-shadow:
+    0 12px 26px rgba(243, 107, 33, 0.16),
+    0 6px 18px rgba(30, 92, 140, 0.11);
+}
+
+.paia-flyer-button:active {
+  transform: translateY(0);
 }
 
 .paia-flyer-text {
@@ -415,27 +439,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   animation: paia-click-move 1.15s ease-in-out infinite;
 }
 
-@keyframes paia-click-move {
-  0%, 100% {
-    transform: translateX(0) rotate(0deg);
-  }
-  45% {
-    transform: translateX(4px) rotate(-8deg);
-  }
-}
-
-@media (max-width: 760px) {
-  .paia-flyer-wrap {
-    justify-content: center;
-  }
-
-  .paia-flyer-button {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    padding: 0.72rem 0.95rem;
-  }
-}
+  
 
   
 
