@@ -35,8 +35,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     <strong>Fall 2026 or Spring 2027</strong>. Prospective students with interests in artificial intelligence, autonomous systems,
     robotics, computer vision, sensor fusion, and intelligent transportation are encouraged
     to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
-    <br>
-    <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
+    <span class="paia-email-subject">Ph.D./M.S. Application – Fall 2026/Spring 2027</span>
   </p>
   
 
@@ -383,26 +382,44 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   color: #16324f;
   font-weight: 800;
 }
-
+  
+.paia-email-subject {
+  display: inline-block;
+  margin-top: 0.1rem;
+  font-size: 0.88rem;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #3f4a56;
+}
 
 
   
+.paia-flyer-wrap {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.15rem;
+  display: flex;
+  justify-content: center;
+}
+
 .paia-flyer-button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.55rem;
-  padding: 0.68rem 1.05rem;
+  padding: 0.66rem 1.05rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, #fff1df 0%, #ffe4bd 42%, #e8f6ff 100%);
+  background: linear-gradient(135deg, #fffaf3 0%, #fff1dc 45%, #edf9ff 100%);
   color: #17415f !important;
-  border: 1px solid rgba(243, 107, 33, 0.22);
+  border: 1px solid rgba(243, 107, 33, 0.16);
   font-size: 0.92rem;
   font-weight: 800;
   letter-spacing: 0.02em;
   text-decoration: none !important;
   box-shadow:
-    0 8px 20px rgba(243, 107, 33, 0.10),
-    0 4px 14px rgba(30, 92, 140, 0.08);
+    0 7px 18px rgba(243, 107, 33, 0.08),
+    0 4px 12px rgba(30, 92, 140, 0.06);
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
@@ -412,11 +429,11 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 .paia-flyer-button:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #ffe6c7 0%, #ffd8a3 42%, #dff3ff 100%);
-  border-color: rgba(243, 107, 33, 0.34);
+  background: linear-gradient(135deg, #fff4e8 0%, #ffe8c7 45%, #e5f7ff 100%);
+  border-color: rgba(243, 107, 33, 0.26);
   box-shadow:
-    0 12px 26px rgba(243, 107, 33, 0.16),
-    0 6px 18px rgba(30, 92, 140, 0.11);
+    0 10px 24px rgba(243, 107, 33, 0.12),
+    0 5px 16px rgba(30, 92, 140, 0.08);
 }
 
 .paia-flyer-button:active {
