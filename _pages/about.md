@@ -25,13 +25,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   <p>
     I will join the Department of Electrical and Computer Engineering at
     <a href="https://www.utrgv.edu/" target="_blank" rel="noopener">The University of Texas Rio Grande Valley</a>
-    as a <strong>tenure-track assistant professor</strong> in Fall 2026, where I will establish
-    <em>The Perception, AI, and Autonomy Lab (PAIA Lab)</em>.
+    as a tenure-track assistant professor in Fall 2026, where I will establish
+    <strong>The Perception, AI, and Autonomy Lab (PAIA Lab)</strong>.
   </p>
 
   <p>
     I am currently seeking <strong>1--2 fully funded Ph.D. students</strong> to join the lab in
-    <strong>Fall 2026 or Spring 2027</strong>. Prospective students with interests in
+    <strong>Fall 2026 or Spring 2027</strong>. 
+    
+    Prospective students with interests in
     artificial intelligence, autonomous systems, robotics, computer vision, sensor fusion,
     and intelligent transportation are encouraged to email me at
     <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
