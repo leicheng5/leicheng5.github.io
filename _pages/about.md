@@ -34,7 +34,9 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     I am currently seeking <strong>1--2 fully funded Ph.D. students</strong> to join the lab in
     <strong>Fall 2026 or Spring 2027</strong>. Prospective students with interests in artificial intelligence, autonomous systems,
     robotics, computer vision, sensor fusion, and intelligent transportation are encouraged
-    to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:   <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
+    to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
+    <br>
+    <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>
   </p>
   
 
