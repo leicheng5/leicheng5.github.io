@@ -37,6 +37,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
     artificial intelligence, autonomous systems, robotics, computer vision, sensor fusion,
     and intelligent transportation are encouraged to email me at
     <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
+    
     <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>.
   </p>
 
