@@ -13,6 +13,48 @@ I am a Research Faculty in the Department of Civil and Environmental Engineering
 Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019 to 2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
 
 
+<div class="paia-recruiting-box">
+
+  <div class="paia-logo-wrap">
+    <img src="/images/PAIA_Lab_logo_cropped.png" alt="PAIA Lab logo">
+  </div>
+
+  <div class="section-label paia-label">Ph.D./M.S. Openings in PAIA Lab @ UTRGV </div>
+
+  <p>
+    I will join the Department of Electrical and Computer Engineering at
+    <a href="https://www.utrgv.edu/" target="_blank" rel="noopener">The University of Texas Rio Grande Valley</a>
+    as a tenure-track assistant professor in Fall 2026, where I will establish
+    <em>The Perception, AI, and Autonomy Lab (PAIA Lab)</em>.
+  </p>
+
+  <p>
+    I am seeking 1--2 fully funded Ph.D. students to join the lab in Fall 2026
+    or Spring 2027. The ideal candidates are expected to have strong interests
+    in artificial intelligence, autonomous systems, robotics, computer vision,
+    sensor fusion, and intelligent transportation.
+  </p>
+
+  <p>
+    Prospective Ph.D./M.S. students can email me at
+    <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
+    <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>.
+  </p>
+
+  <div class="paia-materials">
+    <div class="paia-materials-title">Please include the following materials:</div>
+    <ul>
+      <li>CV or resume</li>
+      <li>Unofficial transcripts</li>
+      <li>A brief statement of research interests in your email</li>
+      <li>TOEFL/IELTS and GRE information, if applicable</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
 
 # Research Vision
 
@@ -192,6 +234,142 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   color: #1e5c8c;
   border-color: rgba(30, 92, 140, 0.12);
 }
+
+
+
+/* ===== PAIA Lab Recruiting Box ===== */
+
+.paia-recruiting-box {
+  position: relative;
+  margin: 1.6rem 0 2rem 0;
+  padding: 1.35rem 1.45rem 1.3rem 1.45rem;
+  border: 1px solid rgba(22, 50, 79, 0.13);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(255, 122, 24, 0.045), rgba(255, 255, 255, 0.995) 42%, rgba(30, 92, 140, 0.035)),
+    #ffffff;
+  box-shadow:
+    0 8px 24px rgba(22, 50, 79, 0.055),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  overflow: hidden;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.paia-recruiting-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #f36b21, #16324f, #2f87b7);
+  opacity: 0.9;
+}
+
+.paia-recruiting-box::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -90px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(243, 107, 33, 0.055), transparent 68%);
+  pointer-events: none;
+}
+
+.paia-recruiting-box:hover {
+  transform: translateY(-2px);
+  border-color: rgba(243, 107, 33, 0.22);
+  box-shadow:
+    0 12px 30px rgba(22, 50, 79, 0.085),
+    inset 0 1px 0 rgba(255, 255, 255, 0.98);
+}
+
+.paia-logo-wrap {
+  width: 100%;
+  text-align: center;
+  margin: 0.15rem 0 1.1rem 0;
+}
+
+.paia-logo-wrap img {
+  width: 100%;
+  max-width: 780px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.paia-label {
+  background: rgba(243, 107, 33, 0.075);
+  color: #b84e10;
+  border-color: rgba(243, 107, 33, 0.18);
+}
+
+.paia-recruiting-box p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: #3f4a56;
+  font-size: 0.98rem;
+  line-height: 1.78;
+}
+
+.paia-recruiting-box p + p {
+  margin-top: 0.9rem;
+}
+
+.paia-materials {
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  background: rgba(30, 92, 140, 0.045);
+  border: 1px solid rgba(30, 92, 140, 0.10);
+}
+
+.paia-materials-title {
+  margin-bottom: 0.45rem;
+  color: #16324f;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.paia-materials ul {
+  margin: 0.35rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.paia-materials li {
+  margin: 0.28rem 0;
+  color: #3f4a56;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 760px) {
+  .paia-recruiting-box {
+    padding: 1.15rem 1rem;
+  }
+
+  .paia-logo-wrap img {
+    max-width: 100%;
+  }
+
+  .paia-recruiting-box p {
+    font-size: 0.93rem;
+  }
+
+  .paia-materials li {
+    font-size: 0.92rem;
+  }
+}  
 
 
 /* ===== Research Agenda: bright, clean, optimistic academic box ===== */
