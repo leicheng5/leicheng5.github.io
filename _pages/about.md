@@ -13,45 +13,41 @@ I am a Research Faculty in the Department of Civil and Environmental Engineering
 Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019 to 2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
 
 
+
 <div class="paia-recruiting-box">
 
   <div class="paia-logo-wrap">
     <img src="/images/PAIA_Lab_logo_cropped.png" alt="PAIA Lab logo">
   </div>
 
-  <div class="section-label paia-label">Ph.D./M.S. Openings in PAIA Lab @ UTRGV </div>
+  <div class="section-label paia-label">Ph.D./M.S. Openings in PAIA Lab @ UTRGV</div>
 
   <p>
     I will join the Department of Electrical and Computer Engineering at
     <a href="https://www.utrgv.edu/" target="_blank" rel="noopener">The University of Texas Rio Grande Valley</a>
-    as a tenure-track assistant professor in Fall 2026, where I will establish
+    as a <strong>tenure-track assistant professor</strong> in Fall 2026, where I will establish
     <em>The Perception, AI, and Autonomy Lab (PAIA Lab)</em>.
   </p>
 
   <p>
-    I am seeking 1--2 fully funded Ph.D. students to join the lab in Fall 2026
-    or Spring 2027. The ideal candidates are expected to have strong interests
-    in artificial intelligence, autonomous systems, robotics, computer vision,
-    sensor fusion, and intelligent transportation.
-  </p>
-
-  <p>
-    Prospective Ph.D./M.S. students can email me at
+    I am currently seeking <strong>1--2 fully funded Ph.D. students</strong> to join the lab in
+    <strong>Fall 2026 or Spring 2027</strong>. Prospective students with interests in
+    artificial intelligence, autonomous systems, robotics, computer vision, sensor fusion,
+    and intelligent transportation are encouraged to email me at
     <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
     <em>Ph.D./M.S. Application – Fall 2026/Spring 2027</em>.
   </p>
 
-  <div class="paia-materials">
-    <div class="paia-materials-title">Please include the following materials:</div>
-    <ul>
-      <li>CV or resume</li>
-      <li>Unofficial transcripts</li>
-      <li>A brief statement of research interests in your email</li>
-      <li>TOEFL/IELTS and GRE information, if applicable</li>
-    </ul>
+  <div class="paia-flyer-wrap">
+    <a class="paia-flyer-button" href="/files/PhD_openings_at_UTRGV.pdf" target="_blank" rel="noopener">
+      <span class="paia-flyer-text">View Ph.D. recruitment flyer</span>
+      <span class="paia-click-icon">☝</span>
+    </a>
   </div>
 
 </div>
+
+
 
 
 
@@ -292,12 +288,12 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 .paia-logo-wrap {
   width: 100%;
   text-align: center;
-  margin: 0.15rem 0 1.1rem 0;
+  margin: 0.05rem 0 0.9rem 0;
 }
 
 .paia-logo-wrap img {
-  width: 100%;
-  max-width: 780px;
+  width: 72%;
+  max-width: 560px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -371,6 +367,74 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   }
 }  
 
+/* ===== PAIA Flyer Button ===== */
+
+.paia-flyer-wrap {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.15rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paia-flyer-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.68rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f36b21, #16324f);
+  color: #ffffff !important;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+  box-shadow: 0 8px 22px rgba(22, 50, 79, 0.16);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    filter 0.18s ease;
+}
+
+.paia-flyer-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(22, 50, 79, 0.24);
+  filter: brightness(1.05);
+}
+
+.paia-flyer-text {
+  line-height: 1.2;
+}
+
+.paia-click-icon {
+  display: inline-block;
+  font-size: 1.05rem;
+  animation: paia-click-move 1.15s ease-in-out infinite;
+}
+
+@keyframes paia-click-move {
+  0%, 100% {
+    transform: translateX(0) rotate(0deg);
+  }
+  45% {
+    transform: translateX(4px) rotate(-8deg);
+  }
+}
+
+@media (max-width: 760px) {
+  .paia-flyer-wrap {
+    justify-content: center;
+  }
+
+  .paia-flyer-button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0.72rem 0.95rem;
+  }
+}
+
+  
 
 /* ===== Research Agenda: bright, clean, optimistic academic box ===== */
 
