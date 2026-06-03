@@ -900,6 +900,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 # 📢 News  
 <div class="smaller-text" markdown="1">
+- *[12/2025]* — 🏆 Awarded a *$152K research project* as PI through [M-TRAIL](https://mtrail.umd.edu/news){:target="_blank" rel="noopener"}, funded by the Maryland Department of Transportation SHA.
 - *[11/2025]* — 🎉 Paper accepted to *IEEE Transactions on Instrumentation and Measurement (T-IM)*.
 - *[10/2025]* — 🎉 Paper accepted to *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*.
 - *[10/2025]* — 🏆 Unlocked first GitHub Achievement *Starstruck*: Created a highly-starred repository.  
