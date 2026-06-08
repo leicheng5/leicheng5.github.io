@@ -24,7 +24,7 @@ repos:
     # language_color: "#e34c26"
     # language: C++
     # language_color: "#f34b7d"
-    stars: 23
+    stars: 24
     forks: 5
     category: detection
     updated: 2025-07-05
@@ -46,7 +46,7 @@ repos:
     description: "[NAECON '23] Online Targetless Radar-Camera Extrinsic Calibration Based on the Common Features of Radar and Camera"
     language: Python
     language_color: "#3572A5"
-    stars: 11
+    stars: 12
     forks: 3
     category: calibration
     updated: 2025-05-18
@@ -57,7 +57,7 @@ repos:
     description: "[RadarConf '23] 3D Radar and Camera Co-Calibration: A flexible and Accurate Method for Target-based Extrinsic Calibration"
     language: Python
     language_color: "#3572A5"
-    stars: 11
+    stars: 12
     forks: 3
     category: calibration
     updated: 2025-05-01
@@ -69,7 +69,7 @@ repos:
     language: Python
     language_color: "#3572A5"
     stars: 28
-    forks: 4
+    forks: 3
     category: tracking
     updated: 2025-03-10
 
