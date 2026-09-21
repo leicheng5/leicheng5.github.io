@@ -19,6 +19,9 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
+
+  - title: "PAIA Lab"
+    url: https://paia-lab.github.io/
         
   # - title: "Blog Posts"
   #   url: /year-archive/

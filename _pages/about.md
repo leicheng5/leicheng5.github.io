@@ -8,9 +8,11 @@ redirect_from:
 ---
 
 
-I am a Research Faculty in the Department of Civil and Environmental Engineering (CEE)-[Maryland Transportation Institute (MTI)](https://mti.umd.edu/), [University of Maryland, College Park (UMD)](https://umd.edu/). I am honored to work under the supervision of [Dr. Xianfeng (Terry) Yang](https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang) and be part of the [Maryland Transportation & Artificial Intelligence Lab (M-TRAIL)](https://mtrail.umd.edu/). 
+I am an Assistant Professor in the Department of Electrical and Computer Engineering at [The University of Texas Rio Grande Valley (UTRGV)](https://www.utrgv.edu/), where I direct [The Perception, AI, and Autonomy Lab (PAIA Lab)](https://paia-lab.github.io/).
 
-Previously, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019 to 2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
+Previously, I was a Research Faculty in the Department of Civil and Environmental Engineering (CEE)-[Maryland Transportation Institute (MTI)](https://mti.umd.edu/), [University of Maryland, College Park (UMD)](https://umd.edu/), where I was honored to work under the supervision of [Dr. Xianfeng (Terry) Yang](https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang) and be part of the [Maryland Transportation & Artificial Intelligence Lab (M-TRAIL)](https://mtrail.umd.edu/). 
+
+Before that, I received my Ph.D. in Electrical and Computer Engineering from the [University of Arizona](https://ece.engineering.arizona.edu/) in 2025, where I was fortunate to be advised by [Dr. Siyang Cao](https://ece.engineering.arizona.edu/faculty-staff/faculty/siyang-cao) in the [UA Radar Group](https://github.com/radar-lab). From 2019 to 2021, I worked at the Artificial Intelligence Research Center, [Peng Cheng Laboratory (PCL)](https://www.pcl.ac.cn/). I earned my M.E. in Integrated Circuit Engineering from [Peking University](https://english.pku.edu.cn/) in 2019 and my B.S. in Applied Physics from [Northeast Petroleum University](https://www.nepu.edu.cn/en/) in 2016. 
 
 
 
@@ -23,19 +25,19 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   <div class="section-label paia-label">Ph.D./M.S. Openings in PAIA Lab @ UTRGV</div>
 
   <p>
-    I will join the Department of Electrical and Computer Engineering at
-    <a href="https://www.utrgv.edu/" target="_blank" rel="noopener">The University of Texas Rio Grande Valley</a>
-    as a tenure-track assistant professor in Fall 2026, where I will establish
-    <strong>The Perception, AI, and Autonomy Lab (PAIA Lab)</strong>.
+    I am an assistant professor in the Department of Electrical and Computer Engineering at
+    <a href="https://www.utrgv.edu/" target="_blank" rel="noopener">The University of Texas Rio Grande Valley</a>,
+    where I direct
+    <a href="https://paia-lab.github.io/" target="_blank" rel="noopener"><strong>The Perception, AI, and Autonomy Lab (PAIA Lab)</strong></a>.
   </p>
 
 
   <p>
-    I am currently seeking <strong>1--2 fully funded Ph.D. students</strong> to join the lab in
-    <strong>Fall 2026 or Spring 2027</strong>. Prospective students with interests in artificial intelligence, autonomous systems,
+    <strong>We are always looking for motivated Ph.D. students to join the lab.</strong>
+    Prospective students with interests in artificial intelligence, autonomous systems,
     robotics, computer vision, sensor fusion, and intelligent transportation are encouraged
-    to email me at <a href="mailto:leicheng@umd.edu">leicheng@umd.edu</a> with the subject line:
-    <span class="paia-email-subject">Ph.D./M.S. Application – Fall 2026/Spring 2027</span>
+    to email me at <a href="mailto:lei.cheng@utrgv.edu">lei.cheng@utrgv.edu</a> with the subject line:
+    <span class="paia-email-subject">Ph.D./M.S. Application – PAIA Lab</span>
   </p>
   
 
@@ -48,6 +50,15 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 </div>
 
+<div class="site-notice-box">
+  <div class="section-label notice-label">Please Note</div>
+
+  <p>
+    This personal homepage is no longer updated on a regular basis. For my latest research,
+    publications, news, and student openings, please visit the
+    <a href="https://paia-lab.github.io/" target="_blank" rel="noopener"><strong>PAIA Lab website</strong></a>.
+  </p>
+</div>
 
 
 
@@ -456,6 +467,55 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
   }
   45% {
     transform: translateX(-5px);
+  }
+}
+
+
+/* ===== Site Notice: homepage no longer regularly updated ===== */
+
+.site-notice-box {
+  position: relative;
+  margin: 1.35rem 0 1.6rem 0;
+  padding: 1.05rem 1.25rem;
+  border: 1px solid rgba(223, 132, 36, 0.16);
+  border-left: 4px solid rgba(223, 132, 36, 0.68);
+  border-radius: 14px;
+  background:
+    linear-gradient(90deg, rgba(223, 132, 36, 0.050), rgba(255, 255, 255, 0.99)),
+    #ffffff;
+  box-shadow: 0 6px 18px rgba(223, 132, 36, 0.032);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.site-notice-box:hover {
+  transform: translateY(-2px);
+  border-color: rgba(223, 132, 36, 0.26);
+  box-shadow: 0 10px 24px rgba(223, 132, 36, 0.055);
+}
+
+.notice-label {
+  background: rgba(223, 132, 36, 0.075);
+  color: #b84e10;
+  border-color: rgba(223, 132, 36, 0.18);
+}
+
+.site-notice-box p {
+  margin: 0;
+  color: #3f4a56;
+  font-size: 0.98rem;
+  line-height: 1.78;
+}
+
+@media (max-width: 760px) {
+  .site-notice-box {
+    padding: 0.95rem 1rem;
+  }
+
+  .site-notice-box p {
+    font-size: 0.93rem;
   }
 }
 
@@ -900,6 +960,7 @@ Previously, I received my Ph.D. in Electrical and Computer Engineering from the 
 
 # 📢 News  
 <div class="smaller-text" markdown="1">
+- *[08/2026]* — 🏆 Joined *[The University of Texas Rio Grande Valley (UTRGV)](https://www.utrgv.edu/){:target="_blank" rel="noopener"}* as a tenure-track Assistant Professor in Electrical and Computer Engineering, and established the *[Perception, AI, and Autonomy Lab (PAIA Lab)](https://paia-lab.github.io/){:target="_blank" rel="noopener"}*.
 - *[12/2025]* — 🏆 Awarded a [$150K research project](https://mtrail.umd.edu/news) as PI through [M-TRAIL](https://mtrail.umd.edu/home){:target="_blank" rel="noopener"}, funded by the Maryland Department of Transportation SHA.
 - *[11/2025]* — 🎉 Paper accepted to *IEEE Transactions on Instrumentation and Measurement (T-IM)*.
 - *[10/2025]* — 🎉 Paper accepted to *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*.
