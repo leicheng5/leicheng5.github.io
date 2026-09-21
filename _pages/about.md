@@ -51,12 +51,11 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
 </div>
 
 <div class="site-notice-box">
-  <div class="section-label notice-label">Please Note</div>
-
+  <span class="site-notice-icon">⚠</span>
   <p>
-    This personal homepage is no longer updated on a regular basis. For my latest research,
-    publications, news, and student openings, please visit the
-    <a href="https://paia-lab.github.io/" target="_blank" rel="noopener"><strong>PAIA Lab website</strong></a>.
+    <strong>This personal homepage is no longer maintained.</strong>
+    For my latest research, publications, news, and student openings, please visit the
+    <a href="https://paia-lab.github.io/" target="_blank" rel="noopener">PAIA Lab website →</a>
   </p>
 </div>
 
@@ -471,51 +470,80 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
 }
 
 
-/* ===== Site Notice: homepage no longer regularly updated ===== */
+/* ===== Site Notice: homepage no longer maintained ===== */
 
 .site-notice-box {
-  position: relative;
-  margin: 1.35rem 0 1.6rem 0;
-  padding: 1.05rem 1.25rem;
-  border: 1px solid rgba(223, 132, 36, 0.16);
-  border-left: 4px solid rgba(223, 132, 36, 0.68);
-  border-radius: 14px;
-  background:
-    linear-gradient(90deg, rgba(223, 132, 36, 0.050), rgba(255, 255, 255, 0.99)),
-    #ffffff;
-  box-shadow: 0 6px 18px rgba(223, 132, 36, 0.032);
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    border-color 0.18s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.95rem;
+  margin: 1.45rem 0 1.7rem 0;
+  padding: 1.1rem 1.35rem;
+  border: 2px solid #c0392b;
+  border-radius: 12px;
+  background: #fff5f4;
+  box-shadow: 0 6px 18px rgba(192, 57, 43, 0.10);
 }
 
-.site-notice-box:hover {
-  transform: translateY(-2px);
-  border-color: rgba(223, 132, 36, 0.26);
-  box-shadow: 0 10px 24px rgba(223, 132, 36, 0.055);
-}
-
-.notice-label {
-  background: rgba(223, 132, 36, 0.075);
-  color: #b84e10;
-  border-color: rgba(223, 132, 36, 0.18);
+.site-notice-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #c0392b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 .site-notice-box p {
   margin: 0;
-  color: #3f4a56;
-  font-size: 0.98rem;
-  line-height: 1.78;
+  color: #a02a1d;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.site-notice-box strong {
+  display: block;
+  color: #c0392b;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.site-notice-box a {
+  color: #c0392b !important;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-notice-box a:hover {
+  color: #8c2318 !important;
 }
 
 @media (max-width: 760px) {
   .site-notice-box {
+    align-items: flex-start;
+    gap: 0.75rem;
     padding: 0.95rem 1rem;
   }
 
+  .site-notice-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1.05rem;
+  }
+
   .site-notice-box p {
-    font-size: 0.93rem;
+    font-size: 0.95rem;
+  }
+
+  .site-notice-box strong {
+    font-size: 1rem;
   }
 }
 
