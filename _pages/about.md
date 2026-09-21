@@ -475,11 +475,11 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
   position: relative;
   margin: 1.35rem 0 1.6rem 0;
   padding: 1.05rem 1.25rem;
-  border: 1px solid rgba(22, 50, 79, 0.13);
+  border: 1px solid rgba(192, 57, 43, 0.32);
   border-radius: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fffafa 100%);
   box-shadow:
-    0 8px 24px rgba(22, 50, 79, 0.055),
+    0 8px 24px rgba(192, 57, 43, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.9);
   transition:
     transform 0.18s ease,
@@ -489,21 +489,21 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
 
 .site-notice-box:hover {
   transform: translateY(-2px);
-  border-color: rgba(22, 50, 79, 0.22);
+  border-color: rgba(192, 57, 43, 0.48);
   box-shadow:
-    0 12px 30px rgba(22, 50, 79, 0.085),
+    0 12px 30px rgba(192, 57, 43, 0.10),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
 }
 
 .site-notice-box p {
   margin: 0;
-  color: #3f4a56;
+  color: #c0392b;
   font-size: 0.98rem;
   line-height: 1.78;
 }
 
 .site-notice-box strong {
-  color: #16324f;
+  color: #c0392b;
   font-weight: 800;
 }
 
