@@ -52,7 +52,7 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
 
 <div class="site-notice-box">
   <p>
-    <strong>This personal homepage is no longer maintained. For my latest research,
+    <strong>This personal homepage is not updated on a regular basis. For my latest research,
     publications, news, and student openings, please visit the
     <a href="https://paia-lab.github.io/" target="_blank" rel="noopener">PAIA Lab website</a>.</strong>
   </p>
