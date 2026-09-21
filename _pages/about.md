@@ -507,6 +507,17 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
   font-weight: 800;
 }
 
+.site-notice-box a {
+  color: #16324f;
+  font-weight: 800;
+}
+
+.site-notice-box a:hover {
+  color: #0f2a44;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 @media (max-width: 760px) {
   .site-notice-box {
     padding: 0.95rem 1rem;
