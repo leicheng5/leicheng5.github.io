@@ -45,7 +45,7 @@ redirect_from:
   align-items: center;
   padding: 0.45rem 0.9rem;
   border-radius: 999px;
-  background: #f36b21;
+  background: #bd5d38;
   color: #ffffff !important;
   font-size: 0.88rem;
   font-weight: 700;
@@ -53,7 +53,7 @@ redirect_from:
 }
 
 .cv-download:hover {
-  background: #d85a15;
+  background: #824027;
 }
 
 .cv-viewer {
