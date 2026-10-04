@@ -9,56 +9,81 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<div class="cv-page">
+  <p class="cv-toolbar">
+    <a class="cv-download" href="{{ base_path }}/files/CV_LeiCheng.pdf" target="_blank" rel="noopener">
+      Download PDF
+    </a>
+  </p>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  <div class="cv-viewer">
+    <iframe
+      src="{{ base_path }}/files/CV_LeiCheng.pdf"
+      title="Lei Cheng CV"
+      type="application/pdf">
+    </iframe>
+    <p class="cv-fallback">
+      Your browser cannot display this PDF.
+      <a href="{{ base_path }}/files/CV_LeiCheng.pdf" target="_blank" rel="noopener">Open it in a new tab</a>.
+    </p>
+  </div>
+</div>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<style>
+.cv-page {
+  margin-top: 0.4rem;
+}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+.cv-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 0.85rem 0;
+}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: #16324f;
+  color: #ffffff !important;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.cv-download:hover {
+  background: #0f2a44;
+}
+
+.cv-viewer {
+  width: 100%;
+  height: 85vh;
+  min-height: 720px;
+  border: 1px solid rgba(22, 50, 79, 0.13);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(22, 50, 79, 0.055);
+}
+
+.cv-viewer iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.cv-fallback {
+  display: none;
+  margin: 1rem;
+  color: #3f4a56;
+}
+
+@media (max-width: 760px) {
+  .cv-viewer {
+    height: 75vh;
+    min-height: 520px;
+  }
+}
+</style>

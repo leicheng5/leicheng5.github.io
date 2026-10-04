@@ -20,6 +20,9 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
+  - title: "CV"
+    url: /cv/
+
   - title: "PAIA Lab"
     url: https://paia-lab.github.io/
         
