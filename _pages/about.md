@@ -93,7 +93,7 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
       </div>
 
       <div class="research-point">
-        <div class="point-marker">Reliability</div>
+        <div class="point-marker">Research</div>
         <p>
           Beyond improving accuracy on standard benchmarks, my goal is to create perception systems that understand their own reliability, detect degradation, and remain functional under occlusion, adverse weather, sensor faults, domain shift, and real-time deployment constraints.
         </p>
@@ -118,7 +118,7 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
       </div>
 
       <div class="research-point">
-        <div class="point-marker">Method</div>
+        <div class="point-marker">Research</div>
         <p>
           Rather than treating foundation models as black-box predictors, my research aims to constrain them with sensor evidence, scene geometry, temporal dynamics, uncertainty estimation, and physical plausibility.
         </p>
@@ -143,7 +143,7 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
       </div>
 
       <div class="research-point">
-        <div class="point-marker">Domains</div>
+        <div class="point-marker">Research</div>
         <p>
           In transportation and autonomous driving, this includes predictive safety systems, variable speed limits, advanced safety warnings, uncertainty-aware motion prediction, and planning under occlusion, poor visibility, and rare events. In robotics and smart manufacturing, it includes anomaly-aware monitoring, intent inference, and adaptive operation in human-centered environments. 
         </p>
