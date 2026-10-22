@@ -68,21 +68,8 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
   <div class="section-label agenda-label">Research Agenda</div>
 
   <p>
-    My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information.
+    My research seeks to build the scientific and computational foundations for reliable autonomous intelligence in the physical world. Autonomy is not merely a perception problem; it is a closed-loop challenge in which machines must sense uncertain environments, understand evolving situations, and make timely decisions with imperfect information. My work advances the <em>perception--understanding--decision</em> loop for intelligent autonomous systems by unifying multi-sensor fusion, reliability-aware perception, multimodal deep learning, and AI foundation models with downstream prediction, control, and planning.
   </p>
-
-  <p>
-    In real-world systems, sensors may fail, calibration may drift, observations are often incomplete, and rare events can dominate safety outcomes. My work advances the <em>perception--understanding--decision</em> loop for intelligent autonomous systems by unifying multi-sensor fusion, reliability-aware perception, multimodal deep learning, and AI foundation models with downstream prediction, control, and planning.
-  </p>
-</div>
-
-<div class="research-question">
-  <div class="section-label question-label">Core Question</div>
-
-  <div class="question-text">
-    The central question that drives my research is:
-    <em>How can autonomous systems perceive, reason, and act reliably when the world is noisy, dynamic, and only partially observable?</em>
-  </div>
 </div>
 
 <p>I address this question through three closely connected research directions:</p>
@@ -111,13 +98,6 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
           Beyond improving accuracy on standard benchmarks, my goal is to create perception systems that understand their own reliability, detect degradation, and remain functional under occlusion, adverse weather, sensor faults, domain shift, and real-time deployment constraints.
         </p>
       </div>
-
-      <div class="research-point">
-        <div class="point-marker">Vision</div>
-        <p>
-          This research establishes the perceptual foundation for autonomy that can operate beyond idealized laboratory conditions.
-        </p>
-      </div>
     </div>
   </div>
 
@@ -141,13 +121,6 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
         <div class="point-marker">Method</div>
         <p>
           Rather than treating foundation models as black-box predictors, my research aims to constrain them with sensor evidence, scene geometry, temporal dynamics, uncertainty estimation, and physical plausibility.
-        </p>
-      </div>
-
-      <div class="research-point">
-        <div class="point-marker">Vision</div>
-        <p>
-          The long-term vision is to develop foundation-model-enabled autonomy that can support open-world perception, semantic reasoning, human-system communication, self-supervised adaptation, and safe decision support in complex real environments.
         </p>
       </div>
     </div>
@@ -175,24 +148,9 @@ Before that, I received my Ph.D. in Electrical and Computer Engineering from the
           In transportation and autonomous driving, this includes predictive safety systems, variable speed limits, advanced safety warnings, uncertainty-aware motion prediction, and planning under occlusion, poor visibility, and rare events. In robotics and smart manufacturing, it includes anomaly-aware monitoring, intent inference, and adaptive operation in human-centered environments. 
         </p>
       </div>
-
-      <div class="research-point">
-        <div class="point-marker">Impact</div>
-        <p>
-          My broader goal is to move autonomy evaluation from isolated perception accuracy toward system-level intelligence, using metrics such as safety margin, robustness, throughput, intervention rate, and human/operator workload.
-        </p>
-      </div>
     </div>
   </div>
 
-</div>
-
-<div class="research-theme">
-  <div class="section-label theme-label">Research Theme</div>
-
-  <div class="theme-text">
-    <em>From heterogeneous sensing to trustworthy autonomous intelligence: perception, reasoning, and decision-making under uncertainty.</em>
-  </div>
 </div>
 
 <div class="research-overview-box">
